@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/gregoryhulette/Documents/Body_LED_Controller/Body_LED_Controller_Embedded_ESP32s-backups/Body_LED_Controller_Embedded_ESP32/Body_LED_Controller_Embedded_ESP32s.kicad_sch</source>
-    <date>Thursday, September 01, 2022 at 11:39:25 AM</date>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_LED_Controller_Embedded_ESP32/Body_LED_Controller_Embedded_ESP32s.kicad_sch</source>
+    <date>Tuesday, September 06, 2022 at 01:02:27 PM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,11 @@
     <comp ref="C1">
       <value>20pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1554</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1554"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,7 +40,11 @@
     <comp ref="C2">
       <value>20pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1554</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1554"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,7 +53,11 @@
     <comp ref="C3">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C315248</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +66,11 @@
     <comp ref="C4">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +79,11 @@
     <comp ref="C5">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +92,11 @@
     <comp ref="C6">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,7 +105,11 @@
     <comp ref="C7">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,7 +118,11 @@
     <comp ref="C8">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,7 +131,11 @@
     <comp ref="C9">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,7 +144,11 @@
     <comp ref="C10">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,7 +157,11 @@
     <comp ref="C11">
       <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,7 +170,11 @@
     <comp ref="C12">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C315248</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,7 +183,11 @@
     <comp ref="C13">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -144,7 +196,11 @@
     <comp ref="C14">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -153,7 +209,11 @@
     <comp ref="C15">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C315248</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -162,7 +222,11 @@
     <comp ref="C16">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -171,7 +235,11 @@
     <comp ref="C17">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -180,7 +248,11 @@
     <comp ref="C18">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -189,7 +261,11 @@
     <comp ref="C19">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C315248</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -198,7 +274,11 @@
     <comp ref="C20">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -207,7 +287,11 @@
     <comp ref="C21">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -216,7 +300,11 @@
     <comp ref="C22">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C315248</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -225,7 +313,7 @@
     <comp ref="C23">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -234,7 +322,11 @@
     <comp ref="C24">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -243,7 +335,11 @@
     <comp ref="C25">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -252,7 +348,11 @@
     <comp ref="CR1">
       <value>B5819W-TP</value>
       <footprint>Custom:SOD3716X135N</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+      </fields>
       <libsource lib="Custom" part="B5819W-TP" description=""/>
+      <property name="LCSC" value="C84354"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,61 +377,45 @@
       <tstamps>dcb3a801-3b34-412d-89be-fb3f92501310</tstamps>
     </comp>
     <comp ref="D1">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <value>SMD-LED-CLEAR-BLUE(0402)</value>
+      <footprint>Custom:LED-0402</footprint>
+      <fields>
+        <field name="LCSC">C165977</field>
+        <field name="MPN">BL-HB337A-AV-TRB</field>
+      </fields>
+      <libsource lib="Custom" part="SMD-LED-CLEAR-BLUE(0402)" description=""/>
+      <property name="MPN" value="BL-HB337A-AV-TRB"/>
+      <property name="LCSC" value="C165977"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2f1f348c-6da8-4808-9538-f649f11b1874</tstamps>
+      <tstamps>1f74a16a-0187-4721-8de0-726de3838d67</tstamps>
     </comp>
     <comp ref="D2">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <value>SMD-LED-CLEAR-BLUE(0402)</value>
+      <footprint>Custom:LED-0402</footprint>
+      <fields>
+        <field name="LCSC">C165977</field>
+        <field name="MPN">BL-HB337A-AV-TRB</field>
+      </fields>
+      <libsource lib="Custom" part="SMD-LED-CLEAR-BLUE(0402)" description=""/>
+      <property name="MPN" value="BL-HB337A-AV-TRB"/>
+      <property name="LCSC" value="C165977"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd673022-b38f-472f-94d2-c92c560d57b1</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>APA102-2020</value>
-      <footprint>LED_SMD:LED-APA102-2020</footprint>
-      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
-      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2eb9715e-5eaa-47cd-b170-949082f2959d</tstamps>
-    </comp>
-    <comp ref="D4">
-      <value>APA102-2020</value>
-      <footprint>LED_SMD:LED-APA102-2020</footprint>
-      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
-      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>30a6c12f-2d2b-4d11-bddb-904d3f494f78</tstamps>
-    </comp>
-    <comp ref="D5">
-      <value>APA102-2020</value>
-      <footprint>LED_SMD:LED-APA102-2020</footprint>
-      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
-      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>055dff5a-703e-4b88-86ca-8bc32f655cd6</tstamps>
+      <tstamps>dbdb5d90-093f-4fad-a30b-129a6fe12d22</tstamps>
     </comp>
     <comp ref="F1">
       <value>MF-MSMF050-2</value>
       <footprint>Custom:FUSM4632X85</footprint>
       <fields>
+        <field name="LCSC">C17313</field>
         <field name="MANUFACTURER">Bourns</field>
       </fields>
       <libsource lib="Custom" part="MF-MSMF050-2" description=""/>
       <property name="MANUFACTURER" value="Bourns"/>
+      <property name="LCSC" value="C17313"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -340,7 +424,11 @@
     <comp ref="J1">
       <value>SERIAL</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C225519</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C225519"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -349,7 +437,11 @@
     <comp ref="J2">
       <value>I2C</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C225519</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C225519"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -358,7 +450,11 @@
     <comp ref="J3">
       <value>Conn_02x10_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C492427</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492427"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -367,7 +463,11 @@
     <comp ref="J4">
       <value>LDP/MAINT</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C225519</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C225519"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -376,7 +476,11 @@
     <comp ref="J5">
       <value>COIN/VU</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C225521</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C225521"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -385,7 +489,11 @@
     <comp ref="J6">
       <value>Batt Level LEDS</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390680</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390680"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -394,7 +502,11 @@
     <comp ref="J7">
       <value>Data Panel/ CBI</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390682</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390682"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -403,7 +515,11 @@
     <comp ref="J8">
       <value>Spectrum Analyzer</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C190819</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C190819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -412,7 +528,11 @@
     <comp ref="J9">
       <value>Ext Mic</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390679</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390679"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -421,7 +541,11 @@
     <comp ref="J10">
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C132563</field>
+      </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -430,7 +554,11 @@
     <comp ref="J11">
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C132563</field>
+      </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -439,7 +567,11 @@
     <comp ref="J12">
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C132563</field>
+      </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -448,7 +580,11 @@
     <comp ref="J13">
       <value>Conn_02x03_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390690</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390690"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -457,7 +593,11 @@
     <comp ref="J14">
       <value>Conn_01x03</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390679</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390679"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -466,7 +606,11 @@
     <comp ref="J15">
       <value>Servo Header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C190819</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C190819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -475,7 +619,11 @@
     <comp ref="J16">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC"> C474892</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -484,7 +632,11 @@
     <comp ref="J17">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C474892</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C474892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -493,7 +645,11 @@
     <comp ref="J18">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC"> C474892</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -502,7 +658,11 @@
     <comp ref="J19">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC"> C474892</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -511,56 +671,63 @@
     <comp ref="J20">
       <value>ICSP</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C390690</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C390690"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e9f27732-061a-4510-a897-7753a4a3f3da</tstamps>
     </comp>
-    <comp ref="J21">
-      <value>CONSMA008</value>
-      <footprint>Custom:LINX_CONSMA008</footprint>
+    <comp ref="L1">
+      <value>WS2812B-2020</value>
+      <footprint>WS2812B-2020</footprint>
       <fields>
-        <field name="MANUFACTURER">Linx Technologies</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">13.88mm</field>
-        <field name="PARTREV">A</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="LCSC">C965555</field>
       </fields>
-      <libsource lib="Custom" part="CONSMA008" description=""/>
-      <property name="PARTREV" value="A"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="13.88mm"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="MANUFACTURER" value="Linx Technologies"/>
+      <libsource lib="LED" part="WS2812B-2020" description=""/>
+      <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>729d774e-6bf4-4f55-b472-f6716b55b263</tstamps>
+      <tstamps>fa343542-d468-48bb-b441-e9da35df71ba</tstamps>
     </comp>
-    <comp ref="J22">
-      <value>U.FL-R-SMT-1(01)</value>
-      <footprint>Custom:HIROSE_U.FL-R-SMT-1(01)</footprint>
+    <comp ref="L2">
+      <value>WS2812B-2020</value>
+      <footprint>WS2812B-2020</footprint>
       <fields>
-        <field name="MANUFACTURER">Hirose</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
-        <field name="PARTREV">Jul.1.2022</field>
-        <field name="SNAPEDA_PN">U.FL-R-SMT-1(01)</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="LCSC">C965555</field>
       </fields>
-      <libsource lib="Custom" part="U.FL-R-SMT-1(01)" description=""/>
-      <property name="PARTREV" value="Jul.1.2022"/>
-      <property name="SNAPEDA_PN" value="U.FL-R-SMT-1(01)"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="MANUFACTURER" value="Hirose"/>
+      <libsource lib="LED" part="WS2812B-2020" description=""/>
+      <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>44998d1c-c3f3-4449-8388-86b040673494</tstamps>
+      <tstamps>2e638a9d-6c39-4196-b792-7945bcbd6d97</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>WS2812B-2020</value>
+      <footprint>WS2812B-2020</footprint>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B-2020" description=""/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>000709f0-3dba-466e-a62e-9e66290e1ed4</tstamps>
     </comp>
     <comp ref="R1">
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C328343</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C328343"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -569,7 +736,11 @@
     <comp ref="R2">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C478866</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C478866"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -578,7 +749,11 @@
     <comp ref="R3">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C478866</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C478866"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -587,7 +762,11 @@
     <comp ref="R4">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -596,7 +775,11 @@
     <comp ref="R5">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -605,7 +788,11 @@
     <comp ref="R6">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -614,7 +801,11 @@
     <comp ref="R7">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -623,7 +814,11 @@
     <comp ref="R8">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -632,7 +827,11 @@
     <comp ref="R9">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -641,7 +840,11 @@
     <comp ref="R10">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -650,7 +853,11 @@
     <comp ref="R11">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -659,7 +866,11 @@
     <comp ref="R12">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -668,7 +879,11 @@
     <comp ref="R13">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -677,7 +892,11 @@
     <comp ref="R14">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -686,7 +905,11 @@
     <comp ref="R15">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C478866</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C478866"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -695,7 +918,11 @@
     <comp ref="R16">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C478866</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C478866"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -704,7 +931,11 @@
     <comp ref="R17">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C269701</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269701"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -713,7 +944,11 @@
     <comp ref="R18">
       <value>57K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C245983</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C245983"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -722,7 +957,11 @@
     <comp ref="R19">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C325646</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C325646"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -731,7 +970,11 @@
     <comp ref="R20">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C190321</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C190321"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -740,7 +983,11 @@
     <comp ref="R21">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365065</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365065"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -749,7 +996,11 @@
     <comp ref="R22">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365065</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365065"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -758,7 +1009,11 @@
     <comp ref="R23">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C190321</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C190321"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -767,7 +1022,11 @@
     <comp ref="R24">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365065</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365065"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -776,7 +1035,11 @@
     <comp ref="R25">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365065</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365065"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -785,7 +1048,11 @@
     <comp ref="R26">
       <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -809,20 +1076,144 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>175125d6-053a-45ab-8bb3-819ec1e78c69</tstamps>
     </comp>
-    <comp ref="RN1">
+    <comp ref="R29">
       <value>10K</value>
-      <footprint>Custom:SOIC127P762X240-14N</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <libsource lib="Device" part="R_Network13" description="13 resistor network, star topology, bussed resistors, small symbol"/>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>284fe02f-a2d7-4779-b589-c9573cc18f93</tstamps>
+      <tstamps>4317da36-28e6-4d44-ba6f-ab2bcb11134d</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00da84dc-d23a-4eaa-8852-2f51c2e585e5</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04d775d3-bb51-4d33-b20e-d9fb38bd4217</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9cfedde-27c9-4ee6-ba8d-80b055895c6d</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31e06d3b-9c8d-428c-98e1-11f30bf17ef9</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69aca5bc-ca9c-4e37-a858-27e424cabde2</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509281ca-2b1f-4824-984e-6cae9adfa184</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fc1ac5f-b6bc-4ffb-98f1-490f35f01e0f</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8085fbb-a144-4757-b621-475e86d55568</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C269674</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C269674"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71c7d095-eb8c-4fe5-8a56-243e14cbdc33</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
       <footprint>Custom:GT-TC057A-H050-L1</footprint>
+      <fields>
+        <field name="LCSC">C692465</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C692465"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -831,7 +1222,11 @@
     <comp ref="SW2">
       <value>SW_Push</value>
       <footprint>Custom:GT-TC057A-H050-L1</footprint>
+      <fields>
+        <field name="LCSC">C692465</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C692465"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -840,7 +1235,11 @@
     <comp ref="SW3">
       <value>SW_Push</value>
       <footprint>Custom:GT-TC057A-H050-L1</footprint>
+      <fields>
+        <field name="LCSC">C692465</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C692465"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -849,7 +1248,11 @@
     <comp ref="U1">
       <value>ATMEGA256016AU</value>
       <footprint>Custom:QFP50P1600X1600X120-100N</footprint>
+      <fields>
+        <field name="LCSC">C22460</field>
+      </fields>
       <libsource lib="Custom" part="ATMEGA256016AU" description=""/>
+      <property name="LCSC" value="C22460"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -859,6 +1262,7 @@
       <value>CH340C</value>
       <footprint>Custom:SOIC127P600X180-16N</footprint>
       <fields>
+        <field name="LCSC">C82942</field>
         <field name="MANUFACTURER">WCH</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
         <field name="PARTREV">2G</field>
@@ -869,6 +1273,7 @@
       <property name="MANUFACTURER" value="WCH"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
       <property name="STANDARD" value="IPC 7351B"/>
+      <property name="LCSC" value="C82942"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -877,7 +1282,11 @@
     <comp ref="U3">
       <value>CJ2301_S1</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C8547</field>
+      </fields>
       <libsource lib="" part="CJ2301_S1_1" description=""/>
+      <property name="LCSC" value="C8547"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -886,7 +1295,11 @@
     <comp ref="U4">
       <value>ESP32-WROOM-32U_16MB_</value>
       <footprint>RF_Module:ESP32-WROOM-32U</footprint>
+      <fields>
+        <field name="LCSC">C529580</field>
+      </fields>
       <libsource lib="Custom" part="ESP32-WROOM-32-Custom" description=""/>
+      <property name="LCSC" value="C529580"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -896,6 +1309,7 @@
       <value>CH340C</value>
       <footprint>Custom:SOIC127P600X180-16N</footprint>
       <fields>
+        <field name="LCSC">C82942</field>
         <field name="MANUFACTURER">WCH</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
         <field name="PARTREV">2G</field>
@@ -906,6 +1320,7 @@
       <property name="MANUFACTURER" value="WCH"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
       <property name="STANDARD" value="IPC 7351B"/>
+      <property name="LCSC" value="C82942"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -914,7 +1329,11 @@
     <comp ref="U6">
       <value>UMH3N</value>
       <footprint>Custom:UMT6</footprint>
+      <fields>
+        <field name="LCSC">C62892</field>
+      </fields>
       <libsource lib="Custom" part="UMH3N" description=""/>
+      <property name="LCSC" value="C62892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -923,7 +1342,11 @@
     <comp ref="U7">
       <value>ME6211C33M5G</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="LCSC">C82942</field>
+      </fields>
       <libsource lib="Custom" part="ME6211C33M5G" description=""/>
+      <property name="LCSC" value="C82942"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -932,7 +1355,11 @@
     <comp ref="U8">
       <value>CJ2301_S1</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C8547</field>
+      </fields>
       <libsource lib="" part="CJ2301_S1_2" description=""/>
+      <property name="LCSC" value="C8547"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -941,7 +1368,11 @@
     <comp ref="U9">
       <value>ESP32-WROOM-32D_16MB_</value>
       <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <fields>
+        <field name="LCSC">C529578</field>
+      </fields>
       <libsource lib="Custom" part="ESP32-WROOM-32-Custom" description=""/>
+      <property name="LCSC" value="C529578"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -951,6 +1382,7 @@
       <value>CH340C</value>
       <footprint>Custom:SOIC127P600X180-16N</footprint>
       <fields>
+        <field name="LCSC">C82942</field>
         <field name="MANUFACTURER">WCH</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
         <field name="PARTREV">2G</field>
@@ -961,6 +1393,7 @@
       <property name="MANUFACTURER" value="WCH"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
       <property name="STANDARD" value="IPC 7351B"/>
+      <property name="LCSC" value="C82942"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -969,7 +1402,11 @@
     <comp ref="U11">
       <value>UMH3N</value>
       <footprint>Custom:UMT6</footprint>
+      <fields>
+        <field name="LCSC">C62892</field>
+      </fields>
       <libsource lib="Custom" part="UMH3N" description=""/>
+      <property name="LCSC" value="C62892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -978,7 +1415,11 @@
     <comp ref="U12">
       <value>ME6211C33M5G</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="LCSC">C82942</field>
+      </fields>
       <libsource lib="Custom" part="ME6211C33M5G" description=""/>
+      <property name="LCSC" value="C82942"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -987,7 +1428,11 @@
     <comp ref="U13">
       <value>CJ2301_S1</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C8547</field>
+      </fields>
       <libsource lib="Custom" part="CJ2301_S1" description=""/>
+      <property name="LCSC" value="C8547"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1005,7 +1450,11 @@
     <comp ref="Y1">
       <value>16MHz</value>
       <footprint>Custom:XTAL_HC49P488W46L1150T500H350</footprint>
+      <fields>
+        <field name="LCSC">C279575</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="LCSC" value="C279575"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Body_LED_Controller_Embedded_ESP32s.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1443,24 +1892,6 @@
         <pin num="3" name="3" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Custom" part="CONSMA008">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONSMA008</field>
-        <field name="Footprint">LINX_CONSMA008</field>
-        <field name="PARTREV">A</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">13.88mm</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="MANUFACTURER">Linx Technologies</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="S1" name="" type="passive"/>
-        <pin num="S2" name="" type="passive"/>
-        <pin num="S3" name="" type="passive"/>
-        <pin num="S4" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Custom" part="ESP32-WROOM-32-Custom">
       <fields>
         <field name="Reference">U</field>
@@ -1533,21 +1964,16 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Custom" part="U.FL-R-SMT-1(01)">
+    <libpart lib="Custom" part="SMD-LED-CLEAR-BLUE(0402)">
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">U.FL-R-SMT-1(01)</field>
-        <field name="Footprint">HIROSE_U.FL-R-SMT-1(01)</field>
-        <field name="PARTREV">Jul.1.2022</field>
-        <field name="SNAPEDA_PN">U.FL-R-SMT-1(01)</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="MANUFACTURER">Hirose</field>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-LED-CLEAR-BLUE(0402)</field>
+        <field name="Footprint">LED-0402</field>
+        <field name="MPN">BL-HB337A-AV-TRB</field>
       </fields>
       <pins>
-        <pin num="G1" name="" type="passive"/>
-        <pin num="G2" name="" type="passive"/>
-        <pin num="SIG" name="" type="passive"/>
+        <pin num="+" name="" type="passive"/>
+        <pin num="-" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Custom" part="UMH3N">
@@ -1563,22 +1989,6 @@
         <pin num="4" name="" type="output"/>
         <pin num="5" name="" type="input"/>
         <pin num="6" name="" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C_Polarized_Small_US">
-      <description>Polarized capacitor, small US symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Polarized_Small_US</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -1613,24 +2023,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -1647,54 +2039,18 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_Network13">
-      <description>13 resistor network, star topology, bussed resistors, small symbol</description>
-      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
-      <footprints>
-        <fp>R?Array?SIP*</fp>
-      </footprints>
+    <libpart lib="LED" part="WS2812B-2020">
       <fields>
-        <field name="Reference">RN</field>
-        <field name="Value">R_Network13</field>
-        <field name="Footprint">Resistor_THT:R_Array_SIP14</field>
-        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Reference">L</field>
+        <field name="Value">WS2812B-2020</field>
+        <field name="Footprint">WS2812B-2020</field>
+        <field name="LCSC">C965555</field>
       </fields>
       <pins>
-        <pin num="1" name="common" type="passive"/>
-        <pin num="2" name="R1" type="passive"/>
-        <pin num="3" name="R2" type="passive"/>
-        <pin num="4" name="R3" type="passive"/>
-        <pin num="5" name="R4" type="passive"/>
-        <pin num="6" name="R5" type="passive"/>
-        <pin num="7" name="R6" type="passive"/>
-        <pin num="8" name="R7" type="passive"/>
-        <pin num="9" name="R8" type="passive"/>
-        <pin num="10" name="R9" type="passive"/>
-        <pin num="11" name="R10" type="passive"/>
-        <pin num="12" name="R11" type="passive"/>
-        <pin num="13" name="R12" type="passive"/>
-        <pin num="14" name="R13" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="LED" part="APA102-2020">
-      <description>RGB LED with integrated controller</description>
-      <docs>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</docs>
-      <footprints>
-        <fp>LED*APA102*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">APA102-2020</field>
-        <field name="Footprint">LED_SMD:LED-APA102-2020</field>
-        <field name="Datasheet">http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="CKO" type="output"/>
-        <pin num="3" name="SDO" type="output"/>
-        <pin num="4" name="SDI" type="input"/>
-        <pin num="5" name="CKI" type="input"/>
-        <pin num="6" name="GND" type="power_in"/>
+        <pin num="1" name="DO" type="bidirectional"/>
+        <pin num="2" name="VSS" type="bidirectional"/>
+        <pin num="3" name="DI" type="bidirectional"/>
+        <pin num="4" name="VDD" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="Pololu" part="D36V50F5-STEPDOWN">
@@ -1761,7 +2117,7 @@
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="L2" pin="4" pinfunction="VDD" pintype="bidirectional"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="3V3" pintype="bidirectional"/>
       <node ref="U5" pin="16" pinfunction="VCC" pintype="power_in"/>
@@ -1774,8 +2130,8 @@
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C25" pin="1" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="J15" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="L1" pin="4" pinfunction="VDD" pintype="bidirectional"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U10" pin="16" pinfunction="VCC" pintype="power_in"/>
       <node ref="U10" pin="4" pinfunction="V3" pintype="power_in"/>
@@ -1823,9 +2179,7 @@
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="CR1" pin="C" pinfunction="C" pintype="unspecified"/>
-      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="L3" pin="4" pinfunction="VDD" pintype="bidirectional"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
@@ -1940,9 +2294,6 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D3" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="D4" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="D5" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J10" pin="5" pinfunction="GND" pintype="power_out"/>
@@ -1967,10 +2318,24 @@
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="L2" pin="2" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="L3" pin="2" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
-      <node ref="RN1" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
@@ -2019,52 +2384,52 @@
     </net>
     <net code="29" name="LIMIT1">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="RN1" pin="2" pinfunction="R1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U1" pin="71" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="30" name="LIMIT2">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="RN1" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
       <node ref="U1" pin="59" pinfunction="PC6" pintype="bidirectional"/>
     </net>
     <net code="31" name="LIMIT3">
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="RN1" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
       <node ref="U1" pin="57" pinfunction="PC4" pintype="bidirectional"/>
     </net>
     <net code="32" name="LIMIT4">
       <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="RN1" pin="5" pinfunction="R4" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
       <node ref="U1" pin="55" pinfunction="PC2" pintype="bidirectional"/>
     </net>
     <net code="33" name="LIMIT5">
       <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="RN1" pin="6" pinfunction="R5" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
       <node ref="U1" pin="53" pinfunction="PC0" pintype="bidirectional"/>
     </net>
     <net code="34" name="LIMIT6">
       <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
-      <node ref="RN1" pin="7" pinfunction="R6" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
       <node ref="U1" pin="70" pinfunction="PG2" pintype="bidirectional"/>
     </net>
     <net code="35" name="LIMIT7">
       <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
-      <node ref="RN1" pin="8" pinfunction="R7" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
       <node ref="U1" pin="51" pinfunction="PG0" pintype="bidirectional"/>
     </net>
     <net code="36" name="LIMIT8">
       <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
-      <node ref="RN1" pin="9" pinfunction="R8" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
       <node ref="U1" pin="41" pinfunction="PL6" pintype="bidirectional"/>
     </net>
     <net code="37" name="LIMIT9">
       <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive"/>
-      <node ref="RN1" pin="10" pinfunction="R9" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
       <node ref="U1" pin="39" pinfunction="PL4" pintype="bidirectional"/>
     </net>
     <net code="38" name="LIMIT10">
       <node ref="J3" pin="19" pinfunction="Pin_19" pintype="passive"/>
-      <node ref="RN1" pin="11" pinfunction="R10" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
       <node ref="U1" pin="37" pinfunction="PL2" pintype="bidirectional"/>
     </net>
     <net code="39" name="MAINT_CLOCK">
@@ -2083,106 +2448,94 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="~{DTR}" pintype="output"/>
     </net>
-    <net code="43" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="43" name="Net-(D1-Pad-)">
+      <node ref="D1" pin="-" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="44" name="Net-(D2-Pad-)">
+      <node ref="D2" pin="-" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D3-Pad4)">
-      <node ref="D3" pin="4" pinfunction="SDI" pintype="input"/>
-      <node ref="R26" pin="1" pintype="passive"/>
-    </net>
-    <net code="46" name="Net-(D4-Pad4)">
-      <node ref="D4" pin="4" pinfunction="SDI" pintype="input"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-    </net>
-    <net code="47" name="Net-(D5-Pad4)">
-      <node ref="D5" pin="4" pinfunction="SDI" pintype="input"/>
-      <node ref="R28" pin="1" pintype="passive"/>
-    </net>
-    <net code="48" name="Net-(F1-Pad1)">
+    <net code="45" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="VBUS" pintype="power_out"/>
     </net>
-    <net code="49" name="Net-(J4-Pad7)">
+    <net code="46" name="Net-(J4-Pad7)">
       <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(J4-Pad8)">
+    <net code="47" name="Net-(J4-Pad8)">
       <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(J5-Pad7)">
+    <net code="48" name="Net-(J5-Pad7)">
       <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(J5-Pad8)">
+    <net code="49" name="Net-(J5-Pad8)">
       <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(J5-Pad11)">
+    <net code="50" name="Net-(J5-Pad11)">
       <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(J5-Pad12)">
+    <net code="51" name="Net-(J5-Pad12)">
       <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(J6-Pad2)">
+    <net code="52" name="Net-(J6-Pad2)">
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(J6-Pad3)">
+    <net code="53" name="Net-(J6-Pad3)">
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(J6-Pad4)">
+    <net code="54" name="Net-(J6-Pad4)">
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(J21-Pad1)">
-      <node ref="J21" pin="1" pintype="passive"/>
-      <node ref="J22" pin="SIG" pintype="passive"/>
-    </net>
-    <net code="59" name="Net-(J21-PadS1)">
-      <node ref="J21" pin="S1" pintype="passive"/>
-      <node ref="J21" pin="S2" pintype="passive"/>
-      <node ref="J21" pin="S3" pintype="passive"/>
-      <node ref="J21" pin="S4" pintype="passive"/>
-      <node ref="J22" pin="G1" pintype="passive"/>
-      <node ref="J22" pin="G2" pintype="passive"/>
-    </net>
-    <net code="60" name="Net-(R2-Pad1)">
+    <net code="55" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="61" name="Net-(R3-Pad1)">
+    <net code="56" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="62" name="Net-(R22-Pad1)">
+    <net code="57" name="Net-(R22-Pad1)">
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U7" pin="3" pinfunction="CE" pintype="bidirectional"/>
     </net>
-    <net code="63" name="Net-(R25-Pad1)">
+    <net code="58" name="Net-(R25-Pad1)">
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U12" pin="3" pinfunction="CE" pintype="bidirectional"/>
     </net>
-    <net code="64" name="RED_LED">
+    <net code="59" name="Net-(R26-Pad1)">
+      <node ref="L3" pin="3" pinfunction="DI" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R27-Pad1)">
+      <node ref="L2" pin="3" pinfunction="DI" pintype="bidirectional"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R28-Pad1)">
+      <node ref="L1" pin="3" pinfunction="DI" pintype="bidirectional"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="RED_LED">
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="PL0" pintype="bidirectional"/>
     </net>
-    <net code="65" name="RESET_BC">
+    <net code="63" name="RESET_BC">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="EN" pintype="bidirectional"/>
       <node ref="U6" pin="6" pintype="input"/>
     </net>
-    <net code="66" name="RESET_BL">
+    <net code="64" name="RESET_BL">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="CR1" pin="A" pinfunction="A" pintype="unspecified"/>
@@ -2192,603 +2545,580 @@
       <node ref="U1" pin="30" pinfunction="RESET" pintype="input"/>
       <node ref="U4" pin="26" pinfunction="IO4" pintype="bidirectional"/>
     </net>
-    <net code="67" name="RESET_BS">
+    <net code="65" name="RESET_BS">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U11" pin="6" pintype="input"/>
       <node ref="U9" pin="3" pinfunction="EN" pintype="bidirectional"/>
     </net>
-    <net code="68" name="RTS_BC">
+    <net code="66" name="RTS_BC">
       <node ref="U5" pin="14" pinfunction="~{RTS}" pintype="output"/>
       <node ref="U6" pin="1" pintype="output"/>
       <node ref="U6" pin="5" pintype="input"/>
     </net>
-    <net code="69" name="RTS_BS">
+    <net code="67" name="RTS_BS">
       <node ref="U10" pin="14" pinfunction="~{RTS}" pintype="output"/>
       <node ref="U11" pin="1" pintype="output"/>
       <node ref="U11" pin="5" pintype="input"/>
     </net>
-    <net code="70" name="RX1">
+    <net code="68" name="RX1">
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="45" pinfunction="PD2" pintype="bidirectional"/>
     </net>
-    <net code="71" name="RX3">
+    <net code="69" name="RX3">
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="63" pinfunction="PJ0" pintype="bidirectional"/>
     </net>
-    <net code="72" name="RXD0_BC">
+    <net code="70" name="RXD0_BC">
       <node ref="U4" pin="35" pinfunction="TXD0" pintype="bidirectional"/>
       <node ref="U5" pin="2" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="73" name="RXD0_BL">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="71" name="RXD0_BL">
+      <node ref="D2" pin="+" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="PE1" pintype="bidirectional"/>
     </net>
-    <net code="74" name="RXD0_BS">
+    <net code="72" name="RXD0_BS">
       <node ref="U10" pin="2" pinfunction="TXD" pintype="output"/>
       <node ref="U9" pin="35" pinfunction="TXD0" pintype="bidirectional"/>
     </net>
-    <net code="75" name="RX_BL">
+    <net code="73" name="RX_BL">
       <node ref="U1" pin="12" pinfunction="PH0" pintype="bidirectional"/>
       <node ref="U4" pin="11" pinfunction="IO26" pintype="bidirectional"/>
     </net>
-    <net code="76" name="RX_BS">
+    <net code="74" name="RX_BS">
       <node ref="U4" pin="27" pinfunction="IO16" pintype="bidirectional"/>
       <node ref="U9" pin="23" pinfunction="IO15" pintype="bidirectional"/>
     </net>
-    <net code="77" name="RX_FU">
+    <net code="75" name="RX_FU">
       <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U9" pin="10" pinfunction="IO25" pintype="bidirectional"/>
     </net>
-    <net code="78" name="RX_MP">
+    <net code="76" name="RX_MP">
       <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U4" pin="28" pinfunction="IO17" pintype="bidirectional"/>
     </net>
-    <net code="79" name="RX_ST">
+    <net code="77" name="RX_ST">
       <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U4" pin="14" pinfunction="IO12" pintype="bidirectional"/>
     </net>
-    <net code="80" name="SCL">
+    <net code="78" name="SCL">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U1" pin="43" pinfunction="PD0" pintype="bidirectional"/>
-    </net>
-    <net code="81" name="SCL_BS">
-      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U9" pin="36" pinfunction="IO22" pintype="bidirectional"/>
-    </net>
-    <net code="82" name="SDA">
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PD0" pintype="bidirectional"/>
       <node ref="U1" pin="44" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="83" name="SDA_BS">
+    <net code="79" name="SCL_BS">
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U9" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="SDA_BS">
       <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U9" pin="33" pinfunction="IO21" pintype="bidirectional"/>
     </net>
-    <net code="84" name="SPECTRUM_LEFT">
+    <net code="81" name="SPECTRUM_LEFT">
       <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="96" pinfunction="PF1" pintype="bidirectional"/>
     </net>
-    <net code="85" name="SPECTRUM_RIGHT">
+    <net code="82" name="SPECTRUM_RIGHT">
       <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="97" pinfunction="PF0" pintype="bidirectional"/>
     </net>
-    <net code="86" name="ST_LED_C_BC">
-      <node ref="D4" pin="5" pinfunction="CKI" pintype="input"/>
-      <node ref="U4" pin="31" pinfunction="IO19" pintype="bidirectional"/>
-    </net>
-    <net code="87" name="ST_LED_C_BL">
-      <node ref="D3" pin="5" pinfunction="CKI" pintype="input"/>
-      <node ref="U1" pin="16" pinfunction="PH4" pintype="bidirectional"/>
-    </net>
-    <net code="88" name="ST_LED_C_BS">
-      <node ref="D5" pin="5" pinfunction="CKI" pintype="input"/>
-      <node ref="U9" pin="31" pinfunction="IO19" pintype="bidirectional"/>
-    </net>
-    <net code="89" name="ST_LED_D_BC">
+    <net code="83" name="ST_LED_D_BC">
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="U4" pin="30" pinfunction="IO18" pintype="bidirectional"/>
     </net>
-    <net code="90" name="ST_LED_D_BL">
+    <net code="84" name="ST_LED_D_BL">
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="PH3" pintype="bidirectional"/>
     </net>
-    <net code="91" name="ST_LED_D_BS">
+    <net code="85" name="ST_LED_D_BS">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="U9" pin="30" pinfunction="IO18" pintype="bidirectional"/>
     </net>
-    <net code="92" name="TX1">
+    <net code="86" name="TX1">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="46" pinfunction="PD3" pintype="bidirectional"/>
     </net>
-    <net code="93" name="TX3">
+    <net code="87" name="TX3">
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U1" pin="64" pinfunction="PJ1" pintype="bidirectional"/>
     </net>
-    <net code="94" name="TXD0_BC">
+    <net code="88" name="TXD0_BC">
       <node ref="U4" pin="34" pinfunction="RXD0" pintype="bidirectional"/>
       <node ref="U5" pin="3" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="95" name="TXD0_BL">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="89" name="TXD0_BL">
+      <node ref="D1" pin="+" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="PE0" pintype="bidirectional"/>
     </net>
-    <net code="96" name="TXD0_BS">
+    <net code="90" name="TXD0_BS">
       <node ref="U10" pin="3" pinfunction="RXD" pintype="input"/>
       <node ref="U9" pin="34" pinfunction="RXD0" pintype="bidirectional"/>
     </net>
-    <net code="97" name="TX_BL">
+    <net code="91" name="TX_BL">
       <node ref="U1" pin="13" pinfunction="PH1" pintype="bidirectional"/>
       <node ref="U4" pin="10" pinfunction="IO25" pintype="bidirectional"/>
     </net>
-    <net code="98" name="TX_BS">
+    <net code="92" name="TX_BS">
       <node ref="U4" pin="23" pinfunction="IO15" pintype="bidirectional"/>
       <node ref="U9" pin="27" pinfunction="IO16" pintype="bidirectional"/>
     </net>
-    <net code="99" name="TX_FU">
+    <net code="93" name="TX_FU">
       <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U9" pin="11" pinfunction="IO26" pintype="bidirectional"/>
     </net>
-    <net code="100" name="TX_MP">
+    <net code="94" name="TX_MP">
       <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U4" pin="29" pinfunction="IO5" pintype="bidirectional"/>
     </net>
-    <net code="101" name="TX_ST">
+    <net code="95" name="TX_ST">
       <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="IO14" pintype="bidirectional"/>
     </net>
-    <net code="102" name="VBUS_BC">
+    <net code="96" name="VBUS_BC">
       <node ref="CR2" pin="A" pinfunction="A" pintype="unspecified"/>
       <node ref="J11" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U8" pin="1" pinfunction="1" pintype="bidirectional"/>
     </net>
-    <net code="103" name="VBUS_BL">
+    <net code="97" name="VBUS_BL">
       <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="3" pintype="input"/>
     </net>
-    <net code="104" name="VBUS_BS">
+    <net code="98" name="VBUS_BS">
       <node ref="CR3" pin="A" pinfunction="A" pintype="unspecified"/>
       <node ref="J12" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="U13" pin="1" pinfunction="1" pintype="bidirectional"/>
     </net>
-    <net code="105" name="VIN_BC">
+    <net code="99" name="VIN_BC">
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="CR2" pin="C" pinfunction="C" pintype="unspecified"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="VIN" pintype="bidirectional"/>
       <node ref="U8" pin="2" pinfunction="2" pintype="bidirectional"/>
     </net>
-    <net code="106" name="VIN_BS">
+    <net code="100" name="VIN_BS">
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="CR3" pin="C" pinfunction="C" pintype="unspecified"/>
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U12" pin="1" pinfunction="VIN" pintype="bidirectional"/>
       <node ref="U13" pin="2" pinfunction="2" pintype="bidirectional"/>
     </net>
-    <net code="107" name="VU1_CLOCK">
+    <net code="101" name="VU1_CLOCK">
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="36" pinfunction="PL1" pintype="bidirectional"/>
     </net>
-    <net code="108" name="VU1_DATA">
+    <net code="102" name="VU1_DATA">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U1" pin="38" pinfunction="PL3" pintype="bidirectional"/>
     </net>
-    <net code="109" name="VU2_CLOCK">
+    <net code="103" name="VU2_CLOCK">
       <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="110" name="VU2_DATA">
+    <net code="104" name="VU2_DATA">
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U1" pin="22" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="111" name="VU_RESET">
+    <net code="105" name="VU_RESET">
       <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="112" name="VU_STROBE">
+    <net code="106" name="VU_STROBE">
       <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="113" name="XTAL1">
+    <net code="107" name="XTAL1">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="XTAL1" pintype="input"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="114" name="XTAL2">
+    <net code="108" name="XTAL2">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="XTAL2" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="115" name="YELLOW_LED">
+    <net code="109" name="YELLOW_LED">
       <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="116" name="unconnected-(D3-Pad2)">
-      <node ref="D3" pin="2" pinfunction="CKO" pintype="output+no_connect"/>
-    </net>
-    <net code="117" name="unconnected-(D3-Pad3)">
-      <node ref="D3" pin="3" pinfunction="SDO" pintype="output+no_connect"/>
-    </net>
-    <net code="118" name="unconnected-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="CKO" pintype="output+no_connect"/>
-    </net>
-    <net code="119" name="unconnected-(D4-Pad3)">
-      <node ref="D4" pin="3" pinfunction="SDO" pintype="output+no_connect"/>
-    </net>
-    <net code="120" name="unconnected-(D5-Pad2)">
-      <node ref="D5" pin="2" pinfunction="CKO" pintype="output+no_connect"/>
-    </net>
-    <net code="121" name="unconnected-(D5-Pad3)">
-      <node ref="D5" pin="3" pinfunction="SDO" pintype="output+no_connect"/>
-    </net>
-    <net code="122" name="unconnected-(J10-Pad4)">
+    <net code="110" name="unconnected-(J10-Pad4)">
       <node ref="J10" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(J10-Pad6)">
+    <net code="111" name="unconnected-(J10-Pad6)">
       <node ref="J10" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(J11-Pad4)">
+    <net code="112" name="unconnected-(J11-Pad4)">
       <node ref="J11" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(J11-Pad6)">
+    <net code="113" name="unconnected-(J11-Pad6)">
       <node ref="J11" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(J12-Pad4)">
+    <net code="114" name="unconnected-(J12-Pad4)">
       <node ref="J12" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(J12-Pad6)">
+    <net code="115" name="unconnected-(J12-Pad6)">
       <node ref="J12" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(J15-Pad2)">
+    <net code="116" name="unconnected-(J15-Pad2)">
       <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(RN1-Pad12)">
-      <node ref="RN1" pin="12" pinfunction="R11" pintype="passive+no_connect"/>
+    <net code="117" name="unconnected-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(RN1-Pad13)">
-      <node ref="RN1" pin="13" pinfunction="R12" pintype="passive+no_connect"/>
+    <net code="118" name="unconnected-(L2-Pad1)">
+      <node ref="L2" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(RN1-Pad14)">
-      <node ref="RN1" pin="14" pinfunction="R13" pintype="passive+no_connect"/>
+    <net code="119" name="unconnected-(L3-Pad1)">
+      <node ref="L3" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(U1-Pad4)">
+    <net code="120" name="unconnected-(U1-Pad4)">
       <node ref="U1" pin="4" pinfunction="PE2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(U1-Pad6)">
+    <net code="121" name="unconnected-(U1-Pad6)">
       <node ref="U1" pin="6" pinfunction="PE4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="134" name="unconnected-(U1-Pad8)">
+    <net code="122" name="unconnected-(U1-Pad8)">
       <node ref="U1" pin="8" pinfunction="PE6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="135" name="unconnected-(U1-Pad9)">
+    <net code="123" name="unconnected-(U1-Pad9)">
       <node ref="U1" pin="9" pinfunction="PE7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="136" name="unconnected-(U1-Pad14)">
+    <net code="124" name="unconnected-(U1-Pad14)">
       <node ref="U1" pin="14" pinfunction="PH2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="137" name="unconnected-(U1-Pad17)">
+    <net code="125" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PH4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U1-Pad17)">
       <node ref="U1" pin="17" pinfunction="PH5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="138" name="unconnected-(U1-Pad18)">
+    <net code="127" name="unconnected-(U1-Pad18)">
       <node ref="U1" pin="18" pinfunction="PH6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="139" name="unconnected-(U1-Pad23)">
+    <net code="128" name="unconnected-(U1-Pad23)">
       <node ref="U1" pin="23" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="140" name="unconnected-(U1-Pad24)">
+    <net code="129" name="unconnected-(U1-Pad24)">
       <node ref="U1" pin="24" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="141" name="unconnected-(U1-Pad27)">
+    <net code="130" name="unconnected-(U1-Pad27)">
       <node ref="U1" pin="27" pinfunction="PH7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="142" name="unconnected-(U1-Pad28)">
+    <net code="131" name="unconnected-(U1-Pad28)">
       <node ref="U1" pin="28" pinfunction="PG3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="143" name="unconnected-(U1-Pad29)">
+    <net code="132" name="unconnected-(U1-Pad29)">
       <node ref="U1" pin="29" pinfunction="PG4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U1-Pad47)">
+    <net code="133" name="unconnected-(U1-Pad47)">
       <node ref="U1" pin="47" pinfunction="PD4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U1-Pad48)">
+    <net code="134" name="unconnected-(U1-Pad48)">
       <node ref="U1" pin="48" pinfunction="PD5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(U1-Pad49)">
+    <net code="135" name="unconnected-(U1-Pad49)">
       <node ref="U1" pin="49" pinfunction="PD6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(U1-Pad65)">
+    <net code="136" name="unconnected-(U1-Pad65)">
       <node ref="U1" pin="65" pinfunction="PJ2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U1-Pad66)">
+    <net code="137" name="unconnected-(U1-Pad66)">
       <node ref="U1" pin="66" pinfunction="PJ3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U1-Pad67)">
+    <net code="138" name="unconnected-(U1-Pad67)">
       <node ref="U1" pin="67" pinfunction="PJ4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U1-Pad68)">
+    <net code="139" name="unconnected-(U1-Pad68)">
       <node ref="U1" pin="68" pinfunction="PJ5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U1-Pad69)">
+    <net code="140" name="unconnected-(U1-Pad69)">
       <node ref="U1" pin="69" pinfunction="PJ6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U1-Pad72)">
+    <net code="141" name="unconnected-(U1-Pad72)">
       <node ref="U1" pin="72" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(U1-Pad73)">
+    <net code="142" name="unconnected-(U1-Pad73)">
       <node ref="U1" pin="73" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(U1-Pad74)">
+    <net code="143" name="unconnected-(U1-Pad74)">
       <node ref="U1" pin="74" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(U1-Pad75)">
+    <net code="144" name="unconnected-(U1-Pad75)">
       <node ref="U1" pin="75" pinfunction="PA3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(U1-Pad76)">
+    <net code="145" name="unconnected-(U1-Pad76)">
       <node ref="U1" pin="76" pinfunction="PA2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(U1-Pad77)">
+    <net code="146" name="unconnected-(U1-Pad77)">
       <node ref="U1" pin="77" pinfunction="PA1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(U1-Pad78)">
+    <net code="147" name="unconnected-(U1-Pad78)">
       <node ref="U1" pin="78" pinfunction="PA0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="159" name="unconnected-(U1-Pad79)">
+    <net code="148" name="unconnected-(U1-Pad79)">
       <node ref="U1" pin="79" pinfunction="PJ7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="160" name="unconnected-(U1-Pad82)">
+    <net code="149" name="unconnected-(U1-Pad82)">
       <node ref="U1" pin="82" pinfunction="PK7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="161" name="unconnected-(U1-Pad83)">
+    <net code="150" name="unconnected-(U1-Pad83)">
       <node ref="U1" pin="83" pinfunction="PK6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="162" name="unconnected-(U1-Pad84)">
+    <net code="151" name="unconnected-(U1-Pad84)">
       <node ref="U1" pin="84" pinfunction="PK5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="163" name="unconnected-(U1-Pad85)">
+    <net code="152" name="unconnected-(U1-Pad85)">
       <node ref="U1" pin="85" pinfunction="PK4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="164" name="unconnected-(U1-Pad86)">
+    <net code="153" name="unconnected-(U1-Pad86)">
       <node ref="U1" pin="86" pinfunction="PK3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="165" name="unconnected-(U1-Pad87)">
+    <net code="154" name="unconnected-(U1-Pad87)">
       <node ref="U1" pin="87" pinfunction="PK2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="166" name="unconnected-(U1-Pad88)">
+    <net code="155" name="unconnected-(U1-Pad88)">
       <node ref="U1" pin="88" pinfunction="PK1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="167" name="unconnected-(U1-Pad89)">
+    <net code="156" name="unconnected-(U1-Pad89)">
       <node ref="U1" pin="89" pinfunction="PK0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="168" name="unconnected-(U1-Pad90)">
+    <net code="157" name="unconnected-(U1-Pad90)">
       <node ref="U1" pin="90" pinfunction="PF7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="169" name="unconnected-(U1-Pad91)">
+    <net code="158" name="unconnected-(U1-Pad91)">
       <node ref="U1" pin="91" pinfunction="PF6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="170" name="unconnected-(U1-Pad92)">
+    <net code="159" name="unconnected-(U1-Pad92)">
       <node ref="U1" pin="92" pinfunction="PF5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="171" name="unconnected-(U1-Pad93)">
+    <net code="160" name="unconnected-(U1-Pad93)">
       <node ref="U1" pin="93" pinfunction="PF4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="172" name="unconnected-(U2-Pad7)">
+    <net code="161" name="unconnected-(U2-Pad7)">
       <node ref="U2" pin="7" pinfunction="NC." pintype="no_connect"/>
     </net>
-    <net code="173" name="unconnected-(U2-Pad8)">
+    <net code="162" name="unconnected-(U2-Pad8)">
       <node ref="U2" pin="8" pinfunction="~{OUT}" pintype="output+no_connect"/>
     </net>
-    <net code="174" name="unconnected-(U2-Pad9)">
+    <net code="163" name="unconnected-(U2-Pad9)">
       <node ref="U2" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
     </net>
-    <net code="175" name="unconnected-(U2-Pad10)">
+    <net code="164" name="unconnected-(U2-Pad10)">
       <node ref="U2" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
     </net>
-    <net code="176" name="unconnected-(U2-Pad11)">
+    <net code="165" name="unconnected-(U2-Pad11)">
       <node ref="U2" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
     </net>
-    <net code="177" name="unconnected-(U2-Pad12)">
+    <net code="166" name="unconnected-(U2-Pad12)">
       <node ref="U2" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
     </net>
-    <net code="178" name="unconnected-(U2-Pad14)">
+    <net code="167" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="~{RTS}" pintype="output+no_connect"/>
     </net>
-    <net code="179" name="unconnected-(U2-Pad15)">
+    <net code="168" name="unconnected-(U2-Pad15)">
       <node ref="U2" pin="15" pinfunction="R232" pintype="input+no_connect"/>
     </net>
-    <net code="180" name="unconnected-(U4-Pad4)">
+    <net code="169" name="unconnected-(U4-Pad4)">
       <node ref="U4" pin="4" pinfunction="SENSOR_VP" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="181" name="unconnected-(U4-Pad5)">
+    <net code="170" name="unconnected-(U4-Pad5)">
       <node ref="U4" pin="5" pinfunction="SENSOR_VN" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="182" name="unconnected-(U4-Pad6)">
+    <net code="171" name="unconnected-(U4-Pad6)">
       <node ref="U4" pin="6" pinfunction="IO34" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="183" name="unconnected-(U4-Pad7)">
+    <net code="172" name="unconnected-(U4-Pad7)">
       <node ref="U4" pin="7" pinfunction="IO35" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="184" name="unconnected-(U4-Pad8)">
+    <net code="173" name="unconnected-(U4-Pad8)">
       <node ref="U4" pin="8" pinfunction="IO32" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="185" name="unconnected-(U4-Pad9)">
+    <net code="174" name="unconnected-(U4-Pad9)">
       <node ref="U4" pin="9" pinfunction="IO33" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="186" name="unconnected-(U4-Pad12)">
+    <net code="175" name="unconnected-(U4-Pad12)">
       <node ref="U4" pin="12" pinfunction="IO27" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="187" name="unconnected-(U4-Pad16)">
+    <net code="176" name="unconnected-(U4-Pad16)">
       <node ref="U4" pin="16" pinfunction="IO13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="188" name="unconnected-(U4-Pad17)">
+    <net code="177" name="unconnected-(U4-Pad17)">
       <node ref="U4" pin="17" pinfunction="SD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="189" name="unconnected-(U4-Pad18)">
+    <net code="178" name="unconnected-(U4-Pad18)">
       <node ref="U4" pin="18" pinfunction="SD3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="190" name="unconnected-(U4-Pad19)">
+    <net code="179" name="unconnected-(U4-Pad19)">
       <node ref="U4" pin="19" pinfunction="CMD" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(U4-Pad20)">
+    <net code="180" name="unconnected-(U4-Pad20)">
       <node ref="U4" pin="20" pinfunction="CLK" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="192" name="unconnected-(U4-Pad21)">
+    <net code="181" name="unconnected-(U4-Pad21)">
       <node ref="U4" pin="21" pinfunction="SD0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="193" name="unconnected-(U4-Pad22)">
+    <net code="182" name="unconnected-(U4-Pad22)">
       <node ref="U4" pin="22" pinfunction="SD1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="194" name="unconnected-(U4-Pad24)">
+    <net code="183" name="unconnected-(U4-Pad24)">
       <node ref="U4" pin="24" pinfunction="IO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(U4-Pad32)">
+    <net code="184" name="unconnected-(U4-Pad31)">
+      <node ref="U4" pin="31" pinfunction="IO19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(U4-Pad32)">
       <node ref="U4" pin="32" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(U4-Pad33)">
+    <net code="186" name="unconnected-(U4-Pad33)">
       <node ref="U4" pin="33" pinfunction="IO21" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(U4-Pad36)">
+    <net code="187" name="unconnected-(U4-Pad36)">
       <node ref="U4" pin="36" pinfunction="IO22" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(U4-Pad37)">
+    <net code="188" name="unconnected-(U4-Pad37)">
       <node ref="U4" pin="37" pinfunction="IO23" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(U5-Pad7)">
+    <net code="189" name="unconnected-(U5-Pad7)">
       <node ref="U5" pin="7" pinfunction="NC." pintype="no_connect"/>
     </net>
-    <net code="200" name="unconnected-(U5-Pad8)">
+    <net code="190" name="unconnected-(U5-Pad8)">
       <node ref="U5" pin="8" pinfunction="~{OUT}" pintype="output+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U5-Pad9)">
+    <net code="191" name="unconnected-(U5-Pad9)">
       <node ref="U5" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(U5-Pad10)">
+    <net code="192" name="unconnected-(U5-Pad10)">
       <node ref="U5" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(U5-Pad11)">
+    <net code="193" name="unconnected-(U5-Pad11)">
       <node ref="U5" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(U5-Pad12)">
+    <net code="194" name="unconnected-(U5-Pad12)">
       <node ref="U5" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
     </net>
-    <net code="205" name="unconnected-(U5-Pad15)">
+    <net code="195" name="unconnected-(U5-Pad15)">
       <node ref="U5" pin="15" pinfunction="R232" pintype="input+no_connect"/>
     </net>
-    <net code="206" name="unconnected-(U7-Pad4)">
+    <net code="196" name="unconnected-(U7-Pad4)">
       <node ref="U7" pin="4" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(U9-Pad4)">
+    <net code="197" name="unconnected-(U9-Pad4)">
       <node ref="U9" pin="4" pinfunction="SENSOR_VP" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="208" name="unconnected-(U9-Pad5)">
+    <net code="198" name="unconnected-(U9-Pad5)">
       <node ref="U9" pin="5" pinfunction="SENSOR_VN" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="209" name="unconnected-(U9-Pad6)">
+    <net code="199" name="unconnected-(U9-Pad6)">
       <node ref="U9" pin="6" pinfunction="IO34" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U9-Pad7)">
+    <net code="200" name="unconnected-(U9-Pad7)">
       <node ref="U9" pin="7" pinfunction="IO35" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="211" name="unconnected-(U9-Pad8)">
+    <net code="201" name="unconnected-(U9-Pad8)">
       <node ref="U9" pin="8" pinfunction="IO32" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="212" name="unconnected-(U9-Pad9)">
+    <net code="202" name="unconnected-(U9-Pad9)">
       <node ref="U9" pin="9" pinfunction="IO33" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="213" name="unconnected-(U9-Pad12)">
+    <net code="203" name="unconnected-(U9-Pad12)">
       <node ref="U9" pin="12" pinfunction="IO27" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="214" name="unconnected-(U9-Pad13)">
+    <net code="204" name="unconnected-(U9-Pad13)">
       <node ref="U9" pin="13" pinfunction="IO14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(U9-Pad14)">
+    <net code="205" name="unconnected-(U9-Pad14)">
       <node ref="U9" pin="14" pinfunction="IO12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(U9-Pad16)">
+    <net code="206" name="unconnected-(U9-Pad16)">
       <node ref="U9" pin="16" pinfunction="IO13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="217" name="unconnected-(U9-Pad17)">
+    <net code="207" name="unconnected-(U9-Pad17)">
       <node ref="U9" pin="17" pinfunction="SD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U9-Pad18)">
+    <net code="208" name="unconnected-(U9-Pad18)">
       <node ref="U9" pin="18" pinfunction="SD3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U9-Pad19)">
+    <net code="209" name="unconnected-(U9-Pad19)">
       <node ref="U9" pin="19" pinfunction="CMD" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U9-Pad20)">
+    <net code="210" name="unconnected-(U9-Pad20)">
       <node ref="U9" pin="20" pinfunction="CLK" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U9-Pad21)">
+    <net code="211" name="unconnected-(U9-Pad21)">
       <node ref="U9" pin="21" pinfunction="SD0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="222" name="unconnected-(U9-Pad22)">
+    <net code="212" name="unconnected-(U9-Pad22)">
       <node ref="U9" pin="22" pinfunction="SD1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="223" name="unconnected-(U9-Pad24)">
+    <net code="213" name="unconnected-(U9-Pad24)">
       <node ref="U9" pin="24" pinfunction="IO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U9-Pad26)">
+    <net code="214" name="unconnected-(U9-Pad26)">
       <node ref="U9" pin="26" pinfunction="IO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="225" name="unconnected-(U9-Pad28)">
+    <net code="215" name="unconnected-(U9-Pad28)">
       <node ref="U9" pin="28" pinfunction="IO17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="226" name="unconnected-(U9-Pad29)">
+    <net code="216" name="unconnected-(U9-Pad29)">
       <node ref="U9" pin="29" pinfunction="IO5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="227" name="unconnected-(U9-Pad32)">
+    <net code="217" name="unconnected-(U9-Pad31)">
+      <node ref="U9" pin="31" pinfunction="IO19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="218" name="unconnected-(U9-Pad32)">
       <node ref="U9" pin="32" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="228" name="unconnected-(U9-Pad37)">
+    <net code="219" name="unconnected-(U9-Pad37)">
       <node ref="U9" pin="37" pinfunction="IO23" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="229" name="unconnected-(U10-Pad7)">
+    <net code="220" name="unconnected-(U10-Pad7)">
       <node ref="U10" pin="7" pinfunction="NC." pintype="no_connect"/>
     </net>
-    <net code="230" name="unconnected-(U10-Pad8)">
+    <net code="221" name="unconnected-(U10-Pad8)">
       <node ref="U10" pin="8" pinfunction="~{OUT}" pintype="output+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(U10-Pad9)">
+    <net code="222" name="unconnected-(U10-Pad9)">
       <node ref="U10" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(U10-Pad10)">
+    <net code="223" name="unconnected-(U10-Pad10)">
       <node ref="U10" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(U10-Pad11)">
+    <net code="224" name="unconnected-(U10-Pad11)">
       <node ref="U10" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(U10-Pad12)">
+    <net code="225" name="unconnected-(U10-Pad12)">
       <node ref="U10" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(U10-Pad15)">
+    <net code="226" name="unconnected-(U10-Pad15)">
       <node ref="U10" pin="15" pinfunction="R232" pintype="input+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(U12-Pad4)">
+    <net code="227" name="unconnected-(U12-Pad4)">
       <node ref="U12" pin="4" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U14-Pad5)">
+    <net code="228" name="unconnected-(U14-Pad5)">
       <node ref="U14" pin="5" pinfunction="VRP" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U14-Pad6)">
+    <net code="229" name="unconnected-(U14-Pad6)">
       <node ref="U14" pin="6" pinfunction="EN" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(U14-Pad7)">
+    <net code="230" name="unconnected-(U14-Pad7)">
       <node ref="U14" pin="7" pinfunction="PG" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(U14-Pad8)">
+    <net code="231" name="unconnected-(U14-Pad8)">
       <node ref="U14" pin="8" pinfunction="VRP" pintype="bidirectional+no_connect"/>
     </net>
   </nets>

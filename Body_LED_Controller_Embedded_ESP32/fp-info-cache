@@ -1,4 +1,4 @@
-24922546215317
+29909232044111
 Custom
 BEADC2012X105N
 
@@ -42,6 +42,13 @@ HRS_U.FL-R-SMT-1(10)
 3
 3
 Custom
+LED-0402
+
+
+0
+2
+2
+Custom
 LINX_CONSMA008
 
 
@@ -84,6 +91,13 @@ SOIC127P762X240-14N
 14
 14
 Custom
+TS-1101S-B-B-B-W-A
+
+
+0
+2
+2
+Custom
 UMT6
 <b>UMT6 Package</b> EIAJ: SC-88<p>Source: http://www.rohm.com/products/databook/tr/pdf/umx1n.pdf
 
@@ -97,6 +111,13 @@ VARC1608X56N
 0
 2
 2
+Custom
+WS2812B-2020
+
+
+0
+4
+4
 Custom
 XTAL_HC49P488W46L1150T500H350
 
