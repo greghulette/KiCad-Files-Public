@@ -1,0 +1,23 @@
+Comment,Designator,Cmp name,Footprint,LCSC part number
+100nF,"C1, C3, C6, ",C,Capacitor_SMD:C_0402_1005Metric,C307331
+10uF,"C2, C4, ",C,Capacitor_SMD:C_0402_1005Metric,C315248
+1uF,"C5, C7, ",C,Capacitor_SMD:C_0402_1005Metric,C77009
+B5819W-TP,"CR1, ",B5819W-TP_1,Custom:SOD3716X135N,C84354
+WS2812B-2020,"J1, ",USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,C965555
+USB_B_Micro,"J2, ",Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,C132563
+Header Male 2.54_1x06,"J3, ",Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,C37208
+Header-Male_02x03_Odd_Even,"J4, J10, ",Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C49257
+Header-Male-_01x03,"J5, ",Screw_Terminal_01x02,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C49257
+2 pin Screw Terminal 3.5mm,"J6, ",Screw_Terminal_01x02,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C474892
+2 pin Screw Terminal 3.5mm,"J7, ",Screw_Terminal_01x02,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C474892
+2 pin Screw Terminal 3.5mm,"J8, ",Screw_Terminal_01x02,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C474892
+2 pin Screw Terminal 3.5mm,"J9, ",Screw_Terminal_01x02,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C474892
+2 pin Screw Terminal 3.5mm,"L1, ",WS2812B-2020,Custom:WS2812B-2020,C474892
+10K,"R1, ",R,Resistor_SMD:R_0603_1608Metric,C190321
+100K,"R2, R3, ",R,Resistor_SMD:R_0603_1608Metric,C25741
+TS-1101S-B-B-B-W-A,"SW1, ",SW_Push,Custom:TS-1101S-B-B-B-W-A,C692465
+ESP32-WROOM-32D_16MB_,"U1, ",ESP32-WROOM-32-Custom,RF_Module:ESP32-WROOM-32,C473012
+CJ2301_S1,"U2, ",CJ2301_S1,Package_TO_SOT_SMD:SOT-23,C8547
+ME6211C33M5G,"U3, ",ME6211C33M5G,Package_TO_SOT_SMD:SOT-23-5,C82942
+CH340C,"U4, ",CH340C,Custom:SOIC127P600X180-16N,C84681
+UMH3N,"U5, ",UMH3N,Custom:UMT6,C62892
