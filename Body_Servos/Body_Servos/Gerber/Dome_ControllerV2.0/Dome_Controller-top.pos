@@ -1,0 +1,41 @@
+### Module positions - created on Sunday, September 25, 2022 at 10:14:19 PM ###
+### Printed by Pcbnew version (6.0.0-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                        Package                                                  PosX       PosY       Rot  Side
+C1        100nF                      C_0402_1005Metric                                    104.7700   -89.2800    0.0000  top
+C2        10uF                       C_0402_1005Metric                                    105.9100   -70.3200  180.0000  top
+C3        100nF                      C_0402_1005Metric                                    105.8700   -71.5500  180.0000  top
+C4        10uF                       C_0402_1005Metric                                    109.4200   -92.6400   90.0000  top
+C5        1uF                        C_0402_1005Metric                                    102.9600   -80.1100  180.0000  top
+C6        100nF                      C_0402_1005Metric                                    100.5200   -94.8500   90.0000  top
+C7        1uF                        C_0402_1005Metric                                    105.8700   -84.4700  -90.0000  top
+CR1       B5819W-TP                  SOD3716X135N                                         103.8385   -77.7385    0.0000  top
+G***      LOGO                       r2                                                    51.0000   -66.6800  -90.0000  top
+J1        USB_B_Micro                USB_Micro-B_Amphenol_10118194_Horizontal             114.9000  -107.1500    0.0000  top
+J2        Servo_Header               PinHeader_1x06_P2.54mm_Vertical                      128.0400   -97.7000   90.0000  top
+J3        Conn_02x03_Odd_Even        PinHeader_2x03_P2.54mm_Vertical                      135.6900   -73.3400   90.0000  top
+J4        Conn_01x03                 PinHeader_1x03_P2.54mm_Vertical                      135.6900   -92.4500   90.0000  top
+J5        12IN                       TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal           87.7800   -66.0000  180.0000  top
+J6        RSeries_Logics             TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal           97.8500   -65.9300  180.0000  top
+J7        HP                         TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal           76.0200   -99.5900    0.0000  top
+J8        HP_Servo                   TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal           84.9800   -99.5100    0.0000  top
+J9        5V_Out                     TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal           93.8500   -99.5100    0.0000  top
+J10       Conn_01x03                 PinHeader_1x03_P2.54mm_Vertical                      135.6900   -65.0700   90.0000  top
+J11       Conn_02x04_Odd_Even        PinHeader_2x04_P2.54mm_Vertical                      133.1100   -86.9550   90.0000  top
+J12       Conn_01x04                 PinHeader_1x04_P2.54mm_Vertical                      133.1400   -79.3950   90.0000  top
+J13       DB25_Female_MountingHoles  DSUB-25_Female_Vertical_P2.77x2.84mm_MountingHoles    61.7900   -64.7400   90.0000  top
+J14       DC-005-5A-2.0              XKB_DC-005-5A-2.0                                     76.1850   -61.5150  -90.0000  top
+L1        WS2812B-2020               WS2812B-2020                                         121.3600  -106.6700    0.0000  top
+R1        10K                        R_0603_1608Metric                                    105.2900   -90.7100  180.0000  top
+R2        100K                       R_0603_1608Metric                                    104.9900   -75.0300    0.0000  top
+R3        100K                       R_0603_1608Metric                                    101.5800   -81.7000    0.0000  top
+R4        220                        R_0402_1005Metric                                    121.5800  -102.8400  -90.0000  top
+SW1       SW_Push                    TS-1101S-B-B-B-W-A                                   114.8050  -101.6000  180.0000  top
+U1        ESP32-WROOM-32D_16MB_      ESP32-WROOM-32                                       117.4800   -78.5000    0.0000  top
+U2        CJ2301_S1                  SOT-23                                               102.1800   -72.0800  -90.0000  top
+U3        ME6211C33M5G               SOT-23-5                                             103.1700   -84.8700    0.0000  top
+U4        CH340C                     SOIC127P600X180-16N                                  104.9950   -97.6000    0.0000  top
+U5        UMH3N                      UMT6                                                 101.9542   -90.0350  -90.0000  top
+U6        D36V50F5-STEPDOWN          D36V50F5-STEPDOWN                                     86.4650   -82.5350  -90.0000  top
+## End

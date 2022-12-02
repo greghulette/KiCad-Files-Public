@@ -1,0 +1,32 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0402_1005Metric,110.66,-97.89,0,top
+C2,10uF,C_0402_1005Metric,105.91,-70.32,180,top
+C3,100nF,C_0402_1005Metric,105.87,-71.55,180,top
+C4,10uF,C_0402_1005Metric,138.22,-81.1,-90,top
+C5,1uF,C_0402_1005Metric,102.96,-80.11,180,top
+C6,100nF,C_0402_1005Metric,128.68,-84.67,-90,top
+C7,1uF,C_0402_1005Metric,105.87,-84.47,-90,top
+CR1,B5819W-TP,SOD3716X135N,103.8385,-77.7385,0,top
+G***,LOGO,r2,133.29,-98.78,0,top
+J1,USB_B_Micro,USB_Micro-B_Amphenol_10118194_Horizontal,114.9,-107.15,0,top
+J2,Servo Header,PinHeader_1x06_P2.54mm_Vertical,142.61,-81.15,0,top
+J3,Conn_02x03_Odd_Even,PinHeader_2x03_P2.54mm_Vertical,139.21,-67.04,0,top
+J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,142.05,-76.32,-90,top
+J5,12IN,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,87.78,-66,180,top
+J6,RSeries Logics,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,97.85,-65.93,180,top
+J7,HP,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,84.23,-99.65,0,top
+J8,HP Servo,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,93.19,-99.57,0,top
+J9,5V Out,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,102.06,-99.57,0,top
+J10,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,134.87,-67.02,0,top
+L1,WS2812B-2020,WS2812B-2020,121.36,-106.67,0,top
+R1,10K,R_0603_1608Metric,112.03,-96.01,180,top
+R2,100K,R_0603_1608Metric,104.99,-75.03,0,top
+R3,100K,R_0603_1608Metric,101.58,-81.7,0,top
+R4,220,R_0402_1005Metric,121.58,-102.84,-90,top
+SW1,SW_Push,TS-1101S-B-B-B-W-A,114.805,-101.6,180,top
+U1,ESP32-WROOM-32D_16MB_,ESP32-WROOM-32,117.48,-78.5,0,top
+U2,CJ2301_S1,SOT-23,102.18,-72.08,-90,top
+U3,ME6211C33M5G,SOT-23-5,103.17,-84.87,0,top
+U4,CH340C,SOIC127P600X180-16N,133.595,-84.84,0,top
+U5,UMH3N,UMT6,139.155,-83.9458,0,top
+U6,D36V50F5-STEPDOWN,D36V50F5-STEPDOWN,86.465,-82.535,-90,top
