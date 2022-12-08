@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "Body_LED_Controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/Body_LED_Controller_Embedded_ESP32s-rescue.lib")(options "")(descr ""))
-)
