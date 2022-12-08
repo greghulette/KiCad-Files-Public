@@ -1,0 +1,29 @@
+Comment,Designator,Footprint,LCSC
+100nF,"C1,C3,C6",Capacitor_SMD:C_0402_1005Metric,C307331
+10uF,"C2,C4",Capacitor_SMD:C_0402_1005Metric,C315248
+1uF,"C5,C7",Capacitor_SMD:C_0402_1005Metric,C77009
+B5819W-TP,CR1,Custom:SOD3716X135N,C84354
+USB_B_Micro,J1,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,C132563
+SERIAL_FU4,J10,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+SERIAL_FU3,J11,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+SERIAL_FU,J12,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+DB25_Female_MagTag,J13,Connector_Dsub:DSUB-25_Female_Vertical_P2.77x2.84mm_MountingHoles,C2938621
+DC-005-5A-2.0,J14,Custom:XKB_DC-005-5A-2.0,C3010535
+SERIAL_FU2,J15,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+DB25_Male_SlipRing,J2,Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles,C2984302
+12VOUT,"J3,J6",TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+SERIAL_US,J4,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+12OUT,J5,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+5V OUT,J7,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+5V Out 2,J8,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+5V Out,J9,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+WS2812B-2020,L1,WS2812B-2020,C965555
+10K,R1,Resistor_SMD:R_0603_1608Metric,C269701
+100K,"R2,R3",Resistor_SMD:R_0603_1608Metric,C25803
+220,R4,Resistor_SMD:R_0402_1005Metric,C25091
+SW_Push,SW1,Custom:TS-1101S-B-B-B-W-A, C692465
+ESP32-WROOM-32D_16MB_,U1,RF_Module:ESP32-WROOM-32, C529578
+CJ2301_S1,U2,Package_TO_SOT_SMD:SOT-23, C8547
+ME6211C33M5G,U3,Package_TO_SOT_SMD:SOT-23-5,C82942
+CH340C,U4,Custom:SOIC127P600X180-16N,C84681
+UMH3N,U5,Custom:UMT6, C62892

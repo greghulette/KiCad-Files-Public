@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
+%TF.CreationDate,2022-03-11T16:24:21-05:00*%
+%TF.ProjectId,Internal Body LED Strips,496e7465-726e-4616-9c20-426f6479204c,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-03-11 16:24:21*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

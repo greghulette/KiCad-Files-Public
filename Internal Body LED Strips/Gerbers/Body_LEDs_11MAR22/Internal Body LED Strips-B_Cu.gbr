@@ -1,0 +1,51 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
+%TF.CreationDate,2022-03-11T16:24:20-05:00*%
+%TF.ProjectId,Internal Body LED Strips,496e7465-726e-4616-9c20-426f6479204c,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-03-11 16:24:20*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.700000X1.700000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J2,1,Pin_1*%
+%TO.N,Net-(D1-Pad4)*%
+X167450000Y-103300000D03*
+D11*
+%TO.P,J2,2,Pin_2*%
+%TO.N,Net-(D6-Pad6)*%
+X167450000Y-105840000D03*
+%TO.P,J2,3,Pin_3*%
+%TO.N,Net-(D6-Pad5)*%
+X167450000Y-108380000D03*
+%TO.P,J2,4,Pin_4*%
+%TO.N,Net-(D1-Pad3)*%
+X167450000Y-110920000D03*
+%TD*%
+D10*
+%TO.P,J1,1,Pin_1*%
+%TO.N,Net-(D1-Pad3)*%
+X126560000Y-111150000D03*
+D11*
+%TO.P,J1,2,Pin_2*%
+%TO.N,Net-(D1-Pad2)*%
+X126560000Y-108610000D03*
+%TO.P,J1,3,Pin_3*%
+%TO.N,Net-(D1-Pad1)*%
+X126560000Y-106070000D03*
+%TO.P,J1,4,Pin_4*%
+%TO.N,Net-(D1-Pad4)*%
+X126560000Y-103530000D03*
+%TD*%
+M02*
