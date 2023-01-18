@@ -332,7 +332,9 @@
     "pinned_footprint_libs": [
       "Custom"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom"
+    ]
   },
   "meta": {
     "filename": "Remote_Kill_Switch.kicad_pro",
@@ -369,7 +371,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Remote_Kill_Switch-2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
