@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/In Progress/Remote_Kill_Switch_DoubleSided/Remote_Kill_Switch_DoubleSided.kicad_sch</source>
-    <date>Wednesday, January 18, 2023 at 09:45:23 AM</date>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/In Progress/Kill_Switch_Remote/Kill_Switch_Remote.kicad_sch</source>
+    <date>Wednesday, February 01, 2023 at 09:18:54 AM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>Remote_Kill_Switch_DoubleSided.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <title>Kill Switch - Remote</title>
+        <company>Created by: Greg Hulette</company>
+        <rev>1.0</rev>
+        <date>2023-01-18</date>
+        <source>Kill_Switch_Remote.kicad_sch</source>
+        <comment number="1" value="- LoRa to WiFi Bridge"/>
+        <comment number="2" value="- Buttons for Master Relay"/>
+        <comment number="3" value="- Creates WiFi Network"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -42,7 +42,7 @@
       <property name="Mouser Part Number" value="710-885012107014"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>533cca49-24cb-4acd-b769-43fedf45f7d4</tstamps>
     </comp>
@@ -64,7 +64,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>827c0b7f-5289-4598-af24-d9ad12606612</tstamps>
     </comp>
@@ -86,7 +86,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>07b2d3c1-b76b-442e-a062-ccd0816954dd</tstamps>
     </comp>
@@ -108,7 +108,7 @@
       <property name="Mouser Part Number" value="710-885012106005 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f9afe7d3-7575-4eb2-970b-bec280341447</tstamps>
     </comp>
@@ -130,7 +130,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1522fe76-c0b7-4b8d-9759-6ed5b489faa6</tstamps>
     </comp>
@@ -152,7 +152,7 @@
       <property name="Mouser Part Number" value="710-885012206052 "/>
       <property name="LCSC" value="C2170528"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63b462ab-561c-4740-8092-7a8aaa8f1acd</tstamps>
     </comp>
@@ -174,7 +174,7 @@
       <property name="Mouser Part Number" value="710-885012206052 "/>
       <property name="LCSC" value="C2170528"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5b5d736f-6cc1-4951-b587-f46b2e8a5af4</tstamps>
     </comp>
@@ -196,7 +196,7 @@
       <property name="Mouser Part Number" value="710-885012107014"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>098f1a3e-8ac1-48ee-a0df-c9fb1a8a3a2b</tstamps>
     </comp>
@@ -218,7 +218,7 @@
       <property name="Mouser Part Number" value="710-885012106005 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>845c44ad-70b6-4112-abd3-fe37e61641d2</tstamps>
     </comp>
@@ -240,7 +240,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5a2bef99-d29a-4075-93a2-2b9a2a74c05a</tstamps>
     </comp>
@@ -262,7 +262,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e5e7756a-0905-4ffa-b996-1cb796d0ae09</tstamps>
     </comp>
@@ -286,7 +286,7 @@
       <property name="Mouser Part Number" value="833-B5819W-TP "/>
       <property name="LCSC" value="C84354"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aced5076-6949-4319-92cc-c0f846e24a52</tstamps>
     </comp>
@@ -308,7 +308,7 @@
       <property name="Mouser Part Number" value="576-SP0503BAHTG "/>
       <property name="LCSC" value="C7074"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3805b5aa-3f2b-41f3-a9ee-c8124f656cea</tstamps>
     </comp>
@@ -338,51 +338,51 @@
       <property name="Mouser Part Number" value="625-SMAJ5.0A-E3/5A "/>
       <property name="LCSC" value="C511513"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b90a7321-9d6c-42fc-b103-eefce5bccc04</tstamps>
     </comp>
     <comp ref="D4">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APG1608ZGC.pdf</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">754-1356-1-ND</field>
-        <field name="LCSC">------</field>
-        <field name="Manufacturers Name">Kingbright</field>
-        <field name="Manufacturers Part Number">APG1608ZGC</field>
-        <field name="Mouser Part Number">604-APG1608ZGC </field>
+        <field name="Digikey Part Number">160-1423-1-ND</field>
+        <field name="LCSC">C913075</field>
+        <field name="Manufacturers Name">Lite-On Inc.</field>
+        <field name="Manufacturers Part Number">LTST-C171GKT</field>
+        <field name="Mouser Part Number">859-LTST-C171GKT</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Manufacturers Name" value="Kingbright"/>
-      <property name="Manufacturers Part Number" value="APG1608ZGC"/>
-      <property name="Digikey Part Number" value="754-1356-1-ND"/>
-      <property name="Mouser Part Number" value="604-APG1608ZGC "/>
-      <property name="LCSC" value="------"/>
+      <property name="Manufacturers Name" value="Lite-On Inc."/>
+      <property name="Manufacturers Part Number" value="LTST-C171GKT"/>
+      <property name="Digikey Part Number" value="160-1423-1-ND"/>
+      <property name="Mouser Part Number" value="859-LTST-C171GKT"/>
+      <property name="LCSC" value="C913075"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>26392205-466d-4b28-b804-f9363933200d</tstamps>
     </comp>
     <comp ref="D5">
       <value>BLUE</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF</datasheet>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">160-1837-1-ND</field>
-        <field name="LCSC">C575417</field>
+        <field name="Digikey Part Number">160-1579-1-ND</field>
+        <field name="LCSC">C98222</field>
         <field name="Manufacturers Name">Lite-On Inc.</field>
-        <field name="Manufacturers Part Number">LTST-C194TBKT</field>
-        <field name="Mouser Part Number">859-LTST-C194TBKT </field>
+        <field name="Manufacturers Part Number">LTST-C170TBKT</field>
+        <field name="Mouser Part Number">859-LTST-C170TBKT </field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Manufacturers Name" value="Lite-On Inc."/>
-      <property name="Manufacturers Part Number" value="LTST-C194TBKT"/>
-      <property name="Digikey Part Number" value="160-1837-1-ND"/>
-      <property name="Mouser Part Number" value="859-LTST-C194TBKT "/>
-      <property name="LCSC" value="C575417"/>
+      <property name="Manufacturers Part Number" value="LTST-C170TBKT"/>
+      <property name="Digikey Part Number" value="160-1579-1-ND"/>
+      <property name="Mouser Part Number" value="859-LTST-C170TBKT "/>
+      <property name="LCSC" value="C98222"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63150494-e5b1-4d24-97af-c6eeedfca134</tstamps>
     </comp>
@@ -404,7 +404,7 @@
       <property name="Mouser Part Number" value="859-LTST-C171KRKT "/>
       <property name="LCSC" value="C284871"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c167a42f-8f94-4817-8d6a-8beef5aeda79</tstamps>
     </comp>
@@ -426,7 +426,7 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>753960fb-5711-40e9-880e-ded18bcdc462</tstamps>
     </comp>
@@ -462,7 +462,7 @@
       <property name="Mouser Part Number" value="-----"/>
       <property name="LCSC" value="C173752"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0dfd8662-ca95-495f-9b9d-9e4ba7920a0a</tstamps>
     </comp>
@@ -497,72 +497,75 @@
       <property name="Mouser Part Number" value="798-U.FL-R-SMT-110 "/>
       <property name="LCSC" value="C88373"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>543da4ca-b9a2-486f-83cc-c900120d45a3</tstamps>
     </comp>
     <comp ref="L1">
-      <value>WS2812B-2020</value>
+      <value>WS2812B</value>
       <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">1528-4684-ND</field>
-        <field name="LCSC">C965555</field>
-        <field name="Manufacturers Name">Worldsemi/Adafruit</field>
-        <field name="Manufacturers Part Number">WS2812B-2020/4684</field>
+        <field name="Digikey Part Number">1568-COM-16347CT-ND</field>
+        <field name="LCSC">C114586</field>
+        <field name="Manufacturers Name">SparkFun Electronics</field>
+        <field name="Manufacturers Part Number">COM-16347</field>
         <field name="Mouser Part Number">485-4684</field>
       </fields>
       <libsource lib="LED" part="WS2812B-2020" description=""/>
-      <property name="Manufacturers Name" value="Worldsemi/Adafruit"/>
-      <property name="Manufacturers Part Number" value="WS2812B-2020/4684"/>
-      <property name="Digikey Part Number" value="1528-4684-ND"/>
+      <property name="Manufacturers Name" value="SparkFun Electronics"/>
+      <property name="Manufacturers Part Number" value="COM-16347"/>
+      <property name="Digikey Part Number" value="1568-COM-16347CT-ND"/>
       <property name="Mouser Part Number" value="485-4684"/>
-      <property name="LCSC" value="C965555"/>
+      <property name="LCSC" value="C114586"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0791573d-25fb-44a0-93ba-df5bd12b0205</tstamps>
     </comp>
     <comp ref="L2">
-      <value>WS2812B-2020</value>
+      <value>WS2812B</value>
       <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">1528-4684-ND</field>
-        <field name="LCSC">C965555</field>
-        <field name="Manufacturers Name">Worldsemi/Adafruit</field>
-        <field name="Manufacturers Part Number">WS2812B-2020/4684</field>
+        <field name="Digikey Part Number">1568-COM-16347CT-ND</field>
+        <field name="LCSC">C114586</field>
+        <field name="Manufacturers Name">SparkFun Electronics</field>
+        <field name="Manufacturers Part Number">COM-16347</field>
         <field name="Mouser Part Number">485-4684</field>
       </fields>
       <libsource lib="LED" part="WS2812B-2020" description=""/>
-      <property name="Manufacturers Name" value="Worldsemi/Adafruit"/>
-      <property name="Manufacturers Part Number" value="WS2812B-2020/4684"/>
-      <property name="Digikey Part Number" value="1528-4684-ND"/>
+      <property name="Manufacturers Name" value="SparkFun Electronics"/>
+      <property name="Manufacturers Part Number" value="COM-16347"/>
+      <property name="Digikey Part Number" value="1568-COM-16347CT-ND"/>
       <property name="Mouser Part Number" value="485-4684"/>
-      <property name="LCSC" value="C965555"/>
+      <property name="LCSC" value="C114586"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>dcefeceb-67c2-4cbc-8f25-01d6eaead017</tstamps>
+      <tstamps>e1d83f54-4170-40fb-a198-fb9e35ca7aed</tstamps>
     </comp>
     <comp ref="L3">
-      <value>WS2812B-2020</value>
+      <value>WS2812B</value>
       <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">1528-4684-ND</field>
-        <field name="LCSC">C965555</field>
-        <field name="Manufacturers Name">Worldsemi/Adafruit</field>
-        <field name="Manufacturers Part Number">WS2812B-2020/4684</field>
+        <field name="Digikey Part Number">1568-COM-16347CT-ND</field>
+        <field name="LCSC">C114586</field>
+        <field name="Manufacturers Name">SparkFun Electronics</field>
+        <field name="Manufacturers Part Number">COM-16347</field>
         <field name="Mouser Part Number">485-4684</field>
       </fields>
       <libsource lib="LED" part="WS2812B-2020" description=""/>
-      <property name="Manufacturers Name" value="Worldsemi/Adafruit"/>
-      <property name="Manufacturers Part Number" value="WS2812B-2020/4684"/>
-      <property name="Digikey Part Number" value="1528-4684-ND"/>
+      <property name="Manufacturers Name" value="SparkFun Electronics"/>
+      <property name="Manufacturers Part Number" value="COM-16347"/>
+      <property name="Digikey Part Number" value="1568-COM-16347CT-ND"/>
       <property name="Mouser Part Number" value="485-4684"/>
-      <property name="LCSC" value="C965555"/>
+      <property name="LCSC" value="C114586"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f527ef34-d8c9-4971-a141-b64e1ad85465</tstamps>
+      <tstamps>c2d33f41-aa67-40d0-b824-e98a08be2d11</tstamps>
     </comp>
     <comp ref="Q2">
       <value>UMH3N</value>
@@ -594,7 +597,7 @@
       <property name="Mouser Part Number" value="755-UMH3NTN "/>
       <property name="LCSC" value="C123008"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>91d5eaf7-2e4f-4495-8b5c-b754c92b3570</tstamps>
     </comp>
@@ -616,7 +619,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-0710KL "/>
       <property name="LCSC" value="C60489"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eeabfec5-cc7b-4f8d-ae9d-e5f508fbe1aa</tstamps>
     </comp>
@@ -638,7 +641,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aba70028-7f76-458d-8f2b-0f382239f111</tstamps>
     </comp>
@@ -660,7 +663,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5ce2085e-a955-4536-97e8-8697bb789d9f</tstamps>
     </comp>
@@ -682,7 +685,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-0722KL "/>
       <property name="LCSC" value="C137898"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d28b05b-8bfd-4d4d-a5a0-2197ea48aa3d</tstamps>
     </comp>
@@ -704,7 +707,7 @@
       <property name="Mouser Part Number" value="603-RC0402FR-0747K5L "/>
       <property name="LCSC" value="C137974"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31c065b4-ed96-4cba-992f-0ab2213eae54</tstamps>
     </comp>
@@ -726,7 +729,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6661d20e-a6c8-43a6-a082-744bea2465cf</tstamps>
     </comp>
@@ -748,7 +751,7 @@
       <property name="Mouser Part Number" value="660-SG73P1EWTTP820J "/>
       <property name="LCSC" value="C4003417"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>296e4c81-96fe-4bbb-a6b2-9bc15d4892f4</tstamps>
     </comp>
@@ -770,7 +773,7 @@
       <property name="Mouser Part Number" value="660-SG73P1EWTTP820J "/>
       <property name="LCSC" value="C4003417"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b421c358-c46a-4c94-9f2f-09f76daf4b38</tstamps>
     </comp>
@@ -792,7 +795,7 @@
       <property name="Mouser Part Number" value="667-ERJ-PA2F1500X "/>
       <property name="LCSC" value="-------"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>130d71c1-23ca-4d93-988e-a8277d3fd90c</tstamps>
     </comp>
@@ -814,7 +817,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-0710KL "/>
       <property name="LCSC" value="C60489"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9d2c8602-7e31-495b-9277-6db28d0000b7</tstamps>
     </comp>
@@ -836,7 +839,7 @@
       <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
       <property name="LCSC" value="C136979"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>42073a96-4292-460e-841b-30346db296ea</tstamps>
     </comp>
@@ -858,7 +861,7 @@
       <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
       <property name="LCSC" value="C136979"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>db4a3f86-f5a2-4d8f-bb96-ded5f3d9e6ec</tstamps>
     </comp>
@@ -880,7 +883,7 @@
       <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
       <property name="LCSC" value="C136979"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6f5b3337-40ad-4d7c-975d-f6fa10960fef</tstamps>
     </comp>
@@ -902,7 +905,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb8826b9-6721-4f3e-be6c-c92172b24e20</tstamps>
     </comp>
@@ -924,7 +927,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1f075a64-e5c1-41c5-b277-b1c99c9ed783</tstamps>
     </comp>
@@ -946,7 +949,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>163db297-497f-486c-8219-a837a6a1477a</tstamps>
     </comp>
@@ -970,57 +973,57 @@
       <property name="Mouser Part Number" value="------"/>
       <property name="LCSC" value="------"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b4eba270-bfad-4dc0-8f10-defbfea41ecd</tstamps>
     </comp>
     <comp ref="S2">
       <value>TL3342F160QG</value>
-      <footprint>Custom:KillSwiitch</footprint>
+      <footprint>Custom:SW_TL3305BF260QG</footprint>
       <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">EG2531CT-ND</field>
-        <field name="LCSC">------</field>
+        <field name="Digikey Part Number">EG5355CT-ND</field>
+        <field name="LCSC">C2886904</field>
         <field name="MANUFACTURER">E SWITCH</field>
         <field name="Manufacturers Name">E-Switch</field>
-        <field name="Manufacturers Part Number">TL3342F160QG/TR</field>
-        <field name="Mouser Part Number">------</field>
+        <field name="Manufacturers Part Number">TL3305CF260QG</field>
+        <field name="Mouser Part Number">612-TL3305CF260QG</field>
       </fields>
       <libsource lib="Custom" part="TL3342F160QG" description=""/>
       <property name="MANUFACTURER" value="E SWITCH"/>
       <property name="Manufacturers Name" value="E-Switch"/>
-      <property name="Manufacturers Part Number" value="TL3342F160QG/TR"/>
-      <property name="Digikey Part Number" value="EG2531CT-ND"/>
-      <property name="Mouser Part Number" value="------"/>
-      <property name="LCSC" value="------"/>
+      <property name="Manufacturers Part Number" value="TL3305CF260QG"/>
+      <property name="Digikey Part Number" value="EG5355CT-ND"/>
+      <property name="Mouser Part Number" value="612-TL3305CF260QG"/>
+      <property name="LCSC" value="C2886904"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5d8cb422-747f-4e71-87f6-dee9e7f6d6d0</tstamps>
     </comp>
     <comp ref="S3">
       <value>TL3342F160QG</value>
-      <footprint>Custom:KillSwiitch</footprint>
+      <footprint>Custom:SW_TL3305BF260QG</footprint>
       <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">EG2531CT-ND</field>
-        <field name="LCSC">------</field>
+        <field name="Digikey Part Number">EG5355CT-ND</field>
+        <field name="LCSC">C2886904</field>
         <field name="MANUFACTURER">E SWITCH</field>
         <field name="Manufacturers Name">E-Switch</field>
-        <field name="Manufacturers Part Number">TL3342F160QG/TR</field>
-        <field name="Mouser Part Number">------</field>
+        <field name="Manufacturers Part Number">TL3305CF260QG</field>
+        <field name="Mouser Part Number">612-TL3305CF260QG</field>
       </fields>
       <libsource lib="Custom" part="TL3342F160QG" description=""/>
       <property name="MANUFACTURER" value="E SWITCH"/>
       <property name="Manufacturers Name" value="E-Switch"/>
-      <property name="Manufacturers Part Number" value="TL3342F160QG/TR"/>
-      <property name="Digikey Part Number" value="EG2531CT-ND"/>
-      <property name="Mouser Part Number" value="------"/>
-      <property name="LCSC" value="------"/>
+      <property name="Manufacturers Part Number" value="TL3305CF260QG"/>
+      <property name="Digikey Part Number" value="EG5355CT-ND"/>
+      <property name="Mouser Part Number" value="612-TL3305CF260QG"/>
+      <property name="LCSC" value="C2886904"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00e39eab-2d9a-4ade-86aa-d30984a6b7e0</tstamps>
+      <tstamps>8044faa5-7489-4feb-838b-7fbf3a154ba8</tstamps>
     </comp>
     <comp ref="SW4">
       <value>AS11CH</value>
@@ -1040,7 +1043,7 @@
       <property name="Mouser Part Number" value="633-AS11CH "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cded39b0-4d0d-458b-8188-edef25e77bf4</tstamps>
     </comp>
@@ -1062,7 +1065,7 @@
       <property name="Mouser Part Number" value="588-TX06F103F3435ER "/>
       <property name="LCSC" value="------"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad3a05bd-7136-4320-b0f7-15cd79af919f</tstamps>
     </comp>
@@ -1092,7 +1095,7 @@
       <property name="Mouser Part Number" value="356-ESP32PCOMN2PH3Q0"/>
       <property name="LCSC" value="C2980306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d4bc41a3-7c57-4f40-97db-bef366ca2f9d</tstamps>
     </comp>
@@ -1113,7 +1116,7 @@
       <property name="Mouser Part Number" value="634-CP2102NA02GQFN28 "/>
       <property name="LCSC" value="C1550553"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31b5f818-fda1-4ba9-ba9c-5624154f53ec</tstamps>
     </comp>
@@ -1135,7 +1138,7 @@
       <property name="LCSC" value="C2876187"/>
       <property name="Mouser Part Number" value="595-LP5912Q3.3DRVTQ1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1bdcafb1-1e88-4076-8b09-cd1123d71176</tstamps>
     </comp>
@@ -1157,7 +1160,7 @@
       <property name="Mouser Part Number" value="579-MCP73871-2CCI/ML "/>
       <property name="LCSC" value="C5121473"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31248460-b0e0-4f79-ac68-f1a028fcc92b</tstamps>
     </comp>
@@ -1179,7 +1182,7 @@
       <property name="Mouser Part Number" value="223-RFM95W-915S2 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7c1d18dd-f557-48cf-bf2a-db78764fb1f2</tstamps>
     </comp>
@@ -1201,7 +1204,7 @@
       <property name="Mouser Part Number" value="------"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Remote.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c3ab50f6-df14-4388-a9cc-5304bd487c53</tstamps>
     </comp>
