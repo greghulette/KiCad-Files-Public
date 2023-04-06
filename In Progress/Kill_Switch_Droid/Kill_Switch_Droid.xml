@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/In Progress/Remote_Kill_Switch_DoubleSided/Remote_Kill_Switch_DoubleSided.kicad_sch</source>
-    <date>Wednesday, January 18, 2023 at 09:45:23 AM</date>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/In Progress/Kill_Switch_Droid/Kill_Switch_Droid.kicad_sch</source>
+    <date>Monday, February 13, 2023 at 02:09:21 PM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>Remote_Kill_Switch_DoubleSided.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <title>Kill Switch - Remote</title>
+        <company>Created by: Greg Hulette</company>
+        <rev>1.0</rev>
+        <date>2023-01-18</date>
+        <source>Kill_Switch_Droid.kicad_sch</source>
+        <comment number="1" value="- LoRa to WiFi Bridge"/>
+        <comment number="2" value="- Buttons for Master Relay"/>
+        <comment number="3" value="- Creates WiFi Network"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -42,7 +42,7 @@
       <property name="Mouser Part Number" value="710-885012107014"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>533cca49-24cb-4acd-b769-43fedf45f7d4</tstamps>
     </comp>
@@ -64,7 +64,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>827c0b7f-5289-4598-af24-d9ad12606612</tstamps>
     </comp>
@@ -86,7 +86,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>07b2d3c1-b76b-442e-a062-ccd0816954dd</tstamps>
     </comp>
@@ -108,7 +108,7 @@
       <property name="Mouser Part Number" value="710-885012106005 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f9afe7d3-7575-4eb2-970b-bec280341447</tstamps>
     </comp>
@@ -130,7 +130,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1522fe76-c0b7-4b8d-9759-6ed5b489faa6</tstamps>
     </comp>
@@ -152,7 +152,7 @@
       <property name="Mouser Part Number" value="710-885012206052 "/>
       <property name="LCSC" value="C2170528"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63b462ab-561c-4740-8092-7a8aaa8f1acd</tstamps>
     </comp>
@@ -174,7 +174,7 @@
       <property name="Mouser Part Number" value="710-885012206052 "/>
       <property name="LCSC" value="C2170528"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5b5d736f-6cc1-4951-b587-f46b2e8a5af4</tstamps>
     </comp>
@@ -196,31 +196,31 @@
       <property name="Mouser Part Number" value="710-885012107014"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>098f1a3e-8ac1-48ee-a0df-c9fb1a8a3a2b</tstamps>
+      <tstamps>df689edf-1da6-488f-a3f0-f1e4f22a7557</tstamps>
     </comp>
     <comp ref="C9">
-      <value>4.7uF</value>
+      <value>.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://www.we-online.com/katalog/datasheet/885012106005.pdf</datasheet>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012206020.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">732-7902-1-ND</field>
+        <field name="Digikey Part Number">732-7939-1-ND</field>
         <field name="LCSC">-----</field>
         <field name="Manufacturers Name">Würth Elektronik</field>
-        <field name="Manufacturers Part Number">885012106005</field>
-        <field name="Mouser Part Number">710-885012106005 </field>
+        <field name="Manufacturers Part Number">885012206020</field>
+        <field name="Mouser Part Number">710-885012206020 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Manufacturers Name" value="Würth Elektronik"/>
-      <property name="Manufacturers Part Number" value="885012106005"/>
-      <property name="Digikey Part Number" value="732-7902-1-ND"/>
-      <property name="Mouser Part Number" value="710-885012106005 "/>
+      <property name="Manufacturers Part Number" value="885012206020"/>
+      <property name="Digikey Part Number" value="732-7939-1-ND"/>
+      <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>845c44ad-70b6-4112-abd3-fe37e61641d2</tstamps>
+      <tstamps>57f7b420-b9af-46fa-bbb0-3fca297e9fd6</tstamps>
     </comp>
     <comp ref="C10">
       <value>.1uF</value>
@@ -240,7 +240,7 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5a2bef99-d29a-4075-93a2-2b9a2a74c05a</tstamps>
     </comp>
@@ -262,9 +262,53 @@
       <property name="Mouser Part Number" value="710-885012206020 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e5e7756a-0905-4ffa-b996-1cb796d0ae09</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012206020.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">732-7939-1-ND</field>
+        <field name="LCSC">-----</field>
+        <field name="Manufacturers Name">Würth Elektronik</field>
+        <field name="Manufacturers Part Number">885012206020</field>
+        <field name="Mouser Part Number">710-885012206020 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturers Name" value="Würth Elektronik"/>
+      <property name="Manufacturers Part Number" value="885012206020"/>
+      <property name="Digikey Part Number" value="732-7939-1-ND"/>
+      <property name="Mouser Part Number" value="710-885012206020 "/>
+      <property name="LCSC" value="-----"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22b89b80-d90d-4f68-9263-4d5857bb3620</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012206020.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">732-7939-1-ND</field>
+        <field name="LCSC">C2182668</field>
+        <field name="Manufacturers Name">Würth Elektronik</field>
+        <field name="Manufacturers Part Number">885012206020</field>
+        <field name="Mouser Part Number">710-885012206020 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturers Name" value="Würth Elektronik"/>
+      <property name="Manufacturers Part Number" value="885012206020"/>
+      <property name="Digikey Part Number" value="732-7939-1-ND"/>
+      <property name="Mouser Part Number" value="710-885012206020 "/>
+      <property name="LCSC" value="C2182668"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c67531c5-feba-4cef-b953-dfa898d63c41</tstamps>
     </comp>
     <comp ref="D1">
       <value>B5819W-TP</value>
@@ -286,7 +330,7 @@
       <property name="Mouser Part Number" value="833-B5819W-TP "/>
       <property name="LCSC" value="C84354"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aced5076-6949-4319-92cc-c0f846e24a52</tstamps>
     </comp>
@@ -308,105 +352,9 @@
       <property name="Mouser Part Number" value="576-SP0503BAHTG "/>
       <property name="LCSC" value="C7074"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3805b5aa-3f2b-41f3-a9ee-c8124f656cea</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>SMAJ5.0</value>
-      <footprint>Custom:SMAJ5.0_DIOM4325X250N</footprint>
-      <datasheet>https://www.vishay.com/docs/88390/smaj50a.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">SMAJ5.0A-E3/5AGICT-ND</field>
-        <field name="LCSC">C511513</field>
-        <field name="MANUFACTURER">Taiwan Semiconductor</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
-        <field name="Manufacturers Name">Vishay General Semiconductor - Diodes Division</field>
-        <field name="Manufacturers Part Number">SMAJ5.0A-E3/5A</field>
-        <field name="Mouser Part Number">625-SMAJ5.0A-E3/5A </field>
-        <field name="PARTREV">S2102</field>
-        <field name="STANDARD">IPC-7351B</field>
-      </fields>
-      <libsource lib="Custom" part="SMAJ5.0" description=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.5 mm"/>
-      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
-      <property name="PARTREV" value="S2102"/>
-      <property name="STANDARD" value="IPC-7351B"/>
-      <property name="Manufacturers Name" value="Vishay General Semiconductor - Diodes Division"/>
-      <property name="Manufacturers Part Number" value="SMAJ5.0A-E3/5A"/>
-      <property name="Digikey Part Number" value="SMAJ5.0A-E3/5AGICT-ND"/>
-      <property name="Mouser Part Number" value="625-SMAJ5.0A-E3/5A "/>
-      <property name="LCSC" value="C511513"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b90a7321-9d6c-42fc-b103-eefce5bccc04</tstamps>
-    </comp>
-    <comp ref="D4">
-      <value>Green</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APG1608ZGC.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">754-1356-1-ND</field>
-        <field name="LCSC">------</field>
-        <field name="Manufacturers Name">Kingbright</field>
-        <field name="Manufacturers Part Number">APG1608ZGC</field>
-        <field name="Mouser Part Number">604-APG1608ZGC </field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Manufacturers Name" value="Kingbright"/>
-      <property name="Manufacturers Part Number" value="APG1608ZGC"/>
-      <property name="Digikey Part Number" value="754-1356-1-ND"/>
-      <property name="Mouser Part Number" value="604-APG1608ZGC "/>
-      <property name="LCSC" value="------"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>26392205-466d-4b28-b804-f9363933200d</tstamps>
-    </comp>
-    <comp ref="D5">
-      <value>BLUE</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF</datasheet>
-      <fields>
-        <field name="Digikey Part Number">160-1837-1-ND</field>
-        <field name="LCSC">C575417</field>
-        <field name="Manufacturers Name">Lite-On Inc.</field>
-        <field name="Manufacturers Part Number">LTST-C194TBKT</field>
-        <field name="Mouser Part Number">859-LTST-C194TBKT </field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Manufacturers Name" value="Lite-On Inc."/>
-      <property name="Manufacturers Part Number" value="LTST-C194TBKT"/>
-      <property name="Digikey Part Number" value="160-1837-1-ND"/>
-      <property name="Mouser Part Number" value="859-LTST-C194TBKT "/>
-      <property name="LCSC" value="C575417"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>63150494-e5b1-4d24-97af-c6eeedfca134</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>Red</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">160-1427-1-ND</field>
-        <field name="LCSC">C284871</field>
-        <field name="Manufacturers Name">Lite-On Inc.</field>
-        <field name="Manufacturers Part Number">LTST-C171KRKT</field>
-        <field name="Mouser Part Number">859-LTST-C171KRKT </field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Manufacturers Name" value="Lite-On Inc."/>
-      <property name="Manufacturers Part Number" value="LTST-C171KRKT"/>
-      <property name="Digikey Part Number" value="160-1427-1-ND"/>
-      <property name="Mouser Part Number" value="859-LTST-C171KRKT "/>
-      <property name="LCSC" value="C284871"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c167a42f-8f94-4817-8d6a-8beef5aeda79</tstamps>
     </comp>
     <comp ref="J1">
       <value>USB_B_Micro</value>
@@ -426,45 +374,31 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>753960fb-5711-40e9-880e-ded18bcdc462</tstamps>
     </comp>
     <comp ref="J2">
-      <value>S2B-PH-K-S(LF)(SN)</value>
-      <footprint>Custom:JST_S2B-PH-K-S(LF)(SN)</footprint>
-      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <value>Power In</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.altechcorp.com/PDFS/PCBUS.PDF</datasheet>
       <fields>
-        <field name="AVAILABILITY">Unavailable</field>
-        <field name="DESCRIPTION">Connector Header Through Hole, Right Angle 2 position</field>
-        <field name="Digikey Part Number">455-1719-ND</field>
-        <field name="LCSC">C173752</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">4.8mm</field>
-        <field name="MF">JST Sales</field>
-        <field name="MP">S2B-PH-K-S_LF__SN_</field>
-        <field name="Manufacturers Name">JST Sales America Inc.</field>
-        <field name="Manufacturers Part Number">S2B-PH-K-S(LF)(SN)</field>
-        <field name="Mouser Part Number">-----</field>
-        <field name="PACKAGE">None</field>
-        <field name="PRICE">None</field>
+        <field name="Digikey Part Number">1920-1323-ND</field>
+        <field name="LCSC">-----</field>
+        <field name="Manufacturers Name">Altech Corporation</field>
+        <field name="Manufacturers Part Number">34.102</field>
+        <field name="Mouser Part Number">845-34.102</field>
       </fields>
-      <libsource lib="Custom" part="S2B-PH-K-S(LF)(SN)" description=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.8mm"/>
-      <property name="PACKAGE" value="None"/>
-      <property name="AVAILABILITY" value="Unavailable"/>
-      <property name="DESCRIPTION" value="Connector Header Through Hole, Right Angle 2 position"/>
-      <property name="MP" value="S2B-PH-K-S_LF__SN_"/>
-      <property name="MF" value="JST Sales"/>
-      <property name="PRICE" value="None"/>
-      <property name="Manufacturers Name" value="JST Sales America Inc."/>
-      <property name="Manufacturers Part Number" value="S2B-PH-K-S(LF)(SN)"/>
-      <property name="Digikey Part Number" value="455-1719-ND"/>
-      <property name="Mouser Part Number" value="-----"/>
-      <property name="LCSC" value="C173752"/>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturers Name" value="Altech Corporation"/>
+      <property name="Manufacturers Part Number" value="34.102"/>
+      <property name="Digikey Part Number" value="1920-1323-ND"/>
+      <property name="Mouser Part Number" value="845-34.102"/>
+      <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0dfd8662-ca95-495f-9b9d-9e4ba7920a0a</tstamps>
+      <tstamps>c609da3d-c81b-48db-a512-d19d47c57341</tstamps>
     </comp>
     <comp ref="J3">
       <value>U.FL-R-SMT-1(10)</value>
@@ -497,13 +431,44 @@
       <property name="Mouser Part Number" value="798-U.FL-R-SMT-110 "/>
       <property name="LCSC" value="C88373"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>543da4ca-b9a2-486f-83cc-c900120d45a3</tstamps>
     </comp>
+    <comp ref="J4">
+      <value>External Switch In</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffa2a5ea-a2e0-4873-8f47-6d8bc4a89eb8</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Output</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.altechcorp.com/PDFS/PCBUS.PDF</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1920-1323-ND</field>
+        <field name="LCSC">-----</field>
+        <field name="Manufacturers Name">Altech Corporation</field>
+        <field name="Manufacturers Part Number">34.102</field>
+        <field name="Mouser Part Number">845-34.102</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturers Name" value="Altech Corporation"/>
+      <property name="Manufacturers Part Number" value="34.102"/>
+      <property name="Digikey Part Number" value="1920-1323-ND"/>
+      <property name="Mouser Part Number" value="845-34.102"/>
+      <property name="LCSC" value="-----"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e2057b2-16e0-4390-aa5d-afd68b060886</tstamps>
+    </comp>
     <comp ref="L1">
       <value>WS2812B-2020</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <footprint>Custom:WS2812B-2020</footprint>
       <fields>
         <field name="Digikey Part Number">1528-4684-ND</field>
         <field name="LCSC">C965555</field>
@@ -518,13 +483,13 @@
       <property name="Mouser Part Number" value="485-4684"/>
       <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0791573d-25fb-44a0-93ba-df5bd12b0205</tstamps>
     </comp>
     <comp ref="L2">
       <value>WS2812B-2020</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <footprint>Custom:WS2812B-2020</footprint>
       <fields>
         <field name="Digikey Part Number">1528-4684-ND</field>
         <field name="LCSC">C965555</field>
@@ -539,13 +504,13 @@
       <property name="Mouser Part Number" value="485-4684"/>
       <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dcefeceb-67c2-4cbc-8f25-01d6eaead017</tstamps>
     </comp>
     <comp ref="L3">
       <value>WS2812B-2020</value>
-      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <footprint>Custom:WS2812B-2020</footprint>
       <fields>
         <field name="Digikey Part Number">1528-4684-ND</field>
         <field name="LCSC">C965555</field>
@@ -560,7 +525,7 @@
       <property name="Mouser Part Number" value="485-4684"/>
       <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f527ef34-d8c9-4971-a141-b64e1ad85465</tstamps>
     </comp>
@@ -594,9 +559,31 @@
       <property name="Mouser Part Number" value="755-UMH3NTN "/>
       <property name="LCSC" value="C123008"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>91d5eaf7-2e4f-4495-8b5c-b754c92b3570</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Digikey Part Number">BSS138DW-FDICT-ND</field>
+        <field name="LCSC">C154900</field>
+        <field name="Manufacturers Name">Diodes Incorporated</field>
+        <field name="Manufacturers Part Number">BSS138DW-7-F</field>
+        <field name="Mouser Part Number">621-BSS138DW-F </field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturers Name" value="Diodes Incorporated"/>
+      <property name="Manufacturers Part Number" value="BSS138DW-7-F"/>
+      <property name="Digikey Part Number" value="BSS138DW-FDICT-ND"/>
+      <property name="Mouser Part Number" value="621-BSS138DW-F "/>
+      <property name="LCSC" value="C154900"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6675585b-be79-4820-b166-15316f7396b6</tstamps>
     </comp>
     <comp ref="R1">
       <value>10K</value>
@@ -616,7 +603,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-0710KL "/>
       <property name="LCSC" value="C60489"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eeabfec5-cc7b-4f8d-ae9d-e5f508fbe1aa</tstamps>
     </comp>
@@ -638,7 +625,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aba70028-7f76-458d-8f2b-0f382239f111</tstamps>
     </comp>
@@ -660,7 +647,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5ce2085e-a955-4536-97e8-8697bb789d9f</tstamps>
     </comp>
@@ -682,7 +669,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-0722KL "/>
       <property name="LCSC" value="C137898"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d28b05b-8bfd-4d4d-a5a0-2197ea48aa3d</tstamps>
     </comp>
@@ -704,7 +691,7 @@
       <property name="Mouser Part Number" value="603-RC0402FR-0747K5L "/>
       <property name="LCSC" value="C137974"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31c065b4-ed96-4cba-992f-0ab2213eae54</tstamps>
     </comp>
@@ -726,163 +713,97 @@
       <property name="Mouser Part Number" value="603-RC0402JR-071KL "/>
       <property name="LCSC" value="C105637"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6661d20e-a6c8-43a6-a082-744bea2465cf</tstamps>
     </comp>
     <comp ref="R7">
-      <value>82</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.koaspeer.com/pdfs/SG73P.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">2019-SG73P1EWTTP820JCT-ND</field>
-        <field name="LCSC">C4003417</field>
-        <field name="Manufacturers Name">KOA Speer Electronics, Inc.</field>
-        <field name="Manufacturers Part Number">SG73P1EWTTP820J</field>
-        <field name="Mouser Part Number">660-SG73P1EWTTP820J </field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Manufacturers Name" value="KOA Speer Electronics, Inc."/>
-      <property name="Manufacturers Part Number" value="SG73P1EWTTP820J"/>
-      <property name="Digikey Part Number" value="2019-SG73P1EWTTP820JCT-ND"/>
-      <property name="Mouser Part Number" value="660-SG73P1EWTTP820J "/>
-      <property name="LCSC" value="C4003417"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>296e4c81-96fe-4bbb-a6b2-9bc15d4892f4</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>82</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.koaspeer.com/pdfs/SG73P.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">2019-SG73P1EWTTP820JCT-ND</field>
-        <field name="LCSC">C4003417</field>
-        <field name="Manufacturers Name">KOA Speer Electronics, Inc.</field>
-        <field name="Manufacturers Part Number">SG73P1EWTTP820J</field>
-        <field name="Mouser Part Number">660-SG73P1EWTTP820J </field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Manufacturers Name" value="KOA Speer Electronics, Inc."/>
-      <property name="Manufacturers Part Number" value="SG73P1EWTTP820J"/>
-      <property name="Digikey Part Number" value="2019-SG73P1EWTTP820JCT-ND"/>
-      <property name="Mouser Part Number" value="660-SG73P1EWTTP820J "/>
-      <property name="LCSC" value="C4003417"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b421c358-c46a-4c94-9f2f-09f76daf4b38</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>150</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">2019-SG73P1EWTTP101JCT-ND</field>
-        <field name="LCSC">-------</field>
-        <field name="Manufacturers Name">Panasonic Electronic Components</field>
-        <field name="Manufacturers Part Number">ERJ-PA2F1500X</field>
-        <field name="Mouser Part Number">667-ERJ-PA2F1500X </field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Manufacturers Name" value="Panasonic Electronic Components"/>
-      <property name="Manufacturers Part Number" value="ERJ-PA2F1500X"/>
-      <property name="Digikey Part Number" value="2019-SG73P1EWTTP101JCT-ND"/>
-      <property name="Mouser Part Number" value="667-ERJ-PA2F1500X "/>
-      <property name="LCSC" value="-------"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>130d71c1-23ca-4d93-988e-a8277d3fd90c</tstamps>
-    </comp>
-    <comp ref="R10">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">311-10KJRCT-ND</field>
-        <field name="LCSC">C60489</field>
+        <field name="Digikey Part Number">13-RC0402JR-13220RLCT-ND</field>
+        <field name="LCSC">C3931306</field>
         <field name="Manufacturers Name">YAGEO</field>
-        <field name="Manufacturers Part Number">RC0402JR-0710KL</field>
-        <field name="Mouser Part Number">603-RC0402JR-0710KL </field>
+        <field name="Manufacturers Part Number">RC0402JR-13220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-13220RL </field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Manufacturers Name" value="YAGEO"/>
-      <property name="Manufacturers Part Number" value="RC0402JR-0710KL"/>
-      <property name="Digikey Part Number" value="311-10KJRCT-ND"/>
-      <property name="Mouser Part Number" value="603-RC0402JR-0710KL "/>
-      <property name="LCSC" value="C60489"/>
+      <property name="Manufacturers Part Number" value="RC0402JR-13220RL"/>
+      <property name="Digikey Part Number" value="13-RC0402JR-13220RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
+      <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9d2c8602-7e31-495b-9277-6db28d0000b7</tstamps>
+      <tstamps>b56c31f0-e9bf-4927-842a-6ee5a12b7fbe</tstamps>
     </comp>
-    <comp ref="R11">
-      <value>100K</value>
+    <comp ref="R8">
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf</datasheet>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">YAG2304CT-ND</field>
-        <field name="LCSC">C136979</field>
+        <field name="Digikey Part Number">13-RC0402JR-13220RLCT-ND</field>
+        <field name="LCSC">C3931306</field>
         <field name="Manufacturers Name">YAGEO</field>
-        <field name="Manufacturers Part Number">RT0402BRE07100KL</field>
-        <field name="Mouser Part Number">603-RT0402BRE07100KL </field>
+        <field name="Manufacturers Part Number">RC0402JR-13220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-13220RL </field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Manufacturers Name" value="YAGEO"/>
-      <property name="Manufacturers Part Number" value="RT0402BRE07100KL"/>
-      <property name="Digikey Part Number" value="YAG2304CT-ND"/>
-      <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
-      <property name="LCSC" value="C136979"/>
+      <property name="Manufacturers Part Number" value="RC0402JR-13220RL"/>
+      <property name="Digikey Part Number" value="13-RC0402JR-13220RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
+      <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>42073a96-4292-460e-841b-30346db296ea</tstamps>
+      <tstamps>d48ceb18-2b96-41e9-b7dc-977e68347a24</tstamps>
     </comp>
-    <comp ref="R12">
-      <value>100K</value>
+    <comp ref="R9">
+      <value>400</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf</datasheet>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">YAG2304CT-ND</field>
-        <field name="LCSC">C136979</field>
+        <field name="Digikey Part Number">13-RC0402JR-13220RLCT-ND</field>
+        <field name="LCSC">C3931306</field>
         <field name="Manufacturers Name">YAGEO</field>
-        <field name="Manufacturers Part Number">RT0402BRE07100KL</field>
-        <field name="Mouser Part Number">603-RT0402BRE07100KL </field>
+        <field name="Manufacturers Part Number">RC0402JR-13220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-13220RL </field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Manufacturers Name" value="YAGEO"/>
-      <property name="Manufacturers Part Number" value="RT0402BRE07100KL"/>
-      <property name="Digikey Part Number" value="YAG2304CT-ND"/>
-      <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
-      <property name="LCSC" value="C136979"/>
+      <property name="Manufacturers Part Number" value="RC0402JR-13220RL"/>
+      <property name="Digikey Part Number" value="13-RC0402JR-13220RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
+      <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>db4a3f86-f5a2-4d8f-bb96-ded5f3d9e6ec</tstamps>
+      <tstamps>7f7cbe5f-5703-470f-a9f3-ef385b79d7e9</tstamps>
     </comp>
-    <comp ref="R13">
-      <value>100K</value>
+    <comp ref="R10">
+      <value>400</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf</datasheet>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">YAG2304CT-ND</field>
-        <field name="LCSC">C136979</field>
+        <field name="Digikey Part Number">13-RC0402JR-13220RLCT-ND</field>
+        <field name="LCSC">C3931306</field>
         <field name="Manufacturers Name">YAGEO</field>
-        <field name="Manufacturers Part Number">RT0402BRE07100KL</field>
-        <field name="Mouser Part Number">603-RT0402BRE07100KL </field>
+        <field name="Manufacturers Part Number">RC0402JR-13220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-13220RL </field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Manufacturers Name" value="YAGEO"/>
-      <property name="Manufacturers Part Number" value="RT0402BRE07100KL"/>
-      <property name="Digikey Part Number" value="YAG2304CT-ND"/>
-      <property name="Mouser Part Number" value="603-RT0402BRE07100KL "/>
-      <property name="LCSC" value="C136979"/>
+      <property name="Manufacturers Part Number" value="RC0402JR-13220RL"/>
+      <property name="Digikey Part Number" value="13-RC0402JR-13220RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
+      <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6f5b3337-40ad-4d7c-975d-f6fa10960fef</tstamps>
+      <tstamps>86137281-5b23-47fd-a4b8-29304e2121ec</tstamps>
     </comp>
     <comp ref="R14">
       <value>470</value>
@@ -902,7 +823,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb8826b9-6721-4f3e-be6c-c92172b24e20</tstamps>
     </comp>
@@ -924,7 +845,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1f075a64-e5c1-41c5-b277-b1c99c9ed783</tstamps>
     </comp>
@@ -946,7 +867,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-13220RL "/>
       <property name="LCSC" value="C3931306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>163db297-497f-486c-8219-a837a6a1477a</tstamps>
     </comp>
@@ -970,101 +891,57 @@
       <property name="Mouser Part Number" value="------"/>
       <property name="LCSC" value="------"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b4eba270-bfad-4dc0-8f10-defbfea41ecd</tstamps>
     </comp>
     <comp ref="S2">
-      <value>TL3342F160QG</value>
-      <footprint>Custom:KillSwiitch</footprint>
-      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf</datasheet>
+      <value>TL3305CF260QG</value>
+      <footprint>Custom:TL3305CF260QG</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">EG2531CT-ND</field>
-        <field name="LCSC">------</field>
+        <field name="Digikey Part Number">EG5355CT-ND</field>
+        <field name="LCSC">C2886904</field>
         <field name="MANUFACTURER">E SWITCH</field>
         <field name="Manufacturers Name">E-Switch</field>
-        <field name="Manufacturers Part Number">TL3342F160QG/TR</field>
-        <field name="Mouser Part Number">------</field>
+        <field name="Manufacturers Part Number">TL3305CF260QG</field>
+        <field name="Mouser Part Number">612-TL3305CF260QG</field>
       </fields>
       <libsource lib="Custom" part="TL3342F160QG" description=""/>
       <property name="MANUFACTURER" value="E SWITCH"/>
       <property name="Manufacturers Name" value="E-Switch"/>
-      <property name="Manufacturers Part Number" value="TL3342F160QG/TR"/>
-      <property name="Digikey Part Number" value="EG2531CT-ND"/>
-      <property name="Mouser Part Number" value="------"/>
-      <property name="LCSC" value="------"/>
+      <property name="Manufacturers Part Number" value="TL3305CF260QG"/>
+      <property name="Digikey Part Number" value="EG5355CT-ND"/>
+      <property name="Mouser Part Number" value="612-TL3305CF260QG"/>
+      <property name="LCSC" value="C2886904"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d8cb422-747f-4e71-87f6-dee9e7f6d6d0</tstamps>
+      <tstamps>f2669bcc-4cb2-4a30-aad1-de4b79a50edf</tstamps>
     </comp>
     <comp ref="S3">
-      <value>TL3342F160QG</value>
-      <footprint>Custom:KillSwiitch</footprint>
-      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf</datasheet>
+      <value>TL3305CF260QG</value>
+      <footprint>Custom:TL3305CF260QG</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">EG2531CT-ND</field>
-        <field name="LCSC">------</field>
+        <field name="Digikey Part Number">EG5355CT-ND</field>
+        <field name="LCSC">C2886904</field>
         <field name="MANUFACTURER">E SWITCH</field>
         <field name="Manufacturers Name">E-Switch</field>
-        <field name="Manufacturers Part Number">TL3342F160QG/TR</field>
-        <field name="Mouser Part Number">------</field>
+        <field name="Manufacturers Part Number">TL3305CF260QG</field>
+        <field name="Mouser Part Number">612-TL3305CF260QG</field>
       </fields>
       <libsource lib="Custom" part="TL3342F160QG" description=""/>
       <property name="MANUFACTURER" value="E SWITCH"/>
       <property name="Manufacturers Name" value="E-Switch"/>
-      <property name="Manufacturers Part Number" value="TL3342F160QG/TR"/>
-      <property name="Digikey Part Number" value="EG2531CT-ND"/>
-      <property name="Mouser Part Number" value="------"/>
-      <property name="LCSC" value="------"/>
+      <property name="Manufacturers Part Number" value="TL3305CF260QG"/>
+      <property name="Digikey Part Number" value="EG5355CT-ND"/>
+      <property name="Mouser Part Number" value="612-TL3305CF260QG"/>
+      <property name="LCSC" value="C2886904"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00e39eab-2d9a-4ade-86aa-d30984a6b7e0</tstamps>
-    </comp>
-    <comp ref="SW4">
-      <value>AS11CH</value>
-      <footprint>Custom:AS11CH</footprint>
-      <datasheet>https://www.nkkswitches.com/pdf/Aslides.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">360-2728-ND</field>
-        <field name="LCSC">-----</field>
-        <field name="Manufacturers Name">NKK Switches</field>
-        <field name="Manufacturers Part Number">AS11CH</field>
-        <field name="Mouser Part Number">633-AS11CH </field>
-      </fields>
-      <libsource lib="Custom" part="AS11CH" description=""/>
-      <property name="Manufacturers Name" value="NKK Switches"/>
-      <property name="Manufacturers Part Number" value="AS11CH"/>
-      <property name="Digikey Part Number" value="360-2728-ND"/>
-      <property name="Mouser Part Number" value="633-AS11CH "/>
-      <property name="LCSC" value="-----"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cded39b0-4d0d-458b-8188-edef25e77bf4</tstamps>
-    </comp>
-    <comp ref="TH1">
-      <value>10K</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://www.ohmite.com/assets/docs/res_tx.pdf?r=false</datasheet>
-      <fields>
-        <field name="Digikey Part Number">273-TX06F103F3435ERCT-ND</field>
-        <field name="LCSC">------</field>
-        <field name="Manufacturers Name">Ohmite</field>
-        <field name="Manufacturers Part Number">TX06F103F3435ER</field>
-        <field name="Mouser Part Number">588-TX06F103F3435ER </field>
-      </fields>
-      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
-      <property name="Manufacturers Name" value="Ohmite"/>
-      <property name="Manufacturers Part Number" value="TX06F103F3435ER"/>
-      <property name="Digikey Part Number" value="273-TX06F103F3435ERCT-ND"/>
-      <property name="Mouser Part Number" value="588-TX06F103F3435ER "/>
-      <property name="LCSC" value="------"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ad3a05bd-7136-4320-b0f7-15cd79af919f</tstamps>
     </comp>
     <comp ref="U1">
       <value>ESP32-PICO-MINI-02</value>
@@ -1092,7 +969,7 @@
       <property name="Mouser Part Number" value="356-ESP32PCOMN2PH3Q0"/>
       <property name="LCSC" value="C2980306"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d4bc41a3-7c57-4f40-97db-bef366ca2f9d</tstamps>
     </comp>
@@ -1113,7 +990,7 @@
       <property name="Mouser Part Number" value="634-CP2102NA02GQFN28 "/>
       <property name="LCSC" value="C1550553"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31b5f818-fda1-4ba9-ba9c-5624154f53ec</tstamps>
     </comp>
@@ -1135,31 +1012,31 @@
       <property name="LCSC" value="C2876187"/>
       <property name="Mouser Part Number" value="595-LP5912Q3.3DRVTQ1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1bdcafb1-1e88-4076-8b09-cd1123d71176</tstamps>
     </comp>
     <comp ref="U4">
-      <value>MCP73871-2CC-Custom</value>
-      <footprint>Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias</footprint>
-      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf</datasheet>
+      <value>TPS2115APW</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2114a</datasheet>
       <fields>
-        <field name="Digikey Part Number">MCP73871-2CCI/ML-ND</field>
-        <field name="LCSC">C5121473</field>
-        <field name="Manufacturers Name">Microchip Technology</field>
-        <field name="Manufacturers Part Number">MCP73871-2CCI/ML</field>
-        <field name="Mouser Part Number">579-MCP73871-2CCI/ML </field>
+        <field name="Digikey Part Number">296-26918-5-ND</field>
+        <field name="LCSC">C70287</field>
+        <field name="Manufacturers Name">Texas Instruments</field>
+        <field name="Manufacturers Part Number">TPS2115APW</field>
+        <field name="Mouser Part Number">595-TPS2115APW </field>
       </fields>
-      <libsource lib="Custom" part="MCP73871-2CC-Custom" description=""/>
-      <property name="Manufacturers Name" value="Microchip Technology"/>
-      <property name="Manufacturers Part Number" value="MCP73871-2CCI/ML"/>
-      <property name="Digikey Part Number" value="MCP73871-2CCI/ML-ND"/>
-      <property name="Mouser Part Number" value="579-MCP73871-2CCI/ML "/>
-      <property name="LCSC" value="C5121473"/>
+      <libsource lib="Custom" part="TPS2115APW" description=""/>
+      <property name="Manufacturers Name" value="Texas Instruments"/>
+      <property name="Manufacturers Part Number" value="TPS2115APW"/>
+      <property name="Digikey Part Number" value="296-26918-5-ND"/>
+      <property name="Mouser Part Number" value="595-TPS2115APW "/>
+      <property name="LCSC" value="C70287"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>31248460-b0e0-4f79-ac68-f1a028fcc92b</tstamps>
+      <tstamps>3ec17521-7dd3-4a97-8b4a-5127bec9ff41</tstamps>
     </comp>
     <comp ref="U5">
       <value>RFM95W-915S2</value>
@@ -1179,34 +1056,103 @@
       <property name="Mouser Part Number" value="223-RFM95W-915S2 "/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7c1d18dd-f557-48cf-bf2a-db78764fb1f2</tstamps>
     </comp>
     <comp ref="U6">
-      <value>LS18-S(Debouce)</value>
-      <footprint>Custom:SOIC127P600X175-8N</footprint>
-      <datasheet>https://www.logiswitch.com/wp-content/uploads/LS10-Series-ICs-Technical-Details.pdf</datasheet>
+      <value>MAX6817EUT+T</value>
+      <footprint>SOT95P280X145-6N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6816-MAX6818.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">2978-LS18-S-ND</field>
-        <field name="LCSC">-----</field>
-        <field name="Manufacturers Name">LogiSwitch</field>
-        <field name="Manufacturers Part Number">LS18-S</field>
-        <field name="Mouser Part Number">------</field>
+        <field name="Digikey Part Number">MAX6817EUT+TCT-ND</field>
+        <field name="LCSC">C516788</field>
+        <field name="MPN">MAX6817EUT+T</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Manufacturer's Part Number">MAX6817EUT+T</field>
+        <field name="Mouser Part Number">700-MAX6817EUTT </field>
+        <field name="OC_FARNELL">1299771</field>
+        <field name="OC_NEWARK">68K9458</field>
+        <field name="PACKAGE">SOT23-6</field>
+        <field name="SUPPLIER">Maxim</field>
       </fields>
-      <libsource lib="Custom" part="LS18-S(Debouce)" description=""/>
-      <property name="Manufacturers Name" value="LogiSwitch"/>
-      <property name="Manufacturers Part Number" value="LS18-S"/>
-      <property name="Digikey Part Number" value="2978-LS18-S-ND"/>
-      <property name="Mouser Part Number" value="------"/>
+      <libsource lib="Custom" part="MAX6817EUT+T" description=""/>
+      <property name="PACKAGE" value="SOT23-6"/>
+      <property name="MPN" value="MAX6817EUT+T"/>
+      <property name="OC_NEWARK" value="68K9458"/>
+      <property name="OC_FARNELL" value="1299771"/>
+      <property name="SUPPLIER" value="Maxim"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Manufacturer's Part Number" value="MAX6817EUT+T"/>
+      <property name="Digikey Part Number" value="MAX6817EUT+TCT-ND"/>
+      <property name="Mouser Part Number" value="700-MAX6817EUTT "/>
+      <property name="LCSC" value="C516788"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3651ea-cd73-4dff-8d89-163524c00791</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>D24V550F5_Step_Down_Regulator</value>
+      <footprint>Pololu:VoltageREG_2851</footprint>
+      <fields>
+        <field name="Digikey Part Number">-----</field>
+        <field name="LCSC">-----</field>
+        <field name="Manufacturers Name">Pololu</field>
+        <field name="Manufacturers Part Number">D24V50F5</field>
+        <field name="Mouser Part Number">-----</field>
+      </fields>
+      <libsource lib="Pololu" part="D24V550F5_Step_Down_Regulator" description=""/>
+      <property name="Manufacturers Name" value="Pololu"/>
+      <property name="Manufacturers Part Number" value="D24V50F5"/>
+      <property name="Digikey Part Number" value="-----"/>
+      <property name="Mouser Part Number" value="-----"/>
       <property name="LCSC" value="-----"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Remote_Kill_Switch_DoubleSided.kicad_sch"/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c3ab50f6-df14-4388-a9cc-5304bd487c53</tstamps>
+      <tstamps>a34e206a-ee82-4044-9b08-9a4adea85228</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MAX6816</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/1896.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">MAX6816EUS+TCT-ND</field>
+        <field name="LCSC">C41637</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Manufacturer's Part Number">MAX6816EUS+T</field>
+        <field name="Mouser Part Number">700-MAX6816EUST </field>
+      </fields>
+      <libsource lib="Interface" part="MAX6816" description="Single Switch  Debouncer, SOT-143"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Manufacturer's Part Number" value="MAX6816EUS+T"/>
+      <property name="Digikey Part Number" value="MAX6816EUS+TCT-ND"/>
+      <property name="Mouser Part Number" value="700-MAX6816EUST "/>
+      <property name="LCSC" value="C41637"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Kill_Switch_Droid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54319ce5-0689-42c8-87ee-4a3e665b818e</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="USB_B_Micro">
       <description>USB Micro Type B connector</description>
       <docs>~</docs>
@@ -1227,15 +1173,20 @@
         <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Custom" part="AS11CH">
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">AS11CH</field>
-        <field name="Footprint">AS11CH</field>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Custom" part="B5819W-TP">
@@ -1361,81 +1312,24 @@
         <pin num="61" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Custom" part="LS18-S(Debouce)">
+    <libpart lib="Custom" part="MAX6817EUT+T">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LS18-S(Debouce)</field>
+        <field name="Value">MAX6817EUT+T</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="PACKAGE">SOT23-6</field>
+        <field name="MPN">MAX6817EUT+T</field>
+        <field name="OC_NEWARK">68K9458</field>
+        <field name="OC_FARNELL">1299771</field>
+        <field name="SUPPLIER">Maxim</field>
       </fields>
       <pins>
-        <pin num="1" name="VCC" type="power_in"/>
-        <pin num="2" name="SW0" type="input"/>
-        <pin num="3" name="SW1" type="input"/>
-        <pin num="4" name="SW2" type="input"/>
-        <pin num="5" name="OUT2" type="output"/>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IN2" type="input"/>
+        <pin num="4" name="OUT2" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
         <pin num="6" name="OUT1" type="output"/>
-        <pin num="7" name="OUT0" type="output"/>
-        <pin num="8" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Custom" part="MCP73871-2CC-Custom">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP73871-2CC-Custom</field>
-      </fields>
-      <pins>
-        <pin num="1" name="OUT" type="power_in"/>
-        <pin num="2" name="VPCC" type="power_in"/>
-        <pin num="3" name="SEL" type="bidirectional"/>
-        <pin num="4" name="PROG2" type="bidirectional"/>
-        <pin num="5" name="THERM" type="bidirectional"/>
-        <pin num="6" name="PG" type="bidirectional"/>
-        <pin num="7" name="STAT2" type="bidirectional"/>
-        <pin num="8" name="STAT1/LBO" type="bidirectional"/>
-        <pin num="9" name="TE" type="bidirectional"/>
-        <pin num="10" name="GND" type="power_in"/>
-        <pin num="11" name="GND" type="power_in"/>
-        <pin num="12" name="PROG3" type="bidirectional"/>
-        <pin num="13" name="PROG1" type="bidirectional"/>
-        <pin num="14" name="VBAT" type="power_in"/>
-        <pin num="15" name="VBAT" type="power_in"/>
-        <pin num="16" name="VBAT" type="power_in"/>
-        <pin num="17" name="CE" type="bidirectional"/>
-        <pin num="18" name="IN" type="power_in"/>
-        <pin num="19" name="IN" type="power_in"/>
-        <pin num="20" name="OUT" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Custom" part="S2B-PH-K-S(LF)(SN)">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">S2B-PH-K-S(LF)(SN)</field>
-        <field name="Footprint">JST_S2B-PH-K-S(LF)(SN)</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">4.8mm</field>
-        <field name="PACKAGE">None</field>
-        <field name="AVAILABILITY">Unavailable</field>
-        <field name="DESCRIPTION">Connector Header Through Hole, Right Angle 2 position</field>
-        <field name="MP">S2B-PH-K-S_LF__SN_</field>
-        <field name="MF">JST Sales</field>
-        <field name="PRICE">None</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Custom" part="SMAJ5.0">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SMAJ5.0</field>
-        <field name="Footprint">DIOM4325X250N</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
-        <field name="MANUFACTURER">Taiwan Semiconductor</field>
-        <field name="PARTREV">S2102</field>
-        <field name="STANDARD">IPC-7351B</field>
-      </fields>
-      <pins>
-        <pin num="A" name="" type="passive"/>
-        <pin num="C" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Custom" part="TL3342F160QG">
@@ -1450,6 +1344,22 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="TPS2115APW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2115APW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="D0" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="ILIM" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="IN2" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="IN1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Custom" part="U.FL-R-SMT-1(10)">
@@ -1506,24 +1416,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R_Small">
       <description>Resistor, small symbol</description>
       <docs>~</docs>
@@ -1540,25 +1432,23 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Thermistor_NTC">
-      <description>Temperature dependent resistor, negative temperature coefficient</description>
-      <docs>~</docs>
+    <libpart lib="Interface" part="MAX6816">
+      <description>Single Switch  Debouncer, SOT-143</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/1896.pdf</docs>
       <footprints>
-        <fp>*NTC*</fp>
-        <fp>*Thermistor*</fp>
-        <fp>PIN?ARRAY*</fp>
-        <fp>bornier*</fp>
-        <fp>*Terminal?Block*</fp>
-        <fp>R_*</fp>
+        <fp>SOT*143*</fp>
       </footprints>
       <fields>
-        <field name="Reference">TH</field>
-        <field name="Value">Thermistor_NTC</field>
-        <field name="Datasheet">~</field>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6816</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/1896.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="LED" part="WS2812B-2020">
@@ -1573,6 +1463,19 @@
         <pin num="2" name="GND" type="bidirectional"/>
         <pin num="3" name="DI" type="bidirectional"/>
         <pin num="4" name="VDD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pololu" part="D24V550F5_Step_Down_Regulator">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D24V550F5_Step_Down_Regulator</field>
+      </fields>
+      <pins>
+        <pin num="0" name="En" type="bidirectional"/>
+        <pin num="1" name="VIN" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="4" name="GND" type="bidirectional"/>
+        <pin num="5" name="VOut" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="Power_Protection" part="SP0503BAHT">
@@ -1646,10 +1549,31 @@
         <pin num="7" name="EP" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Custom">
       <uri>/Users/gregoryhulette/Documents/KiCad/6.0/symbols/Custom.kicad_sym</uri>
@@ -1657,8 +1581,14 @@
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Interface">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Interface.kicad_sym</uri>
+    </library>
     <library logical="LED">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Pololu">
+      <uri>/Users/gregoryhulette/Documents/KiCad/6.0/symbols/Pololu.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
@@ -1669,12 +1599,16 @@
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+3V3">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -1682,66 +1616,71 @@
       <node ref="L1" pin="4" pinfunction="VDD" pintype="bidirectional"/>
       <node ref="L2" pin="4" pinfunction="VDD" pintype="bidirectional"/>
       <node ref="L3" pin="4" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="3V3" pintype="power_in"/>
       <node ref="U2" pin="6" pinfunction="VDD" pintype="power_in"/>
       <node ref="U2" pin="7" pinfunction="VREGIN" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="OUT" pintype="power_out"/>
       <node ref="U5" pin="13" pinfunction="3.3V" pintype="power_in"/>
-      <node ref="U6" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="2" name="BATSTAT_LED_DATA">
-      <node ref="R17" pin="2" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    <net code="2" name="+5V">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="D1" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="IN1" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="VOut" pintype="bidirectional"/>
     </net>
-    <net code="3" name="BATT_LEVEL">
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-    </net>
-    <net code="4" name="DI0_LORA">
+    <net code="3" name="DI0_LORA">
       <node ref="U1" pin="16" pinfunction="IO26" pintype="bidirectional"/>
       <node ref="U5" pin="14" pinfunction="DIO0" pintype="bidirectional"/>
     </net>
-    <net code="5" name="DTR">
+    <net code="4" name="DTR">
       <node ref="Q2" pin="1" pinfunction="E1" pintype="bidirectional"/>
       <node ref="Q2" pin="5" pinfunction="B2" pintype="bidirectional"/>
-    </net>
-    <net code="6" name="DTS">
       <node ref="U2" pin="28" pinfunction="DTR" pintype="bidirectional"/>
     </net>
-    <net code="7" name="GND">
+    <net code="5" name="EXT_SW_OUT">
+      <node ref="U1" pin="24" pinfunction="IO4" pintype="bidirectional"/>
+      <node ref="U8" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="6" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D3" pin="A" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
-      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="1" pintype="passive"/>
       <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="GND" pintype="bidirectional"/>
       <node ref="L2" pin="2" pinfunction="GND" pintype="bidirectional"/>
       <node ref="L3" pin="2" pinfunction="GND" pintype="bidirectional"/>
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="S1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="S1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="S2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="S2" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="S3" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="S3" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="TH1" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
@@ -1777,148 +1716,122 @@
       <node ref="U3" pin="3" pinfunction="PG" pintype="open_collector"/>
       <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="7" pinfunction="EP" pintype="passive"/>
-      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
-      <node ref="U4" pin="11" pinfunction="GND" pintype="power_in"/>
-      <node ref="U4" pin="3" pinfunction="SEL" pintype="bidirectional"/>
-      <node ref="U4" pin="4" pinfunction="PROG2" pintype="bidirectional"/>
-      <node ref="U4" pin="9" pinfunction="TE" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="D0" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="GND" pintype="input"/>
       <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="10" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="U6" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="8" name="GPIO0">
+    <net code="7" name="GPIO0">
       <node ref="Q2" pin="6" pinfunction="C1" pintype="bidirectional"/>
       <node ref="U1" pin="23" pinfunction="IO0" pintype="bidirectional"/>
     </net>
-    <net code="9" name="LORA_LED_DATA">
+    <net code="8" name="LORA_LED_DATA">
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="IO20" pintype="bidirectional"/>
     </net>
-    <net code="10" name="MISO_LORA">
+    <net code="9" name="MISO_LORA">
       <node ref="U1" pin="19" pinfunction="IO12" pintype="bidirectional"/>
       <node ref="U5" pin="2" pinfunction="MISO" pintype="output"/>
     </net>
-    <net code="11" name="MOSI_LORA">
+    <net code="10" name="MOSI_LORA">
       <node ref="U1" pin="20" pinfunction="IO13" pintype="bidirectional"/>
       <node ref="U5" pin="3" pinfunction="MOSI" pintype="input"/>
     </net>
-    <net code="12" name="NSS_LORA">
+    <net code="11" name="NSS_LORA">
       <node ref="U1" pin="21" pinfunction="IO15" pintype="bidirectional"/>
       <node ref="U5" pin="5" pinfunction="NSS" pintype="input"/>
     </net>
-    <net code="13" name="Net-(C6-Pad2)">
+    <net code="12" name="Net-(C6-Pad2)">
       <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="EN" pintype="input"/>
       <node ref="U3" pin="6" pinfunction="IN" pintype="power_in"/>
-      <node ref="U4" pin="1" pinfunction="OUT" pintype="power_in"/>
-      <node ref="U4" pin="20" pinfunction="OUT" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="14" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="SW4" pin="1" pintype="passive"/>
-      <node ref="U4" pin="14" pinfunction="VBAT" pintype="power_in"/>
-      <node ref="U4" pin="15" pinfunction="VBAT" pintype="power_in"/>
-      <node ref="U4" pin="16" pinfunction="VBAT" pintype="power_in"/>
-    </net>
-    <net code="15" name="Net-(D1-PadA)">
+    <net code="13" name="Net-(D1-PadA)">
       <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
     </net>
-    <net code="16" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(D6-Pad1)">
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-    </net>
-    <net code="19" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW4" pin="3" pintype="passive"/>
-    </net>
-    <net code="20" name="Net-(J3-Pad2)">
+    <net code="14" name="Net-(J3-Pad2)">
       <node ref="J3" pin="2" pintype="passive"/>
       <node ref="U5" pin="9" pinfunction="ANT" pintype="bidirectional"/>
     </net>
-    <net code="21" name="Net-(L1-Pad3)">
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(L1-Pad3)">
       <node ref="L1" pin="3" pinfunction="DI" pintype="bidirectional"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(L2-Pad3)">
+    <net code="18" name="Net-(L2-Pad3)">
       <node ref="L2" pin="3" pinfunction="DI" pintype="bidirectional"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(L3-Pad3)">
+    <net code="19" name="Net-(L3-Pad3)">
       <node ref="L3" pin="3" pinfunction="DI" pintype="bidirectional"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R2-Pad1)">
+    <net code="20" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="TXD" pintype="bidirectional"/>
     </net>
-    <net code="25" name="Net-(R3-Pad1)">
+    <net code="21" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="26" name="Net-(R4-Pad2)">
+    <net code="22" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="VBUS" pintype="power_in"/>
     </net>
-    <net code="27" name="Net-(R6-Pad1)">
+    <net code="23" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="RSTb" pintype="input"/>
     </net>
-    <net code="28" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="PG" pintype="bidirectional"/>
-    </net>
-    <net code="29" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="STAT2" pintype="bidirectional"/>
-    </net>
-    <net code="30" name="Net-(R9-Pad1)">
+    <net code="24" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U4" pin="8" pinfunction="STAT1/LBO" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="ILIM" pintype="input"/>
     </net>
-    <net code="31" name="Net-(R10-Pad1)">
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="U4" pin="13" pinfunction="PROG1" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="Net-(R11-Pad1)">
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="PROG3" pintype="bidirectional"/>
-    </net>
-    <net code="33" name="Net-(S2-Pad1)">
+    <net code="25" name="Net-(S2-Pad1)">
       <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U6" pin="2" pinfunction="SW0" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
-    <net code="34" name="Net-(S3-Pad1)">
+    <net code="26" name="Net-(S3-Pad1)">
       <node ref="S3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="SW2" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
-    <net code="35" name="Net-(TH1-Pad1)">
-      <node ref="TH1" pin="1" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="THERM" pintype="bidirectional"/>
-    </net>
-    <net code="36" name="OFF_SW_OUT">
+    <net code="27" name="OFF_SW_OUT">
       <node ref="U1" pin="27" pinfunction="IO7" pintype="bidirectional"/>
-      <node ref="U6" pin="5" pinfunction="OUT2" pintype="output"/>
+      <node ref="U6" pin="4" pinfunction="OUT2" pintype="output"/>
     </net>
-    <net code="37" name="ON_SW_OUT">
+    <net code="28" name="ON_SW_OUT">
       <node ref="U1" pin="28" pinfunction="IO8" pintype="bidirectional"/>
-      <node ref="U6" pin="7" pinfunction="OUT0" pintype="output"/>
+      <node ref="U6" pin="6" pinfunction="OUT1" pintype="output"/>
     </net>
-    <net code="38" name="RESET">
+    <net code="29" name="RELAY_CONTROL">
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="RELAY_LED_DATA">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="RESET">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="C2" pintype="bidirectional"/>
       <node ref="R1" pin="2" pintype="passive"/>
@@ -1926,188 +1839,182 @@
       <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="39" name="RESET_LORA">
+    <net code="32" name="RESET_LORA">
       <node ref="U1" pin="17" pinfunction="IO27" pintype="bidirectional"/>
       <node ref="U5" pin="6" pinfunction="RESET" pintype="bidirectional"/>
     </net>
-    <net code="40" name="RTS">
+    <net code="33" name="RTS">
       <node ref="Q2" pin="2" pinfunction="B1" pintype="bidirectional"/>
       <node ref="Q2" pin="4" pinfunction="E2" pintype="bidirectional"/>
       <node ref="U2" pin="24" pinfunction="RTS" pintype="bidirectional"/>
     </net>
-    <net code="41" name="RXD0">
+    <net code="34" name="RXD0">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="RXD0" pintype="bidirectional"/>
     </net>
-    <net code="42" name="SCK_LORA">
+    <net code="35" name="SCK_LORA">
       <node ref="U1" pin="18" pinfunction="IO14" pintype="bidirectional"/>
       <node ref="U5" pin="4" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="43" name="STATUS_LED_DATA">
+    <net code="36" name="STATUS_LED_DATA">
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="IO19" pintype="bidirectional"/>
     </net>
-    <net code="44" name="TXD0">
+    <net code="37" name="TXD0">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="TXD0" pintype="bidirectional"/>
     </net>
-    <net code="45" name="USB_DN">
+    <net code="38" name="USB_DN">
       <node ref="D2" pin="4" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U2" pin="5" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="46" name="USB_DP">
+    <net code="39" name="USB_DP">
       <node ref="D2" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U2" pin="4" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="47" name="VBUS">
-      <node ref="C8" pin="1" pintype="passive"/>
+    <net code="40" name="VBUS">
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
-      <node ref="D3" pin="C" pintype="passive"/>
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U4" pin="17" pinfunction="CE" pintype="bidirectional"/>
-      <node ref="U4" pin="18" pinfunction="IN" pintype="power_in"/>
-      <node ref="U4" pin="19" pinfunction="IN" pintype="power_in"/>
-      <node ref="U4" pin="2" pinfunction="VPCC" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="IN2" pintype="input"/>
     </net>
-    <net code="48" name="unconnected-(J1-Pad4)">
+    <net code="41" name="VIN">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="VIN" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(J1-Pad4)">
       <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J1-Pad6)">
+    <net code="43" name="unconnected-(J1-Pad6)">
       <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
     </net>
-    <net code="50" name="unconnected-(L1-Pad1)">
+    <net code="44" name="unconnected-(L1-Pad1)">
       <node ref="L1" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(L2-Pad1)">
+    <net code="45" name="unconnected-(L2-Pad1)">
       <node ref="L2" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(L3-Pad1)">
+    <net code="46" name="unconnected-(L3-Pad1)">
       <node ref="L3" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U1-Pad4)">
+    <net code="47" name="unconnected-(U1-Pad4)">
       <node ref="U1" pin="4" pinfunction="I36" pintype="input+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U1-Pad5)">
+    <net code="48" name="unconnected-(U1-Pad5)">
       <node ref="U1" pin="5" pinfunction="I37" pintype="input+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U1-Pad6)">
+    <net code="49" name="unconnected-(U1-Pad6)">
       <node ref="U1" pin="6" pinfunction="I38" pintype="input+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U1-Pad7)">
+    <net code="50" name="unconnected-(U1-Pad7)">
       <node ref="U1" pin="7" pinfunction="I39" pintype="input+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U1-Pad9)">
+    <net code="51" name="unconnected-(U1-Pad9)">
       <node ref="U1" pin="9" pinfunction="I34" pintype="input+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-Pad10)">
+    <net code="52" name="unconnected-(U1-Pad10)">
       <node ref="U1" pin="10" pinfunction="I35" pintype="input+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-Pad12)">
+    <net code="53" name="unconnected-(U1-Pad12)">
       <node ref="U1" pin="12" pinfunction="IO32" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U1-Pad13)">
+    <net code="54" name="unconnected-(U1-Pad13)">
       <node ref="U1" pin="13" pinfunction="IO33" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U1-Pad15)">
+    <net code="55" name="unconnected-(U1-Pad15)">
       <node ref="U1" pin="15" pinfunction="IO25" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U1-Pad22)">
+    <net code="56" name="unconnected-(U1-Pad22)">
       <node ref="U1" pin="22" pinfunction="IO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U1-Pad24)">
-      <node ref="U1" pin="24" pinfunction="IO4" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="64" name="unconnected-(U1-Pad25)">
+    <net code="57" name="unconnected-(U1-Pad25)">
       <node ref="U1" pin="25" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U1-Pad32)">
+    <net code="58" name="unconnected-(U1-Pad32)">
       <node ref="U1" pin="32" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U1-Pad34)">
+    <net code="59" name="unconnected-(U1-Pad34)">
       <node ref="U1" pin="34" pinfunction="IO22" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U1-Pad35)">
+    <net code="60" name="unconnected-(U1-Pad35)">
       <node ref="U1" pin="35" pinfunction="IO21" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U2-Pad1)">
+    <net code="61" name="unconnected-(U2-Pad1)">
       <node ref="U2" pin="1" pinfunction="DCD" pintype="input+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U2-Pad2)">
+    <net code="62" name="unconnected-(U2-Pad2)">
       <node ref="U2" pin="2" pinfunction="RI" pintype="input+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U2-Pad10)">
+    <net code="63" name="unconnected-(U2-Pad10)">
       <node ref="U2" pin="10" pinfunction="NC1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U2-Pad11)">
+    <net code="64" name="unconnected-(U2-Pad11)">
       <node ref="U2" pin="11" pinfunction="SUSPENDb" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U2-Pad12)">
+    <net code="65" name="unconnected-(U2-Pad12)">
       <node ref="U2" pin="12" pinfunction="SUSPEND" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U2-Pad13)">
+    <net code="66" name="unconnected-(U2-Pad13)">
       <node ref="U2" pin="13" pinfunction="CHREN" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U2-Pad14)">
+    <net code="67" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="CHR1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U2-Pad15)">
+    <net code="68" name="unconnected-(U2-Pad15)">
       <node ref="U2" pin="15" pinfunction="CHR0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U2-Pad16)">
+    <net code="69" name="unconnected-(U2-Pad16)">
       <node ref="U2" pin="16" pinfunction="GPIO.3/WAKEUP" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U2-Pad17)">
+    <net code="70" name="unconnected-(U2-Pad17)">
       <node ref="U2" pin="17" pinfunction="GPIO.2/RS485" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U2-Pad18)">
+    <net code="71" name="unconnected-(U2-Pad18)">
       <node ref="U2" pin="18" pinfunction="GPIO.1/RXT" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U2-Pad19)">
+    <net code="72" name="unconnected-(U2-Pad19)">
       <node ref="U2" pin="19" pinfunction="GPIO.0/TXT" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U2-Pad20)">
+    <net code="73" name="unconnected-(U2-Pad20)">
       <node ref="U2" pin="20" pinfunction="GPIO.6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U2-Pad21)">
+    <net code="74" name="unconnected-(U2-Pad21)">
       <node ref="U2" pin="21" pinfunction="GPIO.5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U2-Pad22)">
+    <net code="75" name="unconnected-(U2-Pad22)">
       <node ref="U2" pin="22" pinfunction="GPIO.4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U2-Pad23)">
+    <net code="76" name="unconnected-(U2-Pad23)">
       <node ref="U2" pin="23" pinfunction="CTS" pintype="input+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U2-Pad27)">
+    <net code="77" name="unconnected-(U2-Pad27)">
       <node ref="U2" pin="27" pinfunction="DSR" pintype="input+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U3-Pad2)">
+    <net code="78" name="unconnected-(U3-Pad2)">
       <node ref="U3" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U5-Pad7)">
+    <net code="79" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="STAT" pintype="output+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U5-Pad7)">
       <node ref="U5" pin="7" pinfunction="DIO5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U5-Pad11)">
+    <net code="81" name="unconnected-(U5-Pad11)">
       <node ref="U5" pin="11" pinfunction="DIO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U5-Pad12)">
+    <net code="82" name="unconnected-(U5-Pad12)">
       <node ref="U5" pin="12" pinfunction="DIO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U5-Pad15)">
+    <net code="83" name="unconnected-(U5-Pad15)">
       <node ref="U5" pin="15" pinfunction="DIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U5-Pad16)">
+    <net code="84" name="unconnected-(U5-Pad16)">
       <node ref="U5" pin="16" pinfunction="DIO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U6-Pad3)">
-      <node ref="U6" pin="3" pinfunction="SW1" pintype="input+no_connect"/>
-    </net>
-    <net code="92" name="unconnected-(U6-Pad6)">
-      <node ref="U6" pin="6" pinfunction="OUT1" pintype="output+no_connect"/>
+    <net code="85" name="unconnected-(U7-Pad0)">
+      <node ref="U7" pin="0" pinfunction="En" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>

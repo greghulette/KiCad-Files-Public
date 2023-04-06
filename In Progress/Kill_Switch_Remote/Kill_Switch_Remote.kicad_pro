@@ -388,11 +388,11 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "Kill_Switch_Remote.emn",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Remote_Kill_Switch-2.step",
-      "vrml": ""
+      "step": "Remote_Kill_Switch-V4.step",
+      "vrml": "Kill_Switch_Remote.wrl"
     },
     "page_layout_descr_file": ""
   },

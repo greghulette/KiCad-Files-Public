@@ -1,0 +1,3480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_LED_Controller_V1.1/Body_LED_Controller_V1.kicad_sch</source>
+    <date>Friday, March 03, 2023 at 11:05:15 AM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Body Controller</title>
+        <company>Created by: Greg Hulette</company>
+        <rev>1.1</rev>
+        <date>2023-02-10</date>
+        <source>Body_LED_Controller_V1.kicad_sch</source>
+        <comment number="1" value="- ESP-NOW Gateway/Bridge"/>
+        <comment number="2" value="- Creates WiFi Network "/>
+        <comment number="3" value="- Controls All Body Servos"/>
+        <comment number="4" value="- Controls All Body LEDs"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">490-11204-1-ND</field>
+        <field name="LCSC">C913479</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer's Part Number">GJM1555C1H200FB01D</field>
+        <field name="Mouser Part Number">81-GJM1555C1H200FB1D </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C913479"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer's Part Number" value="GJM1555C1H200FB01D"/>
+      <property name="Digikey Part Number" value="490-11204-1-ND"/>
+      <property name="Mouser Part Number" value="81-GJM1555C1H200FB1D "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59606fc3-69a9-40d6-838d-f3d345c43480</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">490-11204-1-ND</field>
+        <field name="LCSC">C913479</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer's Part Number">GJM1555C1H200FB01D</field>
+        <field name="Mouser Part Number">81-GJM1555C1H200FB1D </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C913479"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer's Part Number" value="GJM1555C1H200FB01D"/>
+      <property name="Digikey Part Number" value="490-11204-1-ND"/>
+      <property name="Mouser Part Number" value="81-GJM1555C1H200FB1D "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf522c0e-2291-46d6-9a13-1cb8851ffaa3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-1450-1-ND</field>
+        <field name="LCSC">C315248</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05A106MP5NUNC</field>
+        <field name="Mouser Part Number">187-CL05A106MP5NUNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05A106MP5NUNC"/>
+      <property name="Digikey Part Number" value="1276-1450-1-ND"/>
+      <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba8bc79a-aace-4de0-88b5-2723c87a8882</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de7c7a4-f895-44cc-86de-2adea1be3bcf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7c12432-d208-46c8-9ed8-de132c4d137b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38cecb4e-5e3c-4e2d-8ba8-9d4060cb532b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9ed4db6-bc7d-473f-90da-a218ddfd6200</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6708d228-a315-4a34-bc82-c41a553c79bb</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-1450-1-ND</field>
+        <field name="LCSC">C315248</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05A106MP5NUNC</field>
+        <field name="Mouser Part Number">187-CL05A106MP5NUNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05A106MP5NUNC"/>
+      <property name="Digikey Part Number" value="1276-1450-1-ND"/>
+      <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ddc496b-6d7b-40ff-8d27-61898d7a3046</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-1450-1-ND</field>
+        <field name="LCSC">C315248</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05A106MP5NUNC</field>
+        <field name="Mouser Part Number">187-CL05A106MP5NUNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05A106MP5NUNC"/>
+      <property name="Digikey Part Number" value="1276-1450-1-ND"/>
+      <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b526558-22cc-49f0-a422-90dcb56c2b73</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5909492-b68b-47b5-b3df-4a73813624d6</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-1450-1-ND</field>
+        <field name="LCSC">C315248</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05A106MP5NUNC</field>
+        <field name="Mouser Part Number">187-CL05A106MP5NUNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C315248"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05A106MP5NUNC"/>
+      <property name="Digikey Part Number" value="1276-1450-1-ND"/>
+      <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daa29870-3f1a-4dda-be46-565ebf7aa99c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc7d2216-427e-4b3d-a76a-e328905f8984</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92ee6384-95e9-4a05-9421-6294b3081d53</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b83d0f6b-ce5b-4676-9240-968e09661fde</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec90e4f1-40cb-4dd4-96be-af81a906587c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21007af6-83c3-4995-ad32-e476070d8e7f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78dd02b8-4293-4892-8ea6-2cb8b0619ddc</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e661ea0-4a79-4fe3-91c8-49e4b2b77c77</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc168bbf-c74b-469f-9366-dff9c73e0187</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1276-CL05B104KB54PNCCT-ND</field>
+        <field name="LCSC">C307331</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer's Part Number">CL05B104KB54PNC</field>
+        <field name="Mouser Part Number">187-CL05B104KB54PNC </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer's Part Number" value="CL05B104KB54PNC"/>
+      <property name="Digikey Part Number" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff293ee-ec68-4757-a7ed-2f238b58ad40</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">160-1445-1-ND</field>
+        <field name="LCSC">C160478</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Manufacturer's Part Number">LTST-C191KFKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KFKT </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Lite-On Inc."/>
+      <property name="Manufacturer's Part Number" value="LTST-C191KFKT"/>
+      <property name="Digikey Part Number" value="160-1445-1-ND"/>
+      <property name="Mouser Part Number" value="859-LTST-C191KFKT "/>
+      <property name="LCSC" value="C160478"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d24812c1-f2f3-4bcf-8d1c-b6e2bef70d71</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>B5819W-TP</value>
+      <footprint>SOD3716X135N</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/B5817W-B5819W(SOD-123).pdf </datasheet>
+      <fields>
+        <field name="Digikey Part Number">B5819W-TPMSCT-ND </field>
+        <field name="LCSC">C84354 </field>
+        <field name="MANUFACTURER">Micro Commercial Components</field>
+        <field name="Manufacturer">Micro Commercial Co </field>
+        <field name="Manufacturer's Part Number">B5819W-TP </field>
+        <field name="Mouser Part Number">833-B5819W-TP </field>
+      </fields>
+      <libsource lib="" part="B5819W-TP_1" description=""/>
+      <property name="MANUFACTURER" value="Micro Commercial Components"/>
+      <property name="Manufacturer" value="Micro Commercial Co "/>
+      <property name="Manufacturer's Part Number" value="B5819W-TP "/>
+      <property name="Digikey Part Number" value="B5819W-TPMSCT-ND "/>
+      <property name="Mouser Part Number" value="833-B5819W-TP "/>
+      <property name="LCSC" value="C84354 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6739ae91-b721-4c28-999f-14dc323d6c72</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>B5819W-TP</value>
+      <footprint>SOD3716X135N</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/B5817W-B5819W(SOD-123).pdf </datasheet>
+      <fields>
+        <field name="Digikey Part Number">B5819W-TPMSCT-ND </field>
+        <field name="LCSC">C84354 </field>
+        <field name="MANUFACTURER">Micro Commercial Components</field>
+        <field name="Manufacturer">Micro Commercial Co </field>
+        <field name="Manufacturer's Part Number">B5819W-TP </field>
+        <field name="Mouser Part Number">833-B5819W-TP </field>
+      </fields>
+      <libsource lib="" part="B5819W-TP_1" description=""/>
+      <property name="MANUFACTURER" value="Micro Commercial Components"/>
+      <property name="Manufacturer" value="Micro Commercial Co "/>
+      <property name="Manufacturer's Part Number" value="B5819W-TP "/>
+      <property name="Digikey Part Number" value="B5819W-TPMSCT-ND "/>
+      <property name="Mouser Part Number" value="833-B5819W-TP "/>
+      <property name="LCSC" value="C84354 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96b481a6-c11c-4979-a8c4-26b764c9ebc0</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>B5819W-TP</value>
+      <footprint>SOD3716X135N</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/B5817W-B5819W(SOD-123).pdf </datasheet>
+      <fields>
+        <field name="Digikey Part Number">B5819W-TPMSCT-ND </field>
+        <field name="LCSC">C84354 </field>
+        <field name="MANUFACTURER">Micro Commercial Components</field>
+        <field name="Manufacturer">Micro Commercial Co </field>
+        <field name="Manufacturer's Part Number">B5819W-TP </field>
+        <field name="Mouser Part Number">833-B5819W-TP </field>
+      </fields>
+      <libsource lib="" part="B5819W-TP_1" description=""/>
+      <property name="MANUFACTURER" value="Micro Commercial Components"/>
+      <property name="Manufacturer" value="Micro Commercial Co "/>
+      <property name="Manufacturer's Part Number" value="B5819W-TP "/>
+      <property name="Digikey Part Number" value="B5819W-TPMSCT-ND "/>
+      <property name="Mouser Part Number" value="833-B5819W-TP "/>
+      <property name="LCSC" value="C84354 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c6d56a4-9790-4a42-8308-2b730ae21793</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>MF-MSMF050-2</value>
+      <footprint>Custom:FUSM4632X85</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061740_BOURNS-MF-MSMF050-2_C17313.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">MF-MSMF050-2CT-ND</field>
+        <field name="LCSC">C17313</field>
+        <field name="MANUFACTURER">Bourns</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer's Part Number">MF-MSMF050-2</field>
+        <field name="Mouser Part Number">652-MF-MSMF050-2 </field>
+      </fields>
+      <libsource lib="Custom" part="MF-MSMF050-2" description=""/>
+      <property name="MANUFACTURER" value="Bourns"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Manufacturer's Part Number" value="MF-MSMF050-2"/>
+      <property name="Digikey Part Number" value="MF-MSMF050-2CT-ND"/>
+      <property name="Mouser Part Number" value="652-MF-MSMF050-2 "/>
+      <property name="LCSC" value="C17313"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61843730-cf9b-4810-825c-45705040f006</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Ext Mic</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022272031_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022272031</field>
+        <field name="Mouser Part Number">538-22-27-2031 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022272031"/>
+      <property name="Digikey Part Number" value="WM4112-ND"/>
+      <property name="Mouser Part Number" value="538-22-27-2031 "/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7e1a28d-2d99-49a9-91da-4d6cd45d8494</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-3221-ND</field>
+        <field name="LCSC">C492427</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">67996-420HLF</field>
+        <field name="Mouser Part Number">649-67996-420HLF </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="67996-420HLF"/>
+      <property name="Digikey Part Number" value="609-3221-ND"/>
+      <property name="Mouser Part Number" value="649-67996-420HLF "/>
+      <property name="LCSC" value="C492427"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1eaf0b7-b432-4407-8d12-baa24918d397</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>LDP</value>
+      <footprint>Custom:470531000</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4330-ND</field>
+        <field name="LCSC">C240840</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0470531000</field>
+        <field name="Mouser Part Number">538-47053-1000 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C240840"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0470531000"/>
+      <property name="Digikey Part Number" value="WM4330-ND"/>
+      <property name="Mouser Part Number" value="538-47053-1000 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a92ce35-66eb-4f44-82f9-5ff75f14fad5</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Coin Slots</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022292061_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM2748-ND</field>
+        <field name="LCSC">C587046</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022292061</field>
+        <field name="Mouser Part Number">538-22-29-2061 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022292061"/>
+      <property name="Digikey Part Number" value="WM2748-ND"/>
+      <property name="Mouser Part Number" value="538-22-29-2061 "/>
+      <property name="LCSC" value="C587046"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbff1f17-be29-4391-b7c7-cda11e166dc1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>CBI Batt LEDS</value>
+      <footprint>Custom:470531000</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4330-ND</field>
+        <field name="LCSC">C240840</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0470531000</field>
+        <field name="Mouser Part Number">538-47053-1000 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C240840"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0470531000"/>
+      <property name="Digikey Part Number" value="WM4330-ND"/>
+      <property name="Mouser Part Number" value="538-47053-1000 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>859dac86-c938-47a0-800c-feb2e2f785e9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Data Panel/ CBI</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022232051_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4203-ND</field>
+        <field name="LCSC">C588986</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">538-22-23-2051 </field>
+        <field name="Mouser Part Number">538-22-23-2051 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C588986"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="538-22-23-2051 "/>
+      <property name="Digikey Part Number" value="WM4203-ND"/>
+      <property name="Mouser Part Number" value="538-22-23-2051 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b25ad4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Spectrum Analyzer</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022292061_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM2748-ND</field>
+        <field name="LCSC">C587046</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022292061</field>
+        <field name="Mouser Part Number">538-22-29-2061 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022292061"/>
+      <property name="Digikey Part Number" value="WM2748-ND"/>
+      <property name="Mouser Part Number" value="538-22-29-2061 "/>
+      <property name="LCSC" value="C587046"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02211994-ffc8-44f3-bf78-fb004c9e06e9</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Maintenance</value>
+      <footprint>Custom:470531000</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4330-ND</field>
+        <field name="LCSC">C240840</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0470531000</field>
+        <field name="Mouser Part Number">538-47053-1000 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C240840"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0470531000"/>
+      <property name="Digikey Part Number" value="WM4330-ND"/>
+      <property name="Mouser Part Number" value="538-47053-1000 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dc4f786-16da-4ff7-9ac8-ae7491740470</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>2560 USB</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-4618-1-ND</field>
+        <field name="LCSC">C132563</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">10118194-0001LF</field>
+        <field name="Mouser Part Number">649-10118194-0001LF </field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="10118194-0001LF"/>
+      <property name="Digikey Part Number" value="609-4618-1-ND"/>
+      <property name="Mouser Part Number" value="649-10118194-0001LF "/>
+      <property name="LCSC" value="C132563"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef24537b-5869-4527-beb0-b4b51cc2f352</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>ESP USB</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-4618-1-ND</field>
+        <field name="LCSC">C132563</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">10118194-0001LF</field>
+        <field name="Mouser Part Number">649-10118194-0001LF </field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="10118194-0001LF"/>
+      <property name="Digikey Part Number" value="609-4618-1-ND"/>
+      <property name="Mouser Part Number" value="649-10118194-0001LF "/>
+      <property name="LCSC" value="C132563"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9af28133-af23-435f-908f-74eec1ed4732</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>UnSW_BATT_IN</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96963704-ef74-4502-8f77-08df589216f0</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Sound Board</value>
+      <footprint>Custom:470531000</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4330-ND</field>
+        <field name="LCSC">C240840</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0470531000</field>
+        <field name="Mouser Part Number">538-47053-1000 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C240840"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0470531000"/>
+      <property name="Digikey Part Number" value="WM4330-ND"/>
+      <property name="Mouser Part Number" value="538-47053-1000 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e75351b3-e622-4bb9-8329-c36197f3b74f</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Dome Controller USB</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-4618-1-ND</field>
+        <field name="LCSC">C132563</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">10118194-0001LF</field>
+        <field name="Mouser Part Number">649-10118194-0001LF </field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="10118194-0001LF"/>
+      <property name="Digikey Part Number" value="609-4618-1-ND"/>
+      <property name="Mouser Part Number" value="649-10118194-0001LF "/>
+      <property name="LCSC" value="C132563"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dcb4e0c-31f4-4098-83d1-6265589b96a2</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Dome Plate Controller USB</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-4618-1-ND</field>
+        <field name="LCSC">C132563</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">10118194-0001LF</field>
+        <field name="Mouser Part Number">649-10118194-0001LF </field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="10118194-0001LF"/>
+      <property name="Digikey Part Number" value="609-4618-1-ND"/>
+      <property name="Mouser Part Number" value="649-10118194-0001LF "/>
+      <property name="LCSC" value="C132563"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409afa95-bed7-4976-a892-ee999caab054</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>UnSW_BATT_PASS</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>829d15e6-1734-485a-adfb-7ab85c818826</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>RADH_POW</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d4ac5a1-d2f1-486f-bbce-3f98fee2a469</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>RASP_POW</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bd05a58-94e3-4a29-873a-5dfb46f228e2</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>5V_OUT_3</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad67776a-6134-48d4-995c-50c49e317b5d</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>ICSP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">609-3234-ND</field>
+        <field name="LCSC">C236051</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer's Part Number">67997-206HLF</field>
+        <field name="Mouser Part Number">649-67997-206HLF </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer's Part Number" value="67997-206HLF"/>
+      <property name="Digikey Part Number" value="609-3234-ND"/>
+      <property name="Mouser Part Number" value="649-67997-206HLF "/>
+      <property name="LCSC" value="C236051"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9f27732-061a-4510-a897-7753a4a3f3da</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Dome Electronics Power In</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61d7b21-e246-4ab2-8b49-9d2a9eda24d4</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>DB25_Male_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2203221830_XKB-Connectivity-X0225WT7W5_C2984302.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">225ME-ND</field>
+        <field name="LCSC">C2984302</field>
+        <field name="Manufacturer">NorComp Inc.</field>
+        <field name="Manufacturer's Part Number">171-025-103L001</field>
+        <field name="Mouser Part Number">636-171-025-103L001 </field>
+      </fields>
+      <libsource lib="Connector" part="DB25_Female_MountingHoles" description="25-pin female D-SUB connector, Mounting Hole"/>
+      <property name="Manufacturer" value="NorComp Inc."/>
+      <property name="Manufacturer's Part Number" value="171-025-103L001"/>
+      <property name="Digikey Part Number" value="225ME-ND"/>
+      <property name="Mouser Part Number" value="636-171-025-103L001 "/>
+      <property name="LCSC" value="C2984302"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d68ba233-86ab-4bb0-840d-b6f5f1aad046</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>Amplifier_POW</value>
+      <footprint>TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">277-1721-ND</field>
+        <field name="LCSC"> C474892</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer's Part Number">1984617</field>
+        <field name="Mouser Part Number">651-1984617 </field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=" C474892"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer's Part Number" value="1984617"/>
+      <property name="Digikey Part Number" value="277-1721-ND"/>
+      <property name="Mouser Part Number" value="651-1984617 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>470d6dd2-e7a1-429e-92b2-6c20ee19cebb</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>AUX1</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022272031_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022272031</field>
+        <field name="Mouser Part Number">538-22-27-2031 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022272031"/>
+      <property name="Digikey Part Number" value="WM4112-ND"/>
+      <property name="Mouser Part Number" value="538-22-27-2031 "/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f83d13-aabc-4983-83b3-2a5daf28d2a6</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>Stealth</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022272031_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022272031</field>
+        <field name="Mouser Part Number">538-22-27-2031 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022272031"/>
+      <property name="Digikey Part Number" value="WM4112-ND"/>
+      <property name="Mouser Part Number" value="538-22-27-2031 "/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8ffe730-d38c-451b-860c-88de16382ac0</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>RADH</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022272031_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022272031</field>
+        <field name="Mouser Part Number">538-22-27-2031 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022272031"/>
+      <property name="Digikey Part Number" value="WM4112-ND"/>
+      <property name="Mouser Part Number" value="538-22-27-2031 "/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>184215aa-c963-481a-846b-e1c525e853d1</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>Vu Data Panel</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022292061_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM2748-ND</field>
+        <field name="LCSC">C587046</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022292061</field>
+        <field name="Mouser Part Number">538-22-29-2061 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022292061"/>
+      <property name="Digikey Part Number" value="WM2748-ND"/>
+      <property name="Mouser Part Number" value="538-22-29-2061 "/>
+      <property name="LCSC" value="C587046"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b3fb223-7439-4da6-bacd-5dd931bce546</tstamps>
+    </comp>
+    <comp ref="J37">
+      <value>AUX2</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022272031_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">WM4112-ND</field>
+        <field name="LCSC">C471416</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer's Part Number">0022272031</field>
+        <field name="Mouser Part Number">538-22-27-2031 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer's Part Number" value="0022272031"/>
+      <property name="Digikey Part Number" value="WM4112-ND"/>
+      <property name="Mouser Part Number" value="538-22-27-2031 "/>
+      <property name="LCSC" value="C471416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a72c57-43f6-4c60-a72f-40b88c383ebf</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>WS2812B-2020</value>
+      <footprint>WS2812B-2020</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2012110135_Worldsemi-WS2812B-2020_C965555.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1528-4684-ND</field>
+        <field name="LCSC">C965555</field>
+        <field name="Manufacturer">Worldsemi</field>
+        <field name="Manufacturer's Part Number">WS2812B-2020</field>
+        <field name="Mouser Part Number">485-4684 </field>
+      </fields>
+      <libsource lib="LED" part="WS2812B-2020" description=""/>
+      <property name="Manufacturer" value="Worldsemi"/>
+      <property name="Manufacturer's Part Number" value="WS2812B-2020"/>
+      <property name="Digikey Part Number" value="1528-4684-ND"/>
+      <property name="Mouser Part Number" value="485-4684 "/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9949ce8-c165-4601-9356-56df1cbb2651</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>WS2812B-2020</value>
+      <footprint>WS2812B-2020</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2012110135_Worldsemi-WS2812B-2020_C965555.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1528-4684-ND</field>
+        <field name="LCSC">C965555</field>
+        <field name="Manufacturer">Worldsemi</field>
+        <field name="Manufacturer's Part Number">WS2812B-2020</field>
+        <field name="Mouser Part Number">485-4684 </field>
+      </fields>
+      <libsource lib="LED" part="WS2812B-2020" description=""/>
+      <property name="Manufacturer" value="Worldsemi"/>
+      <property name="Manufacturer's Part Number" value="WS2812B-2020"/>
+      <property name="Digikey Part Number" value="1528-4684-ND"/>
+      <property name="Mouser Part Number" value="485-4684 "/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>000709f0-3dba-466e-a62e-9e66290e1ed4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1292-WR06X105JTLCT-ND</field>
+        <field name="LCSC">C384292</field>
+        <field name="Manufacturer">Walsin Tech Corp</field>
+        <field name="Manufacturer's Part Number">WR06X105 JTL</field>
+        <field name="Mouser Part Number">791-WR06X105JTL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Walsin Tech Corp"/>
+      <property name="Manufacturer's Part Number" value="WR06X105 JTL"/>
+      <property name="Digikey Part Number" value="1292-WR06X105JTLCT-ND"/>
+      <property name="Mouser Part Number" value="791-WR06X105JTL "/>
+      <property name="LCSC" value="C384292"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0a92b63-b80e-4806-aa72-1c7ed2738287</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-200GRCT-ND</field>
+        <field name="LCSC">C114686</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RC0603JR-07200RL</field>
+        <field name="Mouser Part Number">603-RC0603JR-07200RL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RC0603JR-07200RL"/>
+      <property name="Digikey Part Number" value="311-200GRCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0603JR-07200RL "/>
+      <property name="LCSC" value="C114686"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5150c515-5131-41c6-a49d-021a48ddc44b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>400</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">13-RT1206BRD07400RLCT-ND</field>
+        <field name="LCSC">C706413</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RT1206BRD07400RL</field>
+        <field name="Mouser Part Number">603-RT1206BRD07400RL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RT1206BRD07400RL"/>
+      <property name="Digikey Part Number" value="13-RT1206BRD07400RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RT1206BRD07400RL "/>
+      <property name="LCSC" value="C706413"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37455c05-0026-4fca-8bb0-ac609ab0c612</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>400</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">13-RT1206BRD07400RLCT-ND</field>
+        <field name="LCSC">C706413</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RT1206BRD07400RL</field>
+        <field name="Mouser Part Number">603-RT1206BRD07400RL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RT1206BRD07400RL"/>
+      <property name="Digikey Part Number" value="13-RT1206BRD07400RLCT-ND"/>
+      <property name="Mouser Part Number" value="603-RT1206BRD07400RL "/>
+      <property name="LCSC" value="C706413"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70b0dd53-0c41-47cb-86bf-d416dce6a268</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-220JRCT-ND</field>
+        <field name="LCSC">C137899</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RC0402JR-07220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-07220RL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RC0402JR-07220RL"/>
+      <property name="Digikey Part Number" value="311-220JRCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-07220RL "/>
+      <property name="LCSC" value="C137899"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0d9e74-2d92-42f5-8ee7-b73facb73c17</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da386f60-bb71-409c-9e5b-fbc14efeaeea</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e66be74a-6f3a-4f1d-bf4a-6ff257fd285a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c1a844</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061be6bed</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87fc57f-f56e-4686-87c7-8e41a45e4bc7</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97b245ba-1493-4458-aec5-29e3de0b615e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07c3a5e9-e419-4936-830c-37bd74ff952e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1463132-d6cd-422a-bb5d-9baaf3823e89</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C352454</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C352454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5e23e21-6397-4fd9-88d8-da898369897c</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e93e2c60-284c-48e6-9fe5-de20f5f98452</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fff53244-6ee7-4935-a483-b8bfdb1af4fc</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f37acb4b-7968-4e37-8c28-af6c41e3eb41</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>57K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-57.6KHRCT-ND</field>
+        <field name="LCSC">C245983</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RC0603FR-0757K6L</field>
+        <field name="Mouser Part Number">603-RC0603FR-0757K6L </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RC0603FR-0757K6L"/>
+      <property name="Digikey Part Number" value="311-57.6KHRCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0757K6L "/>
+      <property name="LCSC" value="C245983"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02bb12d0-ee60-4d56-96ff-64a154ec1753</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FG22K0CT-ND</field>
+        <field name="LCSC">C325646</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer's Part Number">RMCF0603FG22K0</field>
+        <field name="Mouser Part Number">708-RMCF0603FG22K0 </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Manufacturer's Part Number" value="RMCF0603FG22K0"/>
+      <property name="Digikey Part Number" value="RMCF0603FG22K0CT-ND"/>
+      <property name="Mouser Part Number" value="708-RMCF0603FG22K0 "/>
+      <property name="LCSC" value="C325646"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1d467ae-0ae8-4b46-85b9-b44ed2d1d202</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6759d26-d81c-4bee-aa8f-0d1b99db2df1</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8feb3d04-d9f9-4c18-b68a-f2ce8177178e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f0f9b53-15a0-4186-88c0-0ea521c43bef</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4876918-0ef8-48a3-a091-00b90ee8ee30</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>161b7103-5dd7-4756-9798-4aca7b9bb4e2</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bb200b7-5147-46df-8b48-7515618b9647</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-220JRCT-ND</field>
+        <field name="LCSC">C137899</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">RC0402JR-07220RL</field>
+        <field name="Mouser Part Number">603-RC0402JR-07220RL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="RC0402JR-07220RL"/>
+      <property name="Digikey Part Number" value="311-220JRCT-ND"/>
+      <property name="Mouser Part Number" value="603-RC0402JR-07220RL "/>
+      <property name="LCSC" value="C137899"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d74e5d0-4167-451d-b996-a6fe33a259af</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a31c5113-2313-45fb-93ff-e0f7a41ae003</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18beb5eb-83a2-4015-a611-2c6c58b24b40</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">YAG3436CT-ND</field>
+        <field name="LCSC">C144807</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer's Part Number">AC0402FR-0710KL</field>
+        <field name="Mouser Part Number">603-AC0402FR-0710KL </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C144807"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer's Part Number" value="AC0402FR-0710KL"/>
+      <property name="Digikey Part Number" value="YAG3436CT-ND"/>
+      <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4317da36-28e6-4d44-ba6f-ab2bcb11134d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>2560 Reset</value>
+      <footprint>Custom:GT-TC057A-H050-L1</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110111130_XKB-Connectivity-TS-1101S-B-B-B-W-A_C692465.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">EG2529CT-ND</field>
+        <field name="LCSC">C2886915</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer's Part Number">TL3302BF180QG/TR</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Manufacturer's Part Number" value="TL3302BF180QG/TR"/>
+      <property name="Digikey Part Number" value="EG2529CT-ND"/>
+      <property name="LCSC" value="C2886915"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40f66bf5-d447-45e3-b860-4062a09ecce1</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Custom:GT-TC057A-H050-L1</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110111130_XKB-Connectivity-TS-1101S-B-B-B-W-A_C692465.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">EG2529CT-ND</field>
+        <field name="LCSC">C2886915</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer's Part Number">TL3302BF180QG/TR</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Manufacturer's Part Number" value="TL3302BF180QG/TR"/>
+      <property name="Digikey Part Number" value="EG2529CT-ND"/>
+      <property name="LCSC" value="C2886915"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d37d1a-c5aa-44ac-b25c-30708a079cb7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA256016AU</value>
+      <footprint>Custom:QFP50P1600X1600X120-100N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809041913_Microchip-Tech-ATMEGA2560-16AU_C22460.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">ATMEGA2560-16AU-ND</field>
+        <field name="LCSC">C22460</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer's Part Number">ATMEGA2560-16AU</field>
+        <field name="Mouser Part Number">556-ATMEGA2560-16AU </field>
+      </fields>
+      <libsource lib="Custom" part="ATMEGA256016AU" description=""/>
+      <property name="LCSC" value="C22460"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Manufacturer's Part Number" value="ATMEGA2560-16AU"/>
+      <property name="Digikey Part Number" value="ATMEGA2560-16AU-ND"/>
+      <property name="Mouser Part Number" value="556-ATMEGA2560-16AU "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ea3f58-77ba-4e08-a00d-10410c588ef3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>CH340C</value>
+      <footprint>Custom:SOIC127P600X180-16N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340C_C84681.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C84681</field>
+        <field name="MANUFACTURER">WCH</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="Manufacturer">WCH(Jiangsu Qin Heng)</field>
+        <field name="Manufacturer's Part Number">CH340C</field>
+        <field name="PARTREV">2G</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="Custom" part="CH340C" description=""/>
+      <property name="PARTREV" value="2G"/>
+      <property name="MANUFACTURER" value="WCH"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="Manufacturer" value="WCH(Jiangsu Qin Heng)"/>
+      <property name="Manufacturer's Part Number" value="CH340C"/>
+      <property name="LCSC" value="C84681"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>009177f5-60e4-4c3e-a5f6-f9d1c4e89a8a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS2115APW</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2114a</datasheet>
+      <fields>
+        <field name="Digikey Part Number">296-26918-5-ND</field>
+        <field name="LCSC">C70287</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer's Part Number">TPS2115APW</field>
+        <field name="Mouser Part Number">595-TPS2115APW </field>
+      </fields>
+      <libsource lib="Custom" part="TPS2115APW" description=""/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer's Part Number" value="TPS2115APW"/>
+      <property name="Digikey Part Number" value="296-26918-5-ND"/>
+      <property name="Mouser Part Number" value="595-TPS2115APW "/>
+      <property name="LCSC" value="C70287"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f7fa660-39ba-4400-8cd9-b6c82e695e80</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ESP32-WROOM-32D_16MB_</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2005211207_Espressif-Systems-ESP32-WROOM-32D-N16_C529578.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1965-ESP32-WROOM-32D-N16CT-ND</field>
+        <field name="LCSC">C529578</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Manufacturer's Part Number">ESP32-WROOM-32D-N16</field>
+        <field name="Mouser Part Number">356-ES32WROOM32D16MB </field>
+      </fields>
+      <libsource lib="Custom" part="ESP32-WROOM-32-Custom" description=""/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="Manufacturer's Part Number" value="ESP32-WROOM-32D-N16"/>
+      <property name="Digikey Part Number" value="1965-ESP32-WROOM-32D-N16CT-ND"/>
+      <property name="Mouser Part Number" value="356-ES32WROOM32D16MB "/>
+      <property name="LCSC" value="C529578"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04aa48fa-ae79-46bc-89f4-e311acac1e7a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CH340C</value>
+      <footprint>Custom:SOIC127P600X180-16N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340C_C84681.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C84681</field>
+        <field name="MANUFACTURER">WCH</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="Manufacturer"> WCH(Jiangsu Qin Heng)</field>
+        <field name="Manufacturer's Part Number">CH340C</field>
+        <field name="PARTREV">2G</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="Custom" part="CH340C" description=""/>
+      <property name="PARTREV" value="2G"/>
+      <property name="MANUFACTURER" value="WCH"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="Manufacturer" value=" WCH(Jiangsu Qin Heng)"/>
+      <property name="Manufacturer's Part Number" value="CH340C"/>
+      <property name="LCSC" value="C84681"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4038125c-e81b-49ed-baef-35724af020bb</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>UMH3N</value>
+      <footprint>Custom:UMT6</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809211024_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--UMH3N_C62892.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">4617-UMH3NTR-ND</field>
+        <field name="LCSC">C62892</field>
+        <field name="Manufacturer">Yangjie Technology</field>
+        <field name="Manufacturer's Part Number">UMH3N</field>
+        <field name="Mouser Part Number">755-UMH3NTN </field>
+      </fields>
+      <libsource lib="Custom" part="UMH3N" description=""/>
+      <property name="Manufacturer" value="Yangjie Technology"/>
+      <property name="Manufacturer's Part Number" value="UMH3N"/>
+      <property name="Digikey Part Number" value="4617-UMH3NTR-ND"/>
+      <property name="Mouser Part Number" value="755-UMH3NTN "/>
+      <property name="LCSC" value="C62892"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfe1d72c-a6ec-44c3-99e6-b48ed8837716</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LP5912-3.3DRV</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5912.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">296-47214-1-ND</field>
+        <field name="LCSC">C524780</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer's Part Number">LP5912-3.3DRVR</field>
+        <field name="Mouser Part Number">595-LP5912-3.3DRVR </field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LP5912-3.3DRV" description="500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer's Part Number" value="LP5912-3.3DRVR"/>
+      <property name="Digikey Part Number" value="296-47214-1-ND"/>
+      <property name="Mouser Part Number" value="595-LP5912-3.3DRVR "/>
+      <property name="LCSC" value="C524780"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d04b9769-ec96-4160-8eac-f3e1647b1ba7</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>D36V50F5-STEPDOWN</value>
+      <footprint>Pololu:D36V50F5-STEPDOWN</footprint>
+      <libsource lib="Pololu" part="D36V50F5-STEPDOWN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b678caa-c394-4dfc-89aa-990d3c42403d</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Custom:XTAL_HC49P488W46L1150T500H350</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_ECEC-ZheJiang-E-ast-Crystal-Elec-B16000J114_C279575.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C279575</field>
+        <field name="Manufacturer"> ECEC(ZheJiang E ast Crystal Elec)</field>
+        <field name="Manufacturer's Part Number">B16000J114</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="LCSC" value="C279575"/>
+      <property name="Manufacturer" value=" ECEC(ZheJiang E ast Crystal Elec)"/>
+      <property name="Manufacturer's Part Number" value="B16000J114"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e86d13b-a117-45bb-b0f5-bcc27403f886</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="B5819W-TP_1">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B5819W-TP_1</field>
+        <field name="Footprint">SOD3716X135N</field>
+        <field name="MANUFACTURER">Micro Commercial Components</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB25_Female_MountingHoles">
+      <description>25-pin female D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB25_Female_MountingHoles</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="ATMEGA256016AU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA256016AU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PG5" type="bidirectional"/>
+        <pin num="2" name="PE0" type="bidirectional"/>
+        <pin num="3" name="PE1" type="bidirectional"/>
+        <pin num="4" name="PE2" type="bidirectional"/>
+        <pin num="5" name="PE3" type="bidirectional"/>
+        <pin num="6" name="PE4" type="bidirectional"/>
+        <pin num="7" name="PE5" type="bidirectional"/>
+        <pin num="8" name="PE6" type="bidirectional"/>
+        <pin num="9" name="PE7" type="bidirectional"/>
+        <pin num="10" name="VCC" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="PH0" type="bidirectional"/>
+        <pin num="13" name="PH1" type="bidirectional"/>
+        <pin num="14" name="PH2" type="bidirectional"/>
+        <pin num="15" name="PH3" type="bidirectional"/>
+        <pin num="16" name="PH4" type="bidirectional"/>
+        <pin num="17" name="PH5" type="bidirectional"/>
+        <pin num="18" name="PH6" type="bidirectional"/>
+        <pin num="19" name="PB0" type="bidirectional"/>
+        <pin num="20" name="PB1" type="bidirectional"/>
+        <pin num="21" name="PB2" type="bidirectional"/>
+        <pin num="22" name="PB3" type="bidirectional"/>
+        <pin num="23" name="PB4" type="bidirectional"/>
+        <pin num="24" name="PB5" type="bidirectional"/>
+        <pin num="25" name="PB6" type="bidirectional"/>
+        <pin num="26" name="PB7" type="bidirectional"/>
+        <pin num="27" name="PH7" type="bidirectional"/>
+        <pin num="28" name="PG3" type="bidirectional"/>
+        <pin num="29" name="PG4" type="bidirectional"/>
+        <pin num="30" name="RESET" type="input"/>
+        <pin num="31" name="VCC" type="input"/>
+        <pin num="32" name="GND" type="input"/>
+        <pin num="33" name="XTAL2" type="input"/>
+        <pin num="34" name="XTAL1" type="input"/>
+        <pin num="35" name="PL0" type="bidirectional"/>
+        <pin num="36" name="PL1" type="bidirectional"/>
+        <pin num="37" name="PL2" type="bidirectional"/>
+        <pin num="38" name="PL3" type="bidirectional"/>
+        <pin num="39" name="PL4" type="bidirectional"/>
+        <pin num="40" name="PL5" type="bidirectional"/>
+        <pin num="41" name="PL6" type="bidirectional"/>
+        <pin num="42" name="PL7" type="bidirectional"/>
+        <pin num="43" name="PD0" type="bidirectional"/>
+        <pin num="44" name="PD1" type="bidirectional"/>
+        <pin num="45" name="PD2" type="bidirectional"/>
+        <pin num="46" name="PD3" type="bidirectional"/>
+        <pin num="47" name="PD4" type="bidirectional"/>
+        <pin num="48" name="PD5" type="bidirectional"/>
+        <pin num="49" name="PD6" type="bidirectional"/>
+        <pin num="50" name="PD7" type="bidirectional"/>
+        <pin num="51" name="PG0" type="bidirectional"/>
+        <pin num="52" name="PG1" type="bidirectional"/>
+        <pin num="53" name="PC0" type="bidirectional"/>
+        <pin num="54" name="PC1" type="bidirectional"/>
+        <pin num="55" name="PC2" type="bidirectional"/>
+        <pin num="56" name="PC3" type="bidirectional"/>
+        <pin num="57" name="PC4" type="bidirectional"/>
+        <pin num="58" name="PC5" type="bidirectional"/>
+        <pin num="59" name="PC6" type="bidirectional"/>
+        <pin num="60" name="PC7" type="bidirectional"/>
+        <pin num="61" name="VCC" type="input"/>
+        <pin num="62" name="GND" type="input"/>
+        <pin num="63" name="PJ0" type="bidirectional"/>
+        <pin num="64" name="PJ1" type="bidirectional"/>
+        <pin num="65" name="PJ2" type="bidirectional"/>
+        <pin num="66" name="PJ3" type="bidirectional"/>
+        <pin num="67" name="PJ4" type="bidirectional"/>
+        <pin num="68" name="PJ5" type="bidirectional"/>
+        <pin num="69" name="PJ6" type="bidirectional"/>
+        <pin num="70" name="PG2" type="bidirectional"/>
+        <pin num="71" name="PA7" type="bidirectional"/>
+        <pin num="72" name="PA6" type="bidirectional"/>
+        <pin num="73" name="PA5" type="bidirectional"/>
+        <pin num="74" name="PA4" type="bidirectional"/>
+        <pin num="75" name="PA3" type="bidirectional"/>
+        <pin num="76" name="PA2" type="bidirectional"/>
+        <pin num="77" name="PA1" type="bidirectional"/>
+        <pin num="78" name="PA0" type="bidirectional"/>
+        <pin num="79" name="PJ7" type="bidirectional"/>
+        <pin num="80" name="VCC" type="input"/>
+        <pin num="81" name="GND" type="input"/>
+        <pin num="82" name="PK7" type="bidirectional"/>
+        <pin num="83" name="PK6" type="bidirectional"/>
+        <pin num="84" name="PK5" type="bidirectional"/>
+        <pin num="85" name="PK4" type="bidirectional"/>
+        <pin num="86" name="PK3" type="bidirectional"/>
+        <pin num="87" name="PK2" type="bidirectional"/>
+        <pin num="88" name="PK1" type="bidirectional"/>
+        <pin num="89" name="PK0" type="bidirectional"/>
+        <pin num="90" name="PF7" type="bidirectional"/>
+        <pin num="91" name="PF6" type="bidirectional"/>
+        <pin num="92" name="PF5" type="bidirectional"/>
+        <pin num="93" name="PF4" type="bidirectional"/>
+        <pin num="94" name="PF3" type="bidirectional"/>
+        <pin num="95" name="PF2" type="bidirectional"/>
+        <pin num="96" name="PF1" type="bidirectional"/>
+        <pin num="97" name="PF0" type="bidirectional"/>
+        <pin num="98" name="AREF" type="bidirectional"/>
+        <pin num="99" name="GND" type="input"/>
+        <pin num="100" name="AVCC" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="CH340C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340C</field>
+        <field name="Footprint">SOIC127P600X180-16N</field>
+        <field name="PARTREV">2G</field>
+        <field name="MANUFACTURER">WCH</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="power_in"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="NC." type="no_connect"/>
+        <pin num="8" name="~{OUT}" type="output"/>
+        <pin num="9" name="~{CTS}" type="input"/>
+        <pin num="10" name="~{DSR}" type="input"/>
+        <pin num="11" name="~{RI}" type="input"/>
+        <pin num="12" name="~{DCD}" type="input"/>
+        <pin num="13" name="~{DTR}" type="output"/>
+        <pin num="14" name="~{RTS}" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="ESP32-WROOM-32-Custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32-Custom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="3V3" type="bidirectional"/>
+        <pin num="3" name="EN" type="bidirectional"/>
+        <pin num="4" name="SENSOR_VP" type="bidirectional"/>
+        <pin num="5" name="SENSOR_VN" type="bidirectional"/>
+        <pin num="6" name="IO34" type="bidirectional"/>
+        <pin num="7" name="IO35" type="bidirectional"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="bidirectional"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SD2" type="bidirectional"/>
+        <pin num="18" name="SD3" type="bidirectional"/>
+        <pin num="19" name="CMD" type="bidirectional"/>
+        <pin num="20" name="CLK" type="bidirectional"/>
+        <pin num="21" name="SD0" type="bidirectional"/>
+        <pin num="22" name="SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="bidirectional"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0" type="bidirectional"/>
+        <pin num="35" name="TXD0" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="MF-MSMF050-2">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">MF-MSMF050-2</field>
+        <field name="Footprint">FUSM4632X85</field>
+        <field name="MANUFACTURER">Bourns</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="TPS2115APW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2115APW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="D0" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="ILIM" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="IN2" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="IN1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="UMH3N">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UMH3N</field>
+        <field name="Footprint">UMT6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B-2020">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">WS2812B-2020</field>
+        <field name="Footprint">WS2812B-2020</field>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="DI" type="bidirectional"/>
+        <pin num="4" name="VDD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pololu" part="D36V50F5-STEPDOWN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D36V50F5-STEPDOWN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="VIN" type="bidirectional"/>
+        <pin num="5" name="VRP" type="bidirectional"/>
+        <pin num="6" name="EN" type="bidirectional"/>
+        <pin num="7" name="PG" type="bidirectional"/>
+        <pin num="8" name="VRP" type="bidirectional"/>
+        <pin num="9" name="VIN" type="bidirectional"/>
+        <pin num="10" name="GND" type="bidirectional"/>
+        <pin num="11" name="GND" type="bidirectional"/>
+        <pin num="12" name="VOUT" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP5912-3.3DRV">
+      <description>500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5912.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2x2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5912-3.3DRV</field>
+        <field name="Footprint">Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp5912.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="PG" type="open_collector"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Custom">
+      <uri>/Users/gregoryhulette/Documents/KiCad/6.0/symbols/Custom.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Pololu">
+      <uri>/Users/gregoryhulette/Documents/KiCad/6.0/symbols/Pololu.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="U5" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V3" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="VOUT" pintype="bidirectional"/>
+      <node ref="U14" pin="12" pinfunction="VOUT" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="D1" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="3" name="+5V_IC">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D4" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="4" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="L3" pin="4" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="100" pinfunction="AVCC" pintype="bidirectional"/>
+      <node ref="U1" pin="31" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="61" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="80" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="98" pinfunction="AREF" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="OUT" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="+12V">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="VIN" pintype="bidirectional"/>
+      <node ref="U14" pin="9" pinfunction="VIN" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="BATTERY_LEVEL">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="94" pinfunction="PF3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="CS1_CLOCK">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="PG1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="CS1_DATA">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="CS2_CLOCK">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PL5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="CS2_DATA">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PL7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="D+_2560">
+      <node ref="J10" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="D+_DC">
+      <node ref="J14" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J22" pin="19" pinfunction="P19" pintype="passive"/>
+    </net>
+    <net code="12" name="D+_DP">
+      <node ref="J15" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J22" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="13" name="D+_ESP">
+      <node ref="J11" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="D-_2560">
+      <node ref="J10" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="D-_DC">
+      <node ref="J14" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J22" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="16" name="D-_DP">
+      <node ref="J15" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J22" pin="21" pinfunction="P21" pintype="passive"/>
+    </net>
+    <net code="17" name="D-_ESP">
+      <node ref="J11" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="DP_CLOCK">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PG5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="DP_DATA_IN">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PE5" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="DP_LOAD">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PE3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="DTR_ESP">
+      <node ref="U5" pin="13" pinfunction="~{DTR}" pintype="output"/>
+      <node ref="U6" pin="2" pintype="input"/>
+      <node ref="U6" pin="4" pintype="output"/>
+    </net>
+    <net code="22" name="EXT_MIC">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="95" pinfunction="PF2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J11" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J22" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J22" pin="16" pinfunction="P16" pintype="passive"/>
+      <node ref="J22" pin="17" pinfunction="P17" pintype="passive"/>
+      <node ref="J22" pin="22" pinfunction="P22" pintype="passive"/>
+      <node ref="J22" pin="23" pinfunction="P23" pintype="passive"/>
+      <node ref="J22" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J22" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J37" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="L3" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="32" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="62" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="81" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="99" pinfunction="GND" pintype="input"/>
+      <node ref="U14" pin="10" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U14" pin="11" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U14" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="D0" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="39" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="PG" pintype="open_collector"/>
+      <node ref="U7" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="24" name="GND_DC">
+      <node ref="J14" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J22" pin="18" pinfunction="P18" pintype="passive"/>
+    </net>
+    <net code="25" name="GND_DP">
+      <node ref="J15" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J22" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="26" name="GPIO0_ESP">
+      <node ref="U4" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pintype="input"/>
+    </net>
+    <net code="27" name="GREEN_LED">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="LDP_CLOCK">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="LDP_DATA">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="LIMIT1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="71" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="LIMIT2">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="LIMIT3">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="LIMIT4">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="LIMIT5">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="LIMIT6">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U1" pin="70" pinfunction="PG2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="LIMIT7">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="PG0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="LIMIT8">
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PL6" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="LIMIT9">
+      <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PL4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="LIMIT10">
+      <node ref="J3" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PL2" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="MAINT_CLOCK">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="MAINT_DATA">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V3" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="46" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="48" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J9-Pad4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(J27-Pad4)">
+      <node ref="J27" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J27-Pad6)">
+      <node ref="J27" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(L2-Pad3)">
+      <node ref="L2" pin="3" pinfunction="DI" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(L3-Pad3)">
+      <node ref="L3" pin="3" pinfunction="DI" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="60" name="RED_LED">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="PL0" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="RESET_2560">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J20" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="RESET" pintype="input"/>
+      <node ref="U4" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="RESET_ESP">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pintype="input"/>
+    </net>
+    <net code="63" name="RTS_ESP">
+      <node ref="U5" pin="14" pinfunction="~{RTS}" pintype="output"/>
+      <node ref="U6" pin="1" pintype="output"/>
+      <node ref="U6" pin="5" pintype="input"/>
+    </net>
+    <net code="64" name="RXD0_2560">
+      <node ref="U1" pin="2" pinfunction="PE0" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="65" name="RXD0_ESP">
+      <node ref="U4" pin="34" pinfunction="RXD0" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="66" name="RX_2560">
+      <node ref="U1" pin="12" pinfunction="PH0" pintype="bidirectional"/>
+      <node ref="U4" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="RX_AUX1">
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="RX_AUX2">
+      <node ref="J37" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="RX_MP">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="RX_RD">
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IO34" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="RX_ST">
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="IO35" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="SPECTRUM_LEFT">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="96" pinfunction="PF1" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="SPECTRUM_RIGHT">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="97" pinfunction="PF0" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="ST_LED_D_2560">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PH3" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="ST_LED_D_ESP">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="SW_BATT_IN_POS">
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J22" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J22" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J22" pin="14" pinfunction="P14" pintype="passive"/>
+      <node ref="J22" pin="15" pinfunction="P15" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J22" pin="24" pinfunction="P24" pintype="passive"/>
+      <node ref="J22" pin="25" pinfunction="P25" pintype="passive"/>
+    </net>
+    <net code="77" name="TXD0_2560">
+      <node ref="U1" pin="3" pinfunction="PE1" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="78" name="TXD0_ESP">
+      <node ref="U4" pin="35" pinfunction="TXD0" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="79" name="TX_2560">
+      <node ref="U1" pin="13" pinfunction="PH1" pintype="bidirectional"/>
+      <node ref="U4" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="TX_AUX1">
+      <node ref="J24" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="TX_AUX2">
+      <node ref="J37" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="TX_MP">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="TX_RD">
+      <node ref="J26" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="TX_ST">
+      <node ref="J25" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="VBUS">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D3" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="86" name="VBUS_DC">
+      <node ref="J14" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J22" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="87" name="VBUS_DP">
+      <node ref="J15" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J22" pin="20" pinfunction="P20" pintype="passive"/>
+    </net>
+    <net code="88" name="VU1_CLOCK">
+      <node ref="J27" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PL1" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="VU1_DATA">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PL3" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="VU2_CLOCK">
+      <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J27" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="VU2_DATA">
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="VU_RESET">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="VU_STROBE">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="XTAL1">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="95" name="XTAL2">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="XTAL2" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="96" name="YELLOW_LED">
+      <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(J10-Pad4)">
+      <node ref="J10" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J10-Pad6)">
+      <node ref="J10" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J11-Pad6)">
+      <node ref="J11" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J14-Pad4)">
+      <node ref="J14" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J14-Pad6)">
+      <node ref="J14" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J15-Pad4)">
+      <node ref="J15" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J15-Pad6)">
+      <node ref="J15" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J22-Pad0)">
+      <node ref="J22" pin="0" pinfunction="PAD" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(J22-Pad7)">
+      <node ref="J22" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(L2-Pad1)">
+      <node ref="L2" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(L3-Pad1)">
+      <node ref="L3" pin="1" pinfunction="DO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PE2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PE4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PE6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PE7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PH2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PH4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PH5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PH6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PH7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PG3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U1-Pad29)">
+      <node ref="U1" pin="29" pinfunction="PG4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U1-Pad43)">
+      <node ref="U1" pin="43" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U1-Pad44)">
+      <node ref="U1" pin="44" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U1-Pad45)">
+      <node ref="U1" pin="45" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U1-Pad46)">
+      <node ref="U1" pin="46" pinfunction="PD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U1-Pad47)">
+      <node ref="U1" pin="47" pinfunction="PD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U1-Pad48)">
+      <node ref="U1" pin="48" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U1-Pad49)">
+      <node ref="U1" pin="49" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U1-Pad63)">
+      <node ref="U1" pin="63" pinfunction="PJ0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U1-Pad64)">
+      <node ref="U1" pin="64" pinfunction="PJ1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U1-Pad65)">
+      <node ref="U1" pin="65" pinfunction="PJ2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U1-Pad66)">
+      <node ref="U1" pin="66" pinfunction="PJ3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U1-Pad67)">
+      <node ref="U1" pin="67" pinfunction="PJ4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U1-Pad68)">
+      <node ref="U1" pin="68" pinfunction="PJ5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U1-Pad69)">
+      <node ref="U1" pin="69" pinfunction="PJ6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U1-Pad72)">
+      <node ref="U1" pin="72" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U1-Pad73)">
+      <node ref="U1" pin="73" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U1-Pad74)">
+      <node ref="U1" pin="74" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U1-Pad75)">
+      <node ref="U1" pin="75" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U1-Pad76)">
+      <node ref="U1" pin="76" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U1-Pad77)">
+      <node ref="U1" pin="77" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U1-Pad78)">
+      <node ref="U1" pin="78" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U1-Pad79)">
+      <node ref="U1" pin="79" pinfunction="PJ7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U1-Pad82)">
+      <node ref="U1" pin="82" pinfunction="PK7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U1-Pad83)">
+      <node ref="U1" pin="83" pinfunction="PK6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U1-Pad84)">
+      <node ref="U1" pin="84" pinfunction="PK5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U1-Pad85)">
+      <node ref="U1" pin="85" pinfunction="PK4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U1-Pad86)">
+      <node ref="U1" pin="86" pinfunction="PK3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U1-Pad87)">
+      <node ref="U1" pin="87" pinfunction="PK2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U1-Pad88)">
+      <node ref="U1" pin="88" pinfunction="PK1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U1-Pad89)">
+      <node ref="U1" pin="89" pinfunction="PK0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U1-Pad90)">
+      <node ref="U1" pin="90" pinfunction="PF7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U1-Pad91)">
+      <node ref="U1" pin="91" pinfunction="PF6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U1-Pad92)">
+      <node ref="U1" pin="92" pinfunction="PF5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U1-Pad93)">
+      <node ref="U1" pin="93" pinfunction="PF4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NC." pintype="no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="~{OUT}" pintype="output+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="~{RTS}" pintype="output+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="STAT" pintype="output+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="SENSOR_VP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="SENSOR_VN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U4-Pad9)">
+      <node ref="U4" pin="9" pinfunction="IO33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U4-Pad12)">
+      <node ref="U4" pin="12" pinfunction="IO27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U4-Pad14)">
+      <node ref="U4" pin="14" pinfunction="IO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(U4-Pad20)">
+      <node ref="U4" pin="20" pinfunction="CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(U4-Pad21)">
+      <node ref="U4" pin="21" pinfunction="SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(U4-Pad22)">
+      <node ref="U4" pin="22" pinfunction="SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(U4-Pad24)">
+      <node ref="U4" pin="24" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="177" name="unconnected-(U4-Pad32)">
+      <node ref="U4" pin="32" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="178" name="unconnected-(U4-Pad33)">
+      <node ref="U4" pin="33" pinfunction="IO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="179" name="unconnected-(U4-Pad36)">
+      <node ref="U4" pin="36" pinfunction="IO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="180" name="unconnected-(U4-Pad37)">
+      <node ref="U4" pin="37" pinfunction="IO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(U5-Pad7)">
+      <node ref="U5" pin="7" pinfunction="NC." pintype="no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="~{OUT}" pintype="output+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(U14-Pad5)">
+      <node ref="U14" pin="5" pinfunction="VRP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(U14-Pad6)">
+      <node ref="U14" pin="6" pinfunction="EN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(U14-Pad7)">
+      <node ref="U14" pin="7" pinfunction="PG" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(U14-Pad8)">
+      <node ref="U14" pin="8" pinfunction="VRP" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

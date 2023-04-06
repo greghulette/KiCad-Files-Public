@@ -1,0 +1,49 @@
+Comment,Designator,Footprint,LCSC
+20pF,"C1,C2",Capacitor_SMD:C_0402_1005Metric,C1554
+100nF,"C13,C14,C16",Capacitor_SMD:C_0402_1005Metric,C307331
+1uF,"C17,C18",Capacitor_SMD:C_0402_1005Metric,C307331
+10uF,"C3,C12,C15",Capacitor_SMD:C_0402_1005Metric,C315248
+.1uF,"C4,C5,C6,C7,C8,C9,C10,C11",Capacitor_SMD:C_0402_1005Metric,C307331
+B5819W-TP,"CR1,CR2",Custom:SOD3716X135N,C84354
+MF-MSMF050-2,F1,Custom:FUSM4632X85,C17313
+Body Servos,"J1,J2",Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+USB_B_Micro,"J10,J11",Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,C132563
+UnSW_BATT_IN,J12,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+DomeControllerUSB,J14,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,C132563
+DomePlateControllerUSB,J15,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,C132563
+UnSW_BATT_PASS,J16,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+RADH_POW,J17,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,C474892
+RASP_POW,J18,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+5V_OUT_3,J19,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+ICSP,J20,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,C390690
+DomeElectronicsPowerIn,J21,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+DB25_Male_MountingHoles,J22,Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles,C2984302
+Amplifier_POW,J23,TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal, C474892
+Future,J24,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+Stealth,J25,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+RADH,J26,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,C471416
+VU Data Panel,J27,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,C587046
+Conn_02x10_Odd_Even,J3,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,C492427
+LDP,J4,Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,C240840
+Coin Slots,J5,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,C587046
+Batt Level LEDS,"J6,J13",Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,C240840
+Data Panel/ CBI,J7,Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,C588986
+Spectrum Analyzer,J8,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,C587046
+Maintenance,J9,Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,C240840
+WS2812B-2020,"L2,L3",WS2812B-2020,C965555
+1M,R1,Resistor_SMD:R_0603_1608Metric,C328343
+10K,"R17,R20",Resistor_SMD:R_0603_1608Metric,C269701
+57K,R18,Resistor_SMD:R_0603_1608Metric,C245983
+22K,R19,Resistor_SMD:R_0603_1608Metric,C325646
+1K,"R2,R3",Resistor_SMD:R_0402_1005Metric,C478866
+100K,"R21,R22",Resistor_SMD:R_0603_1608Metric,C365065
+10K,"R29,R30,R31,R32,R33,R34,R35,R36,R37,R38",Resistor_SMD:R_0402_1005Metric,C269674
+220,"R6,R7,R8,R9,R10,R11,R12,R13,R14,R26,R27",Resistor_SMD:R_0402_1005Metric,C352454
+SW_Push,"SW1,SW2",Custom:GT-TC057A-H050-L1,C692465
+ATMEGA256016AU,U1,Custom:QFP50P1600X1600X120-100N,C22460
+CH340C,"U2,U5",Custom:SOIC127P600X180-16N,C84681
+CJ2301_S1,"U3,U8",Package_TO_SOT_SMD:SOT-23,C8547
+ESP32-WROOM-32D_16MB_,U4,RF_Module:ESP32-WROOM-32,C529578
+UMH3N,U6,Custom:UMT6,C62892
+ME6211C33M5G,U7,Package_TO_SOT_SMD:SOT-23-5,C82942
+16MHz,Y1,Custom:XTAL_HC49P488W46L1150T500H350,C279575
