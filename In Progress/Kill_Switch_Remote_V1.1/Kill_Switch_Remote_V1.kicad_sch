@@ -2545,7 +2545,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1b089d70-ee96-45d3-a602-0525cc57939e)
   )
-  (polyline (pts (xy 231.14 140.97) (xy 224.79 140.97))
+  (polyline (pts (xy 231.14 143.51) (xy 224.79 143.51))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1b61f603-af23-4e56-8715-98393edead27)
   )
@@ -2571,6 +2571,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1ea048c6-c389-4c42-8cb4-27be2d2b4fe7)
   )
+  (polyline (pts (xy 195.58 153.67) (xy 195.58 140.97))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1ef47c18-6db9-4376-bf71-5faea1d7b61b)
+  )
+
   (wire (pts (xy 232.41 77.47) (xy 232.41 80.01))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1fa0f16c-4fdb-47ff-ba6e-2f78cbe9a1d1)
@@ -2704,6 +2709,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3392bab9-d3d3-404a-8181-5d33d7b06233)
   )
+  (polyline (pts (xy 180.34 142.24) (xy 180.34 140.97))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 33b4a155-c447-4fdd-ab29-610cb0fd4b64)
+  )
+
   (wire (pts (xy 21.59 41.91) (xy 21.59 46.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 33f1c38e-deac-4079-bbb0-a349047270e6)
@@ -2967,7 +2977,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6765aa41-54c3-49ea-b999-d18517d27135)
   )
-  (polyline (pts (xy 231.14 137.16) (xy 231.14 140.97))
+  (polyline (pts (xy 231.14 137.16) (xy 231.14 143.51))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6ca30acd-f78b-4946-b4c7-1be0f41166bd)
   )
@@ -3033,6 +3043,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 78332745-19ef-455f-9b88-d5a124430c15)
   )
+  (polyline (pts (xy 180.34 142.24) (xy 180.34 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 78663950-4091-45fd-9011-b34e10f03334)
+  )
+
   (wire (pts (xy 16.51 118.11) (xy 16.51 124.46))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7b30863b-a813-4a40-bc27-86b42163d7b8)
@@ -3267,6 +3282,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b2f26b5e-5049-4cf4-9a14-43cf80b80133)
   )
+  (polyline (pts (xy 180.34 153.67) (xy 195.58 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b48d3598-3660-45ee-8a86-f87c16778f1e)
+  )
+
   (wire (pts (xy 248.92 146.05) (xy 248.92 147.32))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b4c174b8-0e70-4e36-babd-2fb085dd8c3c)
@@ -3340,6 +3360,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c2d35c8a-e531-472a-823f-684f272381ce)
   )
+  (polyline (pts (xy 180.34 140.97) (xy 195.58 140.97))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c4cdc456-1bae-4fab-9a2b-683b364cb849)
+  )
+
   (wire (pts (xy 232.41 69.85) (xy 232.41 71.12))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c5d58184-b14c-47d8-b381-ab7467dd585a)
@@ -3410,7 +3435,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d998af36-def4-4abc-a4e0-ae49d6f27976)
   )
-  (polyline (pts (xy 224.79 138.43) (xy 224.79 140.97))
+  (polyline (pts (xy 224.79 138.43) (xy 224.79 143.51))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d9eb3166-ee68-4be7-aa78-b727c888c2d7)
   )
@@ -4307,7 +4332,7 @@
   (symbol (lib_id "power:GND") (at 231.14 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1e10f6a7-f66e-43cd-a1bd-d7754ef94760)
-    (property "Reference" "#PWR?" (id 0) (at 231.14 120.65 0)
+    (property "Reference" "#PWR0110" (id 0) (at 231.14 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 231.14 118.11 0))
@@ -4796,7 +4821,7 @@
   (symbol (lib_id "power:+3.3V") (at 182.88 147.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4cb7e6c7-9ecc-4a50-8b46-a0cbea5b04a1)
-    (property "Reference" "#PWR?" (id 0) (at 182.88 151.13 0)
+    (property "Reference" "#PWR0124" (id 0) (at 182.88 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 182.88 143.51 0))
@@ -5210,7 +5235,7 @@
     (property "Reference" "R?" (id 0) (at 226.0599 138.43 90)
       (effects (font (size 0.6 0.6)) (justify left))
     )
-    (property "Value" "1.54K" (id 1) (at 228.5999 139.7 90)
+    (property "Value" "1K" (id 1) (at 228.5999 139.7 90)
       (effects (font (size 0.5 0.5)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 227.33 139.7 0)
@@ -5326,7 +5351,7 @@
     (property "Reference" "R?" (id 0) (at 233.6799 134.62 90)
       (effects (font (size 0.6 0.6)) (justify left))
     )
-    (property "Value" "69.8K" (id 1) (at 236.2199 135.89 90)
+    (property "Value" "150K" (id 1) (at 236.2199 135.89 90)
       (effects (font (size 0.5 0.5)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 234.95 135.89 0)
@@ -5741,7 +5766,7 @@
     (property "Reference" "R10" (id 0) (at 226.0599 140.97 90)
       (effects (font (size 0.6 0.6)) (justify left))
     )
-    (property "Value" "10K" (id 1) (at 228.5999 142.24 90)
+    (property "Value" "2K" (id 1) (at 228.5999 142.24 90)
       (effects (font (size 0.75 0.75)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 227.33 142.24 0)
@@ -5997,7 +6022,7 @@
     (property "Reference" "C?" (id 0) (at 229.87 111.1187 0)
       (effects (font (size 0.5 0.5)) (justify left))
     )
-    (property "Value" "4.7uF" (id 1) (at 229.87 107.3087 0)
+    (property "Value" "10uF" (id 1) (at 229.87 107.3087 0)
       (effects (font (size 0.5 0.5)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 231.14 109.22 0)
@@ -6770,6 +6795,9 @@
     (path "/693ccaab-5891-43e1-b3d5-0d67e1e29ab2"
       (reference "#PWR0109") (unit 1) (value "VBUS") (footprint "")
     )
+    (path "/1e10f6a7-f66e-43cd-a1bd-d7754ef94760"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
     (path "/bad23856-16c5-4ca9-9cf1-3ff227aac12c"
       (reference "#PWR0111") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -6808,6 +6836,9 @@
     )
     (path "/52a95fcd-0042-4d0d-91a2-d7bc489e25fb"
       (reference "#PWR0123") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/4cb7e6c7-9ecc-4a50-8b46-a0cbea5b04a1"
+      (reference "#PWR0124") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/f4f8ff7a-504e-4acb-b43a-4c7a2226ed1f"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
@@ -6863,12 +6894,6 @@
     (path "/4bf2e97f-a30c-4432-81c1-e2d546eadfd3"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1e10f6a7-f66e-43cd-a1bd-d7754ef94760"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4cb7e6c7-9ecc-4a50-8b46-a0cbea5b04a1"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/533cca49-24cb-4acd-b769-43fedf45f7d4"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -6903,7 +6928,7 @@
       (reference "C11") (unit 1) (value ".1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b6a1b420-5923-4593-842a-f8492b29f0d0"
-      (reference "C?") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/aced5076-6949-4319-92cc-c0f846e24a52"
       (reference "D1") (unit 1) (value "B5819W-TP") (footprint "Custom:SOD3716X135N")
@@ -6972,7 +6997,7 @@
       (reference "R9") (unit 1) (value "150") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9d2c8602-7e31-495b-9277-6db28d0000b7"
-      (reference "R10") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R10") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/42073a96-4292-460e-841b-30346db296ea"
       (reference "R11") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -6993,10 +7018,10 @@
       (reference "R17") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/64ab4920-b4c9-41f2-b441-6c07e58717e2"
-      (reference "R?") (unit 1) (value "1.54K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R?") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/6bf1f89b-ea37-451a-a46b-79488777dde0"
-      (reference "R?") (unit 1) (value "69.8K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R?") (unit 1) (value "150K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ba9471bb-e888-4729-b27b-07f20ad69002"
       (reference "R?") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0402_1005Metric")
