@@ -2846,7 +2846,7 @@
     (property "Value" "AUX2" (id 1) (at 270.51 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" (id 2) (at 267.97 41.91 0)
+    (property "Footprint" "Custom:470531000" (id 2) (at 267.97 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf" (id 3) (at 267.97 41.91 0)
@@ -3075,7 +3075,7 @@
     (property "Value" "AUX1" (id 1) (at 240.03 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" (id 2) (at 237.49 41.91 0)
+    (property "Footprint" "Custom:470531000" (id 2) (at 237.49 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf" (id 3) (at 237.49 41.91 0)
@@ -3143,7 +3143,7 @@
     (property "Value" "AUX3" (id 1) (at 240.03 29.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" (id 2) (at 237.49 26.67 0)
+    (property "Footprint" "Custom:470531000" (id 2) (at 237.49 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf" (id 3) (at 237.49 26.67 0)
@@ -3323,13 +3323,13 @@
       (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
     )
     (path "/a9448de9-7beb-45d2-bf6e-71f8cedebf98"
-      (reference "J2") (unit 1) (value "AUX3") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "AUX3") (footprint "Custom:470531000")
     )
     (path "/9cdb5bde-d012-4dfd-bd3c-8364dcaa5312"
-      (reference "J3") (unit 1) (value "AUX1") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "AUX1") (footprint "Custom:470531000")
     )
     (path "/4d78864d-566d-466b-be26-3a572d3eb5eb"
-      (reference "J4") (unit 1) (value "AUX2") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "AUX2") (footprint "Custom:470531000")
     )
     (path "/1a1346f9-ba9f-4c77-90ee-18d527b20ae9"
       (reference "J5") (unit 1) (value "12OUT") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal")

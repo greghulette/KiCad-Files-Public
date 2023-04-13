@@ -1,4 +1,4 @@
-19905776047881733
+20158472369266212
 Arduino_Mega_2560_Pro_Mini
 Arduino_Mega_2560_Pro_MINI
 
@@ -49364,6 +49364,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom
+470531000
+<b>47053-1000</b><br>
+
+0
+4
+4
+Custom
+AS11CH
+
+
+0
+5
+5
+Custom
 BEADC2012X105N
 
 
@@ -49377,6 +49391,13 @@ C843678
 0
 2
 2
+Custom
+ESP32-WROOM-32
+
+
+0
+39
+39
 Custom
 FUSM4632X85
 
@@ -49406,7 +49427,28 @@ HRS_U.FL-R-SMT-1(10)
 3
 3
 Custom
+JST_S2B-PH-K-S(LF)(SN)
+
+
+0
+2
+2
+Custom
+KillSwiitch
+
+
+0
+4
+4
+Custom
 LED-0402
+
+
+0
+2
+2
+Custom
+LED_0603
 
 
 0
@@ -49419,6 +49461,13 @@ LINX_CONSMA008
 0
 5
 5
+Custom
+MODULE_ESP32-PICO-MINI-02
+
+
+0
+61
+61
 Custom
 PCA9685
 
@@ -49441,12 +49490,33 @@ RESC3216X125N
 2
 2
 Custom
+RFM95W-915S2
+
+
+0
+16
+16
+Custom
+SMAJ5.0_DIOM4325X250N
+
+
+0
+2
+2
+Custom
 SOD3716X135N
 
 
 0
 2
 2
+Custom
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Custom
 SOIC127P600X180-16N
 
@@ -49461,6 +49531,55 @@ SOIC127P762X240-14N
 0
 14
 14
+Custom
+SOT65P230X110-6N
+<b>SOT-363</b><br>
+
+0
+6
+6
+Custom
+SOT95P280X145-6N
+
+
+0
+6
+6
+Custom
+SW_TL3305BF260QG
+
+
+0
+4
+4
+Custom
+SW_TL3342F160QG
+
+
+0
+4
+4
+Custom
+SW_TS02-66-100-BK-100-LCR-D
+
+
+0
+4
+4
+Custom
+Slide_SW_S101031MS02Q
+
+
+0
+2
+2
+Custom
+TL3305CF260QG
+
+
+0
+4
+4
 Custom
 TS-1101S-B-B-B-W-A
 
@@ -49500,6 +49619,881 @@ Custom
 XTAL_HC49P488W46L1150T500H350
 
 
+0
+2
+2
+Digikey
+CP_Elec_5x3
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x3.9
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x4.4
+SMD capacitor, aluminum electrolytic, Panasonic B45, 5.0x4.4mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x4.5
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x4.5mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x5.3
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x5.4
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.4mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x5.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 5.0x5.7mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x5.8
+SMD capacitor, aluminum electrolytic, Panasonic, 5.0x5.8mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_5x5.9
+SMD capacitor, aluminum electrolytic, Panasonic B6, 5.0x5.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x3
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.0mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x3.9
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x4.5
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x4.5mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x4.9
+SMD capacitor, aluminum electrolytic, Panasonic C5, 6.3x4.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.2
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.2mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.3
+SMD capacitor, aluminum electrolytic, Cornell Dubilier, 6.3x5.3mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.4
+SMD capacitor, aluminum electrolytic, Panasonic C55, 6.3x5.4mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.4_Nichicon
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.4mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.7mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.8
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x5.9
+SMD capacitor, aluminum electrolytic, Panasonic C6, 6.3x5.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x7.7
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_6.3x9.9
+SMD capacitor, aluminum electrolytic, Panasonic C10, 6.3x9.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x5.4
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x5.4mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x6.2
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x6.2mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x6.5
+SMD capacitor, aluminum electrolytic, Rubycon, 8.0x6.5mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x6.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 8.0x6.7mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x6.9
+SMD capacitor, aluminum electrolytic, Panasonic E7, 8.0x6.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x10
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x10.5
+SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_8x11.9
+SMD capacitor, aluminum electrolytic, Panasonic E12, 8.0x11.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x7.7
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x7.7mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x7.9
+SMD capacitor, aluminum electrolytic, Panasonic F8, 10.0x7.9mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x10
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x10.5
+SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x12.5
+SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x12.6
+SMD capacitor, aluminum electrolytic, Panasonic F12, 10.0x12.6mm, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_10x14.3
+SMD capacitor, aluminum electrolytic, Vishay 1014, 10.0x14.3mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_16x17.5
+SMD capacitor, aluminum electrolytic, Vishay 1616, 16.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_16x22
+SMD capacitor, aluminum electrolytic, Vishay 1621, 16.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_18x17.5
+SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+CP_Elec_18x22
+SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf, Alternate KiCad Library
+capacitor electrolytic
+0
+2
+2
+Digikey
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), Alternate KiCad Library
+capacitor
+0
+4
+2
+Digikey
+C_0201_0603Metric_Pad0.64x0.40mm
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+4
+2
+Digikey
+C_0201_0603Metric_Pad0.64x0.40mm_HandSolder
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+4
+2
+Digikey
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_0402_1005Metric_Pad0.74x0.62mm
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0504_1310Metric
+Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_0504_1310Metric_Pad0.83x1.28mm
+Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0504_1310Metric_Pad0.83x1.28mm_HandSolder
+Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_0603_1608Metric_Pad1.05x0.95mm
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0603_1608Metric_Pad1.08x0.95mm
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_0805_2012Metric_Pad1.15x1.40mm
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0805_2012Metric_Pad1.18x1.45mm
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_01005_0402Metric
+Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), Alternate KiCad Library
+capacitor
+0
+4
+2
+Digikey
+C_01005_0402Metric_Pad0.57x0.30mm
+Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+4
+2
+Digikey
+C_01005_0402Metric_Pad0.57x0.30mm_HandSolder
+Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+4
+2
+Digikey
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_1206_3216Metric_Pad1.33x1.80mm
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1206_3216Metric_Pad1.42x1.75mm
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_1210_3225Metric_Pad1.33x2.70mm
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1210_3225Metric_Pad1.33x2.70mm_HandSolder
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1210_3225Metric_Pad1.42x2.65mm
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1806_4516Metric
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_1806_4516Metric_Pad1.57x1.80mm
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_1812_4532Metric_Pad1.30x3.40mm
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1812_4532Metric_Pad1.30x3.40mm_HandSolder
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1812_4532Metric_Pad1.57x3.40mm
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1812_4532Metric_Pad1.57x3.40mm_HandSolder
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1825_4564Metric
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_1825_4564Metric_Pad1.57x6.80mm
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1825_4564Metric_Pad1.57x6.80mm_HandSolder
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1825_4564Metric_Pad1.88x6.70mm
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_1825_4564Metric_Pad1.88x6.70mm_HandSolder
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2010_5025Metric
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_2010_5025Metric_Pad1.52x2.65mm
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2010_5025Metric_Pad1.52x2.65mm_HandSolder
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_2220_5650Metric_Pad1.97x5.40mm
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2220_5650Metric_Pad1.97x5.40mm_HandSolder
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2225_5664Metric
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_2225_5664Metric_Pad1.80x6.60mm
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2225_5664Metric_Pad1.80x6.60mm_HandSolder
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2512_6332Metric
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_2512_6332Metric_Pad1.52x3.35mm
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2816_7142Metric
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_2816_7142Metric_Pad3.20x4.45mm
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_3640_9110Metric
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor
+0
+2
+2
+Digikey
+C_3640_9110Metric_Pad2.10x10.45mm
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_3640_9110Metric_Pad2.10x10.45mm_HandSolder
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), Alternate KiCad Library
+capacitor handsolder
+0
+2
+2
+Digikey
+C_Elec_5x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.4mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_5x5.8
+SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.8mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_6.3x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.4mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_6.3x5.8
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.8mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_6.3x7.7
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x7.7mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_8x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x5.4mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_8x6.2
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x6.2mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_8x10.2
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x10.2mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Elec_10x10.2
+SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm, Alternate KiCad Library
+capacitor electrolyic nonpolar
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZB4-A
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZB4 TZB4-A
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZB4-B
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZB4 TZB4-A
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZC3
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZC3
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZR1
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZR1
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZW4
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZW4
+0
+2
+2
+Digikey
+C_Trimmer_Murata_TZY2
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library
+ Murata TZY2
+0
+2
+2
+Digikey
+C_Trimmer_Sprague-Goodman_SGC3
+trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf, Alternate KiCad Library
+ Sprague Goodman SGC3
+0
+2
+2
+Digikey
+C_Trimmer_Voltronics_JN
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library
+ Voltronics JN
+0
+2
+2
+Digikey
+C_Trimmer_Voltronics_JQ
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library
+ Voltronics JQ
+0
+2
+2
+Digikey
+C_Trimmer_Voltronics_JR
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library
+ Voltronics JR
+0
+2
+2
+Digikey
+C_Trimmer_Voltronics_JV
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library
+ Voltronics JV
+0
+2
+2
+Digikey
+C_Trimmer_Voltronics_JZ
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library
+ Voltronics JR
 0
 2
 2
@@ -56938,6 +57932,13 @@ BodyControllerV2
 0
 0
 Logos
+BodyControllerv1.1
+
+
+0
+0
+0
+Logos
 Coin Slots v2
 
 
@@ -56966,6 +57967,27 @@ DomeControllerv2
 0
 0
 Logos
+DomeLogicsController
+
+
+0
+0
+0
+Logos
+DomeLogicsControllerSmaller
+
+
+0
+0
+0
+Logos
+DomeLogicsControllerv2small
+
+
+0
+0
+0
+Logos
 DomePlateLogoWords
 
 
@@ -56973,7 +57995,28 @@ DomePlateLogoWords
 0
 0
 Logos
+Dome_Controller_V2
+
+
+0
+0
+0
+Logos
 Dome_Icon
+
+
+0
+0
+0
+Logos
+DroidKillSwitchLogo
+
+
+0
+0
+0
+Logos
+DroidKillSwitchLogov1.1
 
 
 0
@@ -57064,6 +58107,13 @@ R2_Servo_Controller_Log0
 0
 0
 Logos
+RemoteKillSwitchLogo
+
+
+0
+0
+0
+Logos
 RotaryBoardLogo-StarWarsFont2
 
 
@@ -57093,6 +58143,13 @@ RotaryLogo
 0
 Logos
 RotaryLogostarWarsFont
+
+
+0
+0
+0
+Logos
+ServoControllerv1.1
 
 
 0
