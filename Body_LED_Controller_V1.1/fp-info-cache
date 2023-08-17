@@ -1,4 +1,4 @@
-20153420847749671
+20158501467063183
 Arduino_Mega_2560_Pro_Mini
 Arduino_Mega_2560_Pro_MINI
 
@@ -49392,6 +49392,13 @@ C843678
 2
 2
 Custom
+ESP32-WROOM-32
+
+
+0
+39
+39
+Custom
 FUSM4632X85
 
 
@@ -58009,6 +58016,13 @@ DroidKillSwitchLogo
 0
 0
 Logos
+DroidKillSwitchLogov1.1
+
+
+0
+0
+0
+Logos
 ESP32WebtoSerialV2
 
 
@@ -58129,6 +58143,13 @@ RotaryLogo
 0
 Logos
 RotaryLogostarWarsFont
+
+
+0
+0
+0
+Logos
+ServoControllerv1.1
 
 
 0
