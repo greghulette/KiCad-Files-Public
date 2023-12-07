@@ -1,0 +1,50 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey Part Number,LCSC,Manufacturer,Manufacturer's Part Number,Mouser Part Number,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,PARTREV,STANDARD
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2,20pF,C_0402_1005Metric,2,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf,490-11204-1-ND,C913479,Murata Electronics,GJM1555C1H200FB01D,81-GJM1555C1H200FB1D,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C4 C5 C6 C7 C8 C11 C13 C14 C15 C16 C19 C20 C21,.1uF,C_0402_1005Metric,13,https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf,1276-CL05B104KB54PNCCT-ND,C307331,Samsung Electro-Mechanics,CL05B104KB54PNC,187-CL05B104KB54PNC,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C17 C18,1uF,C_0402_1005Metric,2,https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf,,C307331,,,,,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C3 C9 C10 C12,10uF,C_0402_1005Metric,4,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf,1276-1450-1-ND,C315248,Samsung Electro-Mechanics,CL05A106MP5NUNC,187-CL05A106MP5NUNC,,,,
+5,,B5819W-TP_1,D2 D3 D4,B5819W-TP,SOD3716X135N,3,https://www.mccsemi.com/pdf/Products/B5817W-B5819W(SOD-123).pdf ,B5819W-TPMSCT-ND,C84354,Micro Commercial Components,B5819W-TP,833-B5819W-TP,Micro Commercial Components,,,
+6,Light emitting diode,LED,D1,LED,LED_0603_1608Metric,1,https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf,160-1445-1-ND,C160478,Lite-On Inc.,LTST-C191KFKT,859-LTST-C191KFKT,,,,
+7,,MF-MSMF050-2,F1,MF-MSMF050-2,FUSM4632X85,1,https://datasheet.lcsc.com/lcsc/1811061740_BOURNS-MF-MSMF050-2_C17313.pdf,MF-MSMF050-2CT-ND,C17313,Bourns,MF-MSMF050-2,652-MF-MSMF050-2,Bourns,,,
+8,USB Micro Type B connector,USB_B_Micro,J10 J11 J14 J15,2560 USB,USB_Micro-B_Amphenol_10118194_Horizontal,4,https://datasheet.lcsc.com/lcsc/1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf,609-4618-1-ND,C132563,Amphenol ICC (FCI),10118194-0001LF,649-10118194-0001LF,,,,
+9,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J5 J8 J27,Coin Slots,Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,3,https://www.molex.com/pdm_docs/sd/022292061_sd.pdf,WM2748-ND,C587046,Molex,0022292061,538-22-29-2061,,,,
+10,"Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x10_Odd_Even,J3,Conn_02x10_Odd_Even,PinHeader_2x10_P2.54mm_Vertical,1,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/67996.pdf,609-3221-ND,C492427,Amphenol ICC (FCI),67996-420HLF,649-67996-420HLF,,,,
+11,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J7,Data Panel/ CBI,Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,1,https://www.molex.com/pdm_docs/sd/022232051_sd.pdf,WM4203-ND,C588986,Molex,538-22-23-2051,538-22-23-2051,,,,
+12,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J1 J24 J25 J26 J37,Ext Mic,Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,5,https://www.molex.com/pdm_docs/sd/022272031_sd.pdf,WM4112-ND,C471416,Molex,0022272031,538-22-27-2031,,,,
+13,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J20,ICSP,PinHeader_2x03_P2.54mm_Vertical,1,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/67996.pdf,609-3234-ND,C236051,Amphenol ICC (FCI),67997-206HLF,649-67997-206HLF,,,,
+14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J4 J6 J9 J13,LDP,470531000,4,https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf,WM4330-ND,C240840,Molex,0470531000,538-47053-1000,,,,
+15,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J12 J16 J17 J18 J19 J21 J23,UnSW_BATT_IN,TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal,7,https://datasheet.lcsc.com/lcsc/2001160007_Cixi-Kefa-Elec-KF350-3-5-2P_C474892.pdf,277-1721-ND,C474892,Phoenix Contact,1984617,651-1984617,,,,
+16,,WS2812B-2020,L2 L3,WS2812B-2020,WS2812B-2020,2,https://datasheet.lcsc.com/lcsc/2012110135_Worldsemi-WS2812B-2020_C965555.pdf,1528-4684-ND,C965555,Worldsemi,WS2812B-2020,485-4684,,,,
+17,Resistor,R,R2,200,R_0603_1608Metric,1,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,311-200GRCT-ND,C114686,YAGEO,RC0603JR-07200RL,603-RC0603JR-07200RL,,,,
+18,Resistor,R,R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R26,220,R_0402_1005Metric,11,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,311-220JRCT-ND,C137899 C352454,YAGEO,RC0402JR-07220RL,603-RC0402JR-07220RL,,,,
+19,Resistor,R,R3 R4,400,R_1206_3216Metric,2,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_13.pdf,13-RT1206BRD07400RLCT-ND,C706413,YAGEO,RT1206BRD07400RL,603-RT1206BRD07400RL,,,,
+20,Resistor,R,R15 R16 R17 R20 R21 R22 R23 R24 R25 R27 R28 R29,10K,R_0402_1005Metric,12,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf,YAG3436CT-ND,C144807,YAGEO,AC0402FR-0710KL,603-AC0402FR-0710KL,,,,
+21,Resistor,R,R19,22K,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,,,,,,,,,
+22,Resistor,R,R18,60K,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,,,YAGEO,,,,,,
+23,Resistor,R,R1,1M,R_0603_1608Metric,1,http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf,1292-WR06X105JTLCT-ND,C384292,Walsin Tech Corp,WR06X105 JTL,791-WR06X105JTL,,,,
+24,"Push button switch, generic, two pins",SW_Push,SW1,2560 Reset,GT-TC057A-H050-L1,1,https://datasheet.lcsc.com/lcsc/2110111130_XKB-Connectivity-TS-1101S-B-B-B-W-A_C692465.pdf,EG2529CT-ND,C2886915,E-Switch,TL3302BF180QG/TR,,,,,
+25,"Push button switch, generic, two pins",SW_Push,SW2,SW_Push,GT-TC057A-H050-L1,1,https://datasheet.lcsc.com/lcsc/2110111130_XKB-Connectivity-TS-1101S-B-B-B-W-A_C692465.pdf,EG2529CT-ND,C2886915,E-Switch,TL3302BF180QG/TR,,,,,
+26,,ATMEGA256016AU,U1,ATMEGA256016AU,QFP50P1600X1600X120-100N,1,https://datasheet.lcsc.com/lcsc/1809041913_Microchip-Tech-ATMEGA2560-16AU_C22460.pdf,ATMEGA2560-16AU-ND,C22460,Microchip Technology,ATMEGA2560-16AU,556-ATMEGA2560-16AU,,,,
+27,,CH340C,U2 U5,CH340C,SOIC127P600X180-16N,2,https://datasheet.lcsc.com/lcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340C_C84681.pdf,,C84681,WCH,CH340C,,WCH,1.8 mm,2G,IPC 7351B
+28,,D36V50F5-STEPDOWN,U14,D36V50F5-STEPDOWN,D36V50F5-STEPDOWN,1,,,,,,,,,,
+29,,ESP32-WROOM-32-Custom,U4,ESP32-WROOM-32D_16MB_,ESP32-WROOM-32,1,https://datasheet.lcsc.com/lcsc/2005211207_Espressif-Systems-ESP32-WROOM-32D-N16_C529578.pdf,1965-ESP32-WROOM-32D-N16CT-ND,C529578,Espressif Systems,ESP32-WROOM-32D-N16,356-ES32WROOM32D16MB,,,,
+30,"500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6",LP5912-3.3DRV,U7,LP5912-3.3DRV,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias,1,http://www.ti.com/lit/ds/symlink/lp5912.pdf,296-47214-1-ND,C524780,Texas Instruments,LP5912-3.3DRVR,595-LP5912-3.3DRVR,,,,
+31,,TPS2115APW,U3,TPS2115APW,TSSOP-8_4.4x3mm_P0.65mm,1,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2114a,296-26918-5-ND,C70287,Texas Instruments,TPS2115APW,595-TPS2115APW,,,,
+32,,UMH3N,U6,UMH3N,UMT6,1,https://datasheet.lcsc.com/lcsc/1809211024_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--UMH3N_C62892.pdf,4617-UMH3NTR-ND,C62892,Yangjie Technology,UMH3N,755-UMH3NTN,,,,
+33,Two pin crystal,Crystal,Y1,16MHz,XTAL_HC49P488W46L1150T500H350,1,https://datasheet.lcsc.com/lcsc/1912111437_ECEC-ZheJiang-E-ast-Crystal-Elec-B16000J114_C279575.pdf,,C279575,ECEC(ZheJiang E ast Crystal Elec),B16000J114,,,,,
+
+
+
+
+
+Component Groups:,33
+Component Count:,94
+Fitted Components:,94
+Number of PCBs:,1
+Total components:,94
+Schematic Version:,1.1
+Schematic Date:,2023-02-10
+PCB Variant:,default
+BoM Date:,"Tuesday, September 12, 2023 at 02:32:41 PM"
+Schematic Source:,Body_Controller_V1.kicad_sch
+KiCad Version:,Eeschema (6.0.0-0)

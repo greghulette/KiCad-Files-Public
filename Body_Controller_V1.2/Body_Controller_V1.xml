@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_LED_Controller_V1.1/Body_LED_Controller_V1.kicad_sch</source>
-    <date>Friday, March 03, 2023 at 11:05:15 AM</date>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_Controller_V1.2/Body_Controller_V1.kicad_sch</source>
+    <date>Tuesday, September 12, 2023 at 02:35:39 PM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Body Controller</title>
         <company>Created by: Greg Hulette</company>
-        <rev>1.1</rev>
-        <date>2023-02-10</date>
-        <source>Body_LED_Controller_V1.kicad_sch</source>
-        <comment number="1" value="- ESP-NOW Gateway/Bridge"/>
-        <comment number="2" value="- Creates WiFi Network "/>
-        <comment number="3" value="- Controls All Body Servos"/>
+        <rev>1.2</rev>
+        <date>2023-09-12</date>
+        <source>Body_Controller_V1.kicad_sch</source>
+        <comment number="1" value="- ESP-NOW"/>
+        <comment number="2" value="- recieves commands from Stealth"/>
+        <comment number="3" value="- Sends commands to other body devices"/>
         <comment number="4" value="- Controls All Body LEDs"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -42,7 +42,7 @@
       <property name="Digikey Part Number" value="490-11204-1-ND"/>
       <property name="Mouser Part Number" value="81-GJM1555C1H200FB1D "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>59606fc3-69a9-40d6-838d-f3d345c43480</tstamps>
     </comp>
@@ -64,7 +64,7 @@
       <property name="Digikey Part Number" value="490-11204-1-ND"/>
       <property name="Mouser Part Number" value="81-GJM1555C1H200FB1D "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bf522c0e-2291-46d6-9a13-1cb8851ffaa3</tstamps>
     </comp>
@@ -86,7 +86,7 @@
       <property name="Digikey Part Number" value="1276-1450-1-ND"/>
       <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ba8bc79a-aace-4de0-88b5-2723c87a8882</tstamps>
     </comp>
@@ -108,7 +108,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7de7c7a4-f895-44cc-86de-2adea1be3bcf</tstamps>
     </comp>
@@ -130,7 +130,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d7c12432-d208-46c8-9ed8-de132c4d137b</tstamps>
     </comp>
@@ -152,7 +152,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>38cecb4e-5e3c-4e2d-8ba8-9d4060cb532b</tstamps>
     </comp>
@@ -174,7 +174,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d9ed4db6-bc7d-473f-90da-a218ddfd6200</tstamps>
     </comp>
@@ -196,7 +196,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6708d228-a315-4a34-bc82-c41a553c79bb</tstamps>
     </comp>
@@ -218,7 +218,7 @@
       <property name="Digikey Part Number" value="1276-1450-1-ND"/>
       <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ddc496b-6d7b-40ff-8d27-61898d7a3046</tstamps>
     </comp>
@@ -240,7 +240,7 @@
       <property name="Digikey Part Number" value="1276-1450-1-ND"/>
       <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b526558-22cc-49f0-a422-90dcb56c2b73</tstamps>
     </comp>
@@ -262,7 +262,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a5909492-b68b-47b5-b3df-4a73813624d6</tstamps>
     </comp>
@@ -284,7 +284,7 @@
       <property name="Digikey Part Number" value="1276-1450-1-ND"/>
       <property name="Mouser Part Number" value="187-CL05A106MP5NUNC "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>daa29870-3f1a-4dda-be46-565ebf7aa99c</tstamps>
     </comp>
@@ -306,7 +306,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fc7d2216-427e-4b3d-a76a-e328905f8984</tstamps>
     </comp>
@@ -328,7 +328,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>92ee6384-95e9-4a05-9421-6294b3081d53</tstamps>
     </comp>
@@ -350,7 +350,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b83d0f6b-ce5b-4676-9240-968e09661fde</tstamps>
     </comp>
@@ -372,7 +372,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ec90e4f1-40cb-4dd4-96be-af81a906587c</tstamps>
     </comp>
@@ -386,7 +386,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>21007af6-83c3-4995-ad32-e476070d8e7f</tstamps>
     </comp>
@@ -400,7 +400,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>78dd02b8-4293-4892-8ea6-2cb8b0619ddc</tstamps>
     </comp>
@@ -422,7 +422,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e661ea0-4a79-4fe3-91c8-49e4b2b77c77</tstamps>
     </comp>
@@ -444,7 +444,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dc168bbf-c74b-469f-9366-dff9c73e0187</tstamps>
     </comp>
@@ -466,7 +466,7 @@
       <property name="Mouser Part Number" value="187-CL05B104KB54PNC "/>
       <property name="LCSC" value="C307331"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ff293ee-ec68-4757-a7ed-2f238b58ad40</tstamps>
     </comp>
@@ -488,7 +488,7 @@
       <property name="Mouser Part Number" value="859-LTST-C191KFKT "/>
       <property name="LCSC" value="C160478"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d24812c1-f2f3-4bcf-8d1c-b6e2bef70d71</tstamps>
     </comp>
@@ -512,7 +512,7 @@
       <property name="Mouser Part Number" value="833-B5819W-TP "/>
       <property name="LCSC" value="C84354 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6739ae91-b721-4c28-999f-14dc323d6c72</tstamps>
     </comp>
@@ -536,7 +536,7 @@
       <property name="Mouser Part Number" value="833-B5819W-TP "/>
       <property name="LCSC" value="C84354 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>96b481a6-c11c-4979-a8c4-26b764c9ebc0</tstamps>
     </comp>
@@ -560,7 +560,7 @@
       <property name="Mouser Part Number" value="833-B5819W-TP "/>
       <property name="LCSC" value="C84354 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0c6d56a4-9790-4a42-8308-2b730ae21793</tstamps>
     </comp>
@@ -584,7 +584,7 @@
       <property name="Mouser Part Number" value="652-MF-MSMF050-2 "/>
       <property name="LCSC" value="C17313"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>61843730-cf9b-4810-825c-45705040f006</tstamps>
     </comp>
@@ -606,7 +606,7 @@
       <property name="Mouser Part Number" value="538-22-27-2031 "/>
       <property name="LCSC" value="C471416"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e7e1a28d-2d99-49a9-91da-4d6cd45d8494</tstamps>
     </comp>
@@ -628,7 +628,7 @@
       <property name="Mouser Part Number" value="649-67996-420HLF "/>
       <property name="LCSC" value="C492427"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e1eaf0b7-b432-4407-8d12-baa24918d397</tstamps>
     </comp>
@@ -650,7 +650,7 @@
       <property name="Digikey Part Number" value="WM4330-ND"/>
       <property name="Mouser Part Number" value="538-47053-1000 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a92ce35-66eb-4f44-82f9-5ff75f14fad5</tstamps>
     </comp>
@@ -672,7 +672,7 @@
       <property name="Mouser Part Number" value="538-22-29-2061 "/>
       <property name="LCSC" value="C587046"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bbff1f17-be29-4391-b7c7-cda11e166dc1</tstamps>
     </comp>
@@ -694,7 +694,7 @@
       <property name="Digikey Part Number" value="WM4330-ND"/>
       <property name="Mouser Part Number" value="538-47053-1000 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>859dac86-c938-47a0-800c-feb2e2f785e9</tstamps>
     </comp>
@@ -716,7 +716,7 @@
       <property name="Digikey Part Number" value="WM4203-ND"/>
       <property name="Mouser Part Number" value="538-22-23-2051 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061b25ad4</tstamps>
     </comp>
@@ -738,7 +738,7 @@
       <property name="Mouser Part Number" value="538-22-29-2061 "/>
       <property name="LCSC" value="C587046"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>02211994-ffc8-44f3-bf78-fb004c9e06e9</tstamps>
     </comp>
@@ -760,7 +760,7 @@
       <property name="Digikey Part Number" value="WM4330-ND"/>
       <property name="Mouser Part Number" value="538-47053-1000 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6dc4f786-16da-4ff7-9ac8-ae7491740470</tstamps>
     </comp>
@@ -782,7 +782,7 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ef24537b-5869-4527-beb0-b4b51cc2f352</tstamps>
     </comp>
@@ -804,7 +804,7 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9af28133-af23-435f-908f-74eec1ed4732</tstamps>
     </comp>
@@ -826,7 +826,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>96963704-ef74-4502-8f77-08df589216f0</tstamps>
     </comp>
@@ -848,7 +848,7 @@
       <property name="Digikey Part Number" value="WM4330-ND"/>
       <property name="Mouser Part Number" value="538-47053-1000 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e75351b3-e622-4bb9-8329-c36197f3b74f</tstamps>
     </comp>
@@ -870,7 +870,7 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4dcb4e0c-31f4-4098-83d1-6265589b96a2</tstamps>
     </comp>
@@ -892,7 +892,7 @@
       <property name="Mouser Part Number" value="649-10118194-0001LF "/>
       <property name="LCSC" value="C132563"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>409afa95-bed7-4976-a892-ee999caab054</tstamps>
     </comp>
@@ -914,7 +914,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>829d15e6-1734-485a-adfb-7ab85c818826</tstamps>
     </comp>
@@ -936,7 +936,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3d4ac5a1-d2f1-486f-bbce-3f98fee2a469</tstamps>
     </comp>
@@ -958,7 +958,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1bd05a58-94e3-4a29-873a-5dfb46f228e2</tstamps>
     </comp>
@@ -980,7 +980,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad67776a-6134-48d4-995c-50c49e317b5d</tstamps>
     </comp>
@@ -1002,7 +1002,7 @@
       <property name="Mouser Part Number" value="649-67997-206HLF "/>
       <property name="LCSC" value="C236051"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e9f27732-061a-4510-a897-7753a4a3f3da</tstamps>
     </comp>
@@ -1024,7 +1024,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f61d7b21-e246-4ab2-8b49-9d2a9eda24d4</tstamps>
     </comp>
@@ -1046,7 +1046,7 @@
       <property name="Mouser Part Number" value="636-171-025-103L001 "/>
       <property name="LCSC" value="C2984302"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d68ba233-86ab-4bb0-840d-b6f5f1aad046</tstamps>
     </comp>
@@ -1068,7 +1068,7 @@
       <property name="Digikey Part Number" value="277-1721-ND"/>
       <property name="Mouser Part Number" value="651-1984617 "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>470d6dd2-e7a1-429e-92b2-6c20ee19cebb</tstamps>
     </comp>
@@ -1090,7 +1090,7 @@
       <property name="Mouser Part Number" value="538-22-27-2031 "/>
       <property name="LCSC" value="C471416"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d9f83d13-aabc-4983-83b3-2a5daf28d2a6</tstamps>
     </comp>
@@ -1112,7 +1112,7 @@
       <property name="Mouser Part Number" value="538-22-27-2031 "/>
       <property name="LCSC" value="C471416"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e8ffe730-d38c-451b-860c-88de16382ac0</tstamps>
     </comp>
@@ -1134,7 +1134,7 @@
       <property name="Mouser Part Number" value="538-22-27-2031 "/>
       <property name="LCSC" value="C471416"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>184215aa-c963-481a-846b-e1c525e853d1</tstamps>
     </comp>
@@ -1156,7 +1156,7 @@
       <property name="Mouser Part Number" value="538-22-29-2061 "/>
       <property name="LCSC" value="C587046"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b3fb223-7439-4da6-bacd-5dd931bce546</tstamps>
     </comp>
@@ -1178,7 +1178,7 @@
       <property name="Mouser Part Number" value="538-22-27-2031 "/>
       <property name="LCSC" value="C471416"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d1a72c57-43f6-4c60-a72f-40b88c383ebf</tstamps>
     </comp>
@@ -1200,7 +1200,7 @@
       <property name="Mouser Part Number" value="485-4684 "/>
       <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f9949ce8-c165-4601-9356-56df1cbb2651</tstamps>
     </comp>
@@ -1222,7 +1222,7 @@
       <property name="Mouser Part Number" value="485-4684 "/>
       <property name="LCSC" value="C965555"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>000709f0-3dba-466e-a62e-9e66290e1ed4</tstamps>
     </comp>
@@ -1244,7 +1244,7 @@
       <property name="Mouser Part Number" value="791-WR06X105JTL "/>
       <property name="LCSC" value="C384292"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e0a92b63-b80e-4806-aa72-1c7ed2738287</tstamps>
     </comp>
@@ -1266,7 +1266,7 @@
       <property name="Mouser Part Number" value="603-RC0603JR-07200RL "/>
       <property name="LCSC" value="C114686"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5150c515-5131-41c6-a49d-021a48ddc44b</tstamps>
     </comp>
@@ -1288,7 +1288,7 @@
       <property name="Mouser Part Number" value="603-RT1206BRD07400RL "/>
       <property name="LCSC" value="C706413"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>37455c05-0026-4fca-8bb0-ac609ab0c612</tstamps>
     </comp>
@@ -1310,7 +1310,7 @@
       <property name="Mouser Part Number" value="603-RT1206BRD07400RL "/>
       <property name="LCSC" value="C706413"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>70b0dd53-0c41-47cb-86bf-d416dce6a268</tstamps>
     </comp>
@@ -1332,7 +1332,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-07220RL "/>
       <property name="LCSC" value="C137899"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2b0d9e74-2d92-42f5-8ee7-b73facb73c17</tstamps>
     </comp>
@@ -1345,7 +1345,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da386f60-bb71-409c-9e5b-fbc14efeaeea</tstamps>
     </comp>
@@ -1358,7 +1358,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e66be74a-6f3a-4f1d-bf4a-6ff257fd285a</tstamps>
     </comp>
@@ -1371,7 +1371,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061c1a844</tstamps>
     </comp>
@@ -1384,7 +1384,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061be6bed</tstamps>
     </comp>
@@ -1397,7 +1397,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a87fc57f-f56e-4686-87c7-8e41a45e4bc7</tstamps>
     </comp>
@@ -1410,7 +1410,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>97b245ba-1493-4458-aec5-29e3de0b615e</tstamps>
     </comp>
@@ -1423,7 +1423,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>07c3a5e9-e419-4936-830c-37bd74ff952e</tstamps>
     </comp>
@@ -1436,7 +1436,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a1463132-d6cd-422a-bb5d-9baaf3823e89</tstamps>
     </comp>
@@ -1449,7 +1449,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C352454"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e5e23e21-6397-4fd9-88d8-da898369897c</tstamps>
     </comp>
@@ -1471,7 +1471,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e93e2c60-284c-48e6-9fe5-de20f5f98452</tstamps>
     </comp>
@@ -1493,7 +1493,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fff53244-6ee7-4935-a483-b8bfdb1af4fc</tstamps>
     </comp>
@@ -1515,51 +1515,31 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f37acb4b-7968-4e37-8c28-af6c41e3eb41</tstamps>
     </comp>
     <comp ref="R18">
-      <value>57K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <value>60K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">311-57.6KHRCT-ND</field>
-        <field name="LCSC">C245983</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer's Part Number">RC0603FR-0757K6L</field>
-        <field name="Mouser Part Number">603-RC0603FR-0757K6L </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="Manufacturer's Part Number" value="RC0603FR-0757K6L"/>
-      <property name="Digikey Part Number" value="311-57.6KHRCT-ND"/>
-      <property name="Mouser Part Number" value="603-RC0603FR-0757K6L "/>
-      <property name="LCSC" value="C245983"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>02bb12d0-ee60-4d56-96ff-64a154ec1753</tstamps>
     </comp>
     <comp ref="R19">
       <value>22K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">RMCF0603FG22K0CT-ND</field>
-        <field name="LCSC">C325646</field>
-        <field name="Manufacturer">Stackpole Electronics Inc</field>
-        <field name="Manufacturer's Part Number">RMCF0603FG22K0</field>
-        <field name="Mouser Part Number">708-RMCF0603FG22K0 </field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
-      <property name="Manufacturer's Part Number" value="RMCF0603FG22K0"/>
-      <property name="Digikey Part Number" value="RMCF0603FG22K0CT-ND"/>
-      <property name="Mouser Part Number" value="708-RMCF0603FG22K0 "/>
-      <property name="LCSC" value="C325646"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e1d467ae-0ae8-4b46-85b9-b44ed2d1d202</tstamps>
     </comp>
@@ -1581,7 +1561,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f6759d26-d81c-4bee-aa8f-0d1b99db2df1</tstamps>
     </comp>
@@ -1603,7 +1583,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8feb3d04-d9f9-4c18-b68a-f2ce8177178e</tstamps>
     </comp>
@@ -1625,7 +1605,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0f0f9b53-15a0-4186-88c0-0ea521c43bef</tstamps>
     </comp>
@@ -1647,7 +1627,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f4876918-0ef8-48a3-a091-00b90ee8ee30</tstamps>
     </comp>
@@ -1669,7 +1649,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>161b7103-5dd7-4756-9798-4aca7b9bb4e2</tstamps>
     </comp>
@@ -1691,7 +1671,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3bb200b7-5147-46df-8b48-7515618b9647</tstamps>
     </comp>
@@ -1713,7 +1693,7 @@
       <property name="Mouser Part Number" value="603-RC0402JR-07220RL "/>
       <property name="LCSC" value="C137899"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7d74e5d0-4167-451d-b996-a6fe33a259af</tstamps>
     </comp>
@@ -1735,7 +1715,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a31c5113-2313-45fb-93ff-e0f7a41ae003</tstamps>
     </comp>
@@ -1757,7 +1737,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>18beb5eb-83a2-4015-a611-2c6c58b24b40</tstamps>
     </comp>
@@ -1779,7 +1759,7 @@
       <property name="Digikey Part Number" value="YAG3436CT-ND"/>
       <property name="Mouser Part Number" value="603-AC0402FR-0710KL "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4317da36-28e6-4d44-ba6f-ab2bcb11134d</tstamps>
     </comp>
@@ -1799,7 +1779,7 @@
       <property name="Digikey Part Number" value="EG2529CT-ND"/>
       <property name="LCSC" value="C2886915"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>40f66bf5-d447-45e3-b860-4062a09ecce1</tstamps>
     </comp>
@@ -1819,7 +1799,7 @@
       <property name="Digikey Part Number" value="EG2529CT-ND"/>
       <property name="LCSC" value="C2886915"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>40d37d1a-c5aa-44ac-b25c-30708a079cb7</tstamps>
     </comp>
@@ -1841,7 +1821,7 @@
       <property name="Digikey Part Number" value="ATMEGA2560-16AU-ND"/>
       <property name="Mouser Part Number" value="556-ATMEGA2560-16AU "/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>39ea3f58-77ba-4e08-a00d-10410c588ef3</tstamps>
     </comp>
@@ -1867,7 +1847,7 @@
       <property name="Manufacturer's Part Number" value="CH340C"/>
       <property name="LCSC" value="C84681"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>009177f5-60e4-4c3e-a5f6-f9d1c4e89a8a</tstamps>
     </comp>
@@ -1889,7 +1869,7 @@
       <property name="Mouser Part Number" value="595-TPS2115APW "/>
       <property name="LCSC" value="C70287"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8f7fa660-39ba-4400-8cd9-b6c82e695e80</tstamps>
     </comp>
@@ -1911,7 +1891,7 @@
       <property name="Mouser Part Number" value="356-ES32WROOM32D16MB "/>
       <property name="LCSC" value="C529578"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>04aa48fa-ae79-46bc-89f4-e311acac1e7a</tstamps>
     </comp>
@@ -1937,7 +1917,7 @@
       <property name="Manufacturer's Part Number" value="CH340C"/>
       <property name="LCSC" value="C84681"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4038125c-e81b-49ed-baef-35724af020bb</tstamps>
     </comp>
@@ -1959,7 +1939,7 @@
       <property name="Mouser Part Number" value="755-UMH3NTN "/>
       <property name="LCSC" value="C62892"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bfe1d72c-a6ec-44c3-99e6-b48ed8837716</tstamps>
     </comp>
@@ -1981,7 +1961,7 @@
       <property name="Mouser Part Number" value="595-LP5912-3.3DRVR "/>
       <property name="LCSC" value="C524780"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d04b9769-ec96-4160-8eac-f3e1647b1ba7</tstamps>
     </comp>
@@ -1990,7 +1970,7 @@
       <footprint>Pololu:D36V50F5-STEPDOWN</footprint>
       <libsource lib="Pololu" part="D36V50F5-STEPDOWN" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7b678caa-c394-4dfc-89aa-990d3c42403d</tstamps>
     </comp>
@@ -2008,7 +1988,7 @@
       <property name="Manufacturer" value=" ECEC(ZheJiang E ast Crystal Elec)"/>
       <property name="Manufacturer's Part Number" value="B16000J114"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Body_LED_Controller_V1.kicad_sch"/>
+      <property name="Sheetfile" value="Body_Controller_V1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6e86d13b-a117-45bb-b0f5-bcc27403f886</tstamps>
     </comp>

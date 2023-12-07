@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_Servos/Body_Servos/Body_Servos.kicad_sch</source>
-    <date>Monday, December 05, 2022 at 01:28:11 PM</date>
+    <source>/Users/gregoryhulette/Documents/GitHub/KiCad-Files-Public/Body_Servos_V1.1/Body_Servos.kicad_sch</source>
+    <date>Monday, September 18, 2023 at 08:27:42 PM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -152,7 +152,7 @@
     </comp>
     <comp ref="J2">
       <value>AUX3</value>
-      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Custom:470531000</footprint>
       <datasheet>~https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
       <fields>
         <field name="LCSC">C240840 </field>
@@ -166,7 +166,7 @@
     </comp>
     <comp ref="J3">
       <value>AUX1</value>
-      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Custom:470531000</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
       <fields>
         <field name="LCSC">C240840 </field>
@@ -180,7 +180,7 @@
     </comp>
     <comp ref="J4">
       <value>AUX2</value>
-      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Custom:470531000</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811051309_MOLEX-470531000_C240840.pdf</datasheet>
       <fields>
         <field name="LCSC">C240840 </field>
