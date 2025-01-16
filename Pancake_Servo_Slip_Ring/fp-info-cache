@@ -1,4 +1,4 @@
-20189177171230621
+20190889968105773
 Arduino_Mega_2560_Pro_Mini
 Arduino_Mega_2560_Pro_MINI
 
@@ -58233,6 +58233,13 @@ ServoControllerv1.1
 0
 0
 Logos
+Slip_Ring_V2
+
+
+0
+0
+0
+Logos
 WCB
 
 
@@ -58293,8 +58300,8 @@ slipring
 
 
 0
-0
-0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
