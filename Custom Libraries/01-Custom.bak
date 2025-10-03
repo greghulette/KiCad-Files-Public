@@ -200,7 +200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 8.382 0)
+			(at 9.144 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)

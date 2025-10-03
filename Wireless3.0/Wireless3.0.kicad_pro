@@ -502,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "WCB_V3.1_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Wireless3.0-3.step",
