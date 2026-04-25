@@ -1,0 +1,112 @@
+(footprint "WS2812B-2020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.624 0)
+		(layer "F.SilkS")
+		(uuid "493831ad-99da-4bb4-9b41-502ec55a8ec5")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WS2812B-2020"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "60c37dca-525e-498d-8813-455d0df0cf4b")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WS2812B-2020"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "768e0a25-a9c5-4841-9d48-20a0f56bc8d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1542c15-8281-4c2c-8f92-ad3373d8911f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc2ef294-25cf-40bf-82ca-96c169376a2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 1.9 1)
+		(end 2.2 1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d64ae991-26a1-4fa9-93fd-2f839486ce2c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3 -0.9) (xy 0.3 -0.9) (xy 0.3 -0.3) (xy -0.3 -0.3)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "62a83625-80b5-432e-be1a-e8c498c4c08d")
+	)
+	(pad "1" smd rect
+		(at 1.015 0.65)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d872a3f-61c9-43de-a1c8-6a9440a6e3c8")
+	)
+	(pad "2" smd rect
+		(at 1.015 -0.65)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b3e5285-e0df-4046-81ec-54b7041431b5")
+	)
+	(pad "3" smd rect
+		(at -1.015 -0.65)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d72ef5f-017c-445b-aa03-f8f1f909bce4")
+	)
+	(pad "4" smd rect
+		(at -1.015 0.65)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9fd45ebb-0ff7-430a-ac45-2855f44c28e1")
+	)
+)
