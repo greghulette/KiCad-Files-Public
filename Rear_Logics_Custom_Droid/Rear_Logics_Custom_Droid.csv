@@ -1,0 +1,3 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D18,D5,D10,D15,D8,D3,D14,D11,D4,D6,D1,D13,D17,D7,D16,D12,D9,D2";"LED_RGB_5050-6";18;"APA102";;;
+2;"J1";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;

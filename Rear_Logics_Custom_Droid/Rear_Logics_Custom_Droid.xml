@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/gregoryhulette/Documents/KiCad/Data Panel VU/Data Panel VU.kicad_sch</source>
+    <date>Thursday, February 03, 2022 at 03:23:24 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Data Panel VU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70549ec9-b195-4266-af6b-2a6e84f73ce7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e5934f9-4ebb-4a77-b14c-26e9fd99cccd</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bec19fba-f891-4f2f-8968-e78bc6bd61bd</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea9bf7d6-59a8-45ea-a0fa-dcf07918be22</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95cbf15b-3e01-4042-8177-829af5aa6209</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa429ee2-4c21-41c9-bf99-fb527bfb4093</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a773001f-8683-4ffe-8902-aff0123ed6e3</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc23d66a-792b-4e97-bf5e-cc813498d3eb</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec93ba6d-354b-44d2-b521-e661bc6a627f</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ad77197-3b1f-44db-affc-d8a5f8e2e483</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>702ec688-6d5e-4886-b1e5-2e9b6a9dcb81</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9caeb816-c7ca-43a1-a134-728999f5de8f</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b2fdeb7-8a40-4243-95f3-5573a877c06f</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4895865a-85d4-451f-84e4-f9ceecdb8443</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34ff05e1-c5d1-4c99-8e4b-12c90443aefa</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71ee86b5-2d9b-48ff-b3e2-0c0584c13523</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8591cd8a-7862-470d-b4bb-5228a9ba1c22</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>APA102</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201506/APA102%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ade9f9a-e711-416a-aa46-33b873e90f18</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Data Panel VU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f359b497-08df-446c-98e0-1bf08c7782dc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="APA102">
+      <description>RGB LED with integrated controller</description>
+      <docs>http://www.led-color.com/upload/201506/APA102%20LED.pdf</docs>
+      <footprints>
+        <fp>LED*RGB*5050*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">APA102</field>
+        <field name="Footprint">LED_SMD:LED_RGB_5050-6</field>
+        <field name="Datasheet">http://www.led-color.com/upload/201506/APA102%20LED.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DI" type="input"/>
+        <pin num="2" name="CI" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="CO" type="output"/>
+        <pin num="6" name="DO" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D10" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D11" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D12" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D13" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D14" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D15" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D16" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D17" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D18" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D2" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D3" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D4" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D5" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D6" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D7" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D8" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D9" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/C1C">
+      <node ref="D2" pin="2" pinfunction="CI" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/C1D">
+      <node ref="D2" pin="1" pinfunction="DI" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="4" name="/C2C">
+      <node ref="D1" pin="2" pinfunction="CI" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="5" name="/C2D">
+      <node ref="D1" pin="1" pinfunction="DI" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="D1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D12" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D14" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D15" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D16" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D17" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D18" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D7" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D9" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad5)">
+      <node ref="D1" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D3" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad6)">
+      <node ref="D1" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D3" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad5)">
+      <node ref="D2" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D4" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad6)">
+      <node ref="D2" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D4" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad5)">
+      <node ref="D3" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D5" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad6)">
+      <node ref="D3" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D5" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad5)">
+      <node ref="D4" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D6" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(D4-Pad6)">
+      <node ref="D4" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D6" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D6-Pad5)">
+      <node ref="D6" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D8" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(D6-Pad6)">
+      <node ref="D6" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D8" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(D7-Pad1)">
+      <node ref="D5" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D7" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D7-Pad2)">
+      <node ref="D5" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D7" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(D7-Pad5)">
+      <node ref="D7" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D9" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(D7-Pad6)">
+      <node ref="D7" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D9" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(D8-Pad5)">
+      <node ref="D10" pin="2" pinfunction="CI" pintype="input"/>
+      <node ref="D8" pin="5" pinfunction="CO" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(D8-Pad6)">
+      <node ref="D10" pin="1" pinfunction="DI" pintype="input"/>
+      <node ref="D8" pin="6" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(D9-Pad5)">
+      <node ref="D11" pin="2" pinfunction="CI" pintype="input"/>
+      <node ref="D9" pin="5" pinfunction="CO" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(D9-Pad6)">
+      <node ref="D11" pin="1" pinfunction="DI" pintype="input"/>
+      <node ref="D9" pin="6" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(D10-Pad5)">
+      <node ref="D10" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D12" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D10-Pad6)">
+      <node ref="D10" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D12" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(D11-Pad5)">
+      <node ref="D11" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D13" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(D11-Pad6)">
+      <node ref="D11" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D13" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D12-Pad5)">
+      <node ref="D12" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D14" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D12-Pad6)">
+      <node ref="D12" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D14" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D13-Pad5)">
+      <node ref="D13" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D15" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D13-Pad6)">
+      <node ref="D13" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D15" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D14-Pad5)">
+      <node ref="D14" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D16" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D14-Pad6)">
+      <node ref="D14" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D16" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D15-Pad5)">
+      <node ref="D15" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D17" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(D15-Pad6)">
+      <node ref="D15" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D17" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(D16-Pad5)">
+      <node ref="D16" pin="5" pinfunction="CO" pintype="output"/>
+      <node ref="D18" pin="2" pinfunction="CI" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(D16-Pad6)">
+      <node ref="D16" pin="6" pinfunction="DO" pintype="output"/>
+      <node ref="D18" pin="1" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(D17-Pad5)">
+      <node ref="D17" pin="5" pinfunction="CO" pintype="output+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(D17-Pad6)">
+      <node ref="D17" pin="6" pinfunction="DO" pintype="output+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(D18-Pad5)">
+      <node ref="D18" pin="5" pinfunction="CO" pintype="output+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(D18-Pad6)">
+      <node ref="D18" pin="6" pinfunction="DO" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
