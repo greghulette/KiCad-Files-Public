@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=RKJXV122400R
+PartCategory=Switch
+PackageCategory=Other
+PinCount=16
+Version=1.3
+Released=2020-04-06 14:59:24
+Downloaded=2026-04-25 08:53:22
+3D=Y

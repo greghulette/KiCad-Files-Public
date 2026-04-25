@@ -1,0 +1,286 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RKJXV122400R"
+   (description "Multi Control Devices Potentiometer Type ThumbPointer (Stick Controller) RKJXV Series")
+   (family "SWI")
+   (package "RKJXV122400R")
+   (attribute "Datasheet Link" "https://tech.alpsalpine.com/prod/e/html/multicontrol/potentiometer/rkjxk/rkjxv122400r.html")
+   (attribute "Geometry.Height" "18.95mm")
+   (attribute "Manufacturer_Name" "ALPS Electric")
+   (attribute "Manufacturer_Part_Number" "RKJXV122400R")
+   (attribute "Mouser Part Number" "688-RKJXV122400R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV122400R?qs=GedFDFLaBXEbB%252ByoOVwLBg%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RKJXV122400R")
+    (pin "A1" A1 PS)
+    (pin "A11" A11 PS)
+    (pin "A12" A12 PS)
+    (pin "A13" A13 PS)
+    (pin "B1" B1 PS)
+    (pin "B11" B11 PS)
+    (pin "B12" B12 PS)
+    (pin "B13" B13 PS)
+    (pin "C1" C1 PS)
+    (pin "D1" D1 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+    (pin "MH4" MH4 PS)
+    (pin "MH5" MH5 PS)
+    (pin "MH6" MH6 PS)
+   )
+  )
+  (symbol "RKJXV122400R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RKJXV122400R"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -16.627 8.315)
+      (pt 1.572 8.315)
+      (pt 1.572 -4.835)
+      (pt -16.627 -4.835)
+      (pt -16.627 8.315))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -17.627 13.74)
+      (pt 3.672 13.74)
+      (pt 3.672 -10.26)
+      (pt -17.627 -10.26)
+      (pt -17.627 13.74))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -13.527 -4.835)
+      (pt -13.527 -9.26)
+      (pt -3.527 -9.26)
+      (pt -3.527 -4.835))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.527 8.315)
+      (pt -12.527 12.74)
+      (pt -4.527 12.74)
+      (pt -4.527 8.315))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed true)
+      (pt 2.473 0)
+      (arc (pt 2.473 0.000) (pt 2.473 -0.100) (pt 2.672 0.100) (start 180.0) (sweep 180.0))
+      (pt 2.672 0)
+      (arc (pt 2.672 0.000) (pt 2.473 -0.100) (pt 2.672 0.100) (start 180.0) (sweep .0))
+      (pt 2.473 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.572 8.315)
+      (pt 1.572 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -16.627 5)
+      (pt -16.627 -4.835)
+      (pt -3.527 -4.835))))
+   (leg A1 (pt -11.980 -3.250) (padstack 1))
+   (leg A11 (pt 0.000 0.000) (padstack 0))
+   (leg A12 (pt 0.000 2.500) (padstack 0))
+   (leg A13 (pt 0.000 5.000) (padstack 0))
+   (leg B1 (pt -11.980 -7.750) (padstack 5))
+   (leg B11 (pt -6.230 11.230) (padstack 0))
+   (leg B12 (pt -8.730 11.230) (padstack 0))
+   (leg B13 (pt -11.230 11.230) (padstack 0))
+   (leg C1 (pt -5.480 -3.250) (padstack 9))
+   (leg D1 (pt -5.480 -7.750) (padstack 10))
+   (leg MH1 (pt -15.055 -2.500) (padstack 11))
+   (leg MH2 (pt -15.055 7.500) (padstack 12))
+   (leg MH3 (pt -2.405 -2.500) (padstack 13))
+   (leg MH4 (pt -2.405 7.500) (padstack 14))
+   (leg MH5 (pt -13.030 2.500) (padstack 15))
+   (leg MH6 (pt -4.430 2.500) (padstack 16))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (padstack 1
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 5
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 9
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 10
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 11
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 12
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 13
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 14
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 15
+    (hole 1.65)
+    (plated true)
+    (pad (layer TCOP) (round 2.475))
+    (pad (layer INNER) (round 2.475))
+    (pad (layer BCOP) (round 2.475))
+   )
+   (padstack 16
+    (hole 1.65)
+    (plated true)
+    (pad (layer TCOP) (round 2.475))
+    (pad (layer INNER) (round 2.475))
+    (pad (layer BCOP) (round 2.475))
+   )
+   (model "RKJXV122400R.stp"
+    (euler 0 0 0)
+    (offset -8.779999732971191 2.509999990463257 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RKJXV122400R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "RKJXV122400R" (!) = "", "RKJXV122400R", "Other", "688-RKJXV122400R", "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV122400R?qs=GedFDFLaBXEbB%252ByoOVwLBg%3D%3D", "", "", "Multi Control Devices Potentiometer Type ThumbPointer (Stick Controller) RKJXV Series", "https://tech.alpsalpine.com/prod/e/html/multicontrol/potentiometer/rkjxk/rkjxv122400r.html", "18.95 mm"
+END_PART
+
+END.

@@ -1,0 +1,19 @@
+.RKJXV122400R :1 ;Multi Control Devices Potentiometer Type ThumbPointer (Stick Controller) RKJXV Series
+RKJXV122400R
+*STM S
+*NGS
+*PNM 1=A1 2=A11 3=A12 4=A13 5=B1 6=B11 7=B12 8=B13 9=C1 10=D1 11=MH1 12=MH2 13=MH3 14=MH4 15=MH5 16=MH6
+*PLB 1="A1" 2="A11" 3="A12" 4="A13" 5="B1" 6="B11" 7="B12" 8="B13" 9="C1" 10="D1" 11="MH1" 12="MH2" 13="MH3" 14="MH4" 15="MH5" 16="MH6"
+*MXP 16
+*DFN RKJXV122400R
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (RKJXV122400R)
+~!Mouser Part Number (688-RKJXV122400R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV122400R?qs=GedFDFLaBXEbB%252ByoOVwLBg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://tech.alpsalpine.com/prod/e/html/multicontrol/potentiometer/rkjxk/rkjxv122400r.html)
+~!Height (18.95mm)
+~!3D_Model (RKJXV122400R)
+RKJXV122400R
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

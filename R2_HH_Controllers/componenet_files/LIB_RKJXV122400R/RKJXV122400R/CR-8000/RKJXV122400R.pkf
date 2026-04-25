@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RKJXV122400R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RKJXV122400R")
+        (spec "default")
+    )
+)
