@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RKJXV1224005
+#/13224823/213781/2.50/10/3/Variable Resistor
+DEF RKJXV1224005 VR 0 30 Y Y 1 F N
+F0 "VR" 1150 300 50 H V L CNN
+F1 "RKJXV1224005" 1150 200 50 H V L CNN
+F2 "RKJXV1224005" 1150 100 50 H I L CNN
+F3 "https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/" 1150 0 50 H I L CNN
+F4 "Plugin,13x13mm Multi-Directional Switches ROHS, Rotary Potentiometer, 10 kOhm, 1Turn, 12.5 mW" 1150 -100 50 H I L CNN "Description"
+F5 "18.95" 1150 -200 50 H I L CNN "Height"
+F6 "ALPS Electric" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RKJXV1224005" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-RKJXV1224005" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV1224005?qs=RiQAlOPxzzAqLSX9lUzx8Q%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X MH1 1 0 0 200 R 50 50 0 0 P
+X MH2 2 0 -100 200 R 50 50 0 0 P
+X MH3 3 0 -200 200 R 50 50 0 0 P
+X MH4 4 0 -300 200 R 50 50 0 0 P
+X CCW_1 A1 0 -400 200 R 50 50 0 0 P
+X WIPER_1 A2 1300 0 200 L 50 50 0 0 P
+X CW_1 A3 1300 -100 200 L 50 50 0 0 P
+X CCW_2 B1 1300 -200 200 L 50 50 0 0 P
+X WIPER_2 B2 1300 -300 200 L 50 50 0 0 P
+X CW_2 B3 1300 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

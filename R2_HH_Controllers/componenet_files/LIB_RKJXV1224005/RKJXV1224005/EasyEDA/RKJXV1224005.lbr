@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/13224823/213781/2.50/10/3/Variable Resistor/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Plugin,13x13mm Multi-Directional Switches ROHS, Rotary Potentiometer, 10 kOhm, 1Turn, 12.5 mW&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RKJXV1224005">
+<description>&lt;b&gt;RKJXV1224005-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-2.405" y="7.500" drill="1.5" diameter="2.250"/>
+<pad name="2" x="-15.055" y="7.500" drill="1.5" diameter="2.250"/>
+<pad name="3" x="-15.055" y="-2.500" drill="1.5" diameter="2.250"/>
+<pad name="4" x="-2.405" y="-2.500" drill="1.5" diameter="2.250"/>
+<hole x="-4.430" y="2.500" drill="1.6"/>
+<hole x="-13.030" y="2.500" drill="1.6"/>
+<pad name="A1" x="0.000" y="0.000" drill="1" diameter="1.500" shape="square"/>
+<pad name="A2" x="0.000" y="2.500" drill="1" diameter="1.500"/>
+<pad name="A3" x="0.000" y="5.000" drill="1" diameter="1.500"/>
+<pad name="B1" x="-6.230" y="11.230" drill="1" diameter="1.500"/>
+<pad name="B2" x="-8.730" y="11.230" drill="1" diameter="1.500"/>
+<pad name="B3" x="-11.230" y="11.230" drill="1" diameter="1.500"/>
+<text x="-8.440" y="2.500" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="-8.440" y="2.500" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-15.305" y1="9.075" x2="-2.155" y2="9.075" width="0.1" layer="51"/>
+<wire x1="-2.155" y1="9.075" x2="-2.155" y2="-4.075" width="0.1" layer="51"/>
+<wire x1="-2.155" y1="-4.075" x2="-15.305" y2="-4.075" width="0.1" layer="51"/>
+<wire x1="-15.305" y1="-4.075" x2="-15.305" y2="9.075" width="0.1" layer="51"/>
+<wire x1="-18.63" y1="14.15" x2="1.75" y2="14.15" width="0.1" layer="51"/>
+<wire x1="1.75" y1="14.15" x2="1.75" y2="-9.15" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-9.15" x2="-18.63" y2="-9.15" width="0.1" layer="51"/>
+<wire x1="-18.63" y1="-9.15" x2="-18.63" y2="14.15" width="0.1" layer="51"/>
+<wire x1="-15.305" y1="6.25" x2="-17.63" y2="6.25" width="0.1" layer="51"/>
+<wire x1="-17.63" y1="6.25" x2="-17.63" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-17.63" y1="-1.25" x2="-15.305" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-2.155" y1="6.25" x2="0.17" y2="6.25" width="0.1" layer="51"/>
+<wire x1="0.17" y1="6.25" x2="0.17" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="0.17" y1="-1.25" x2="-2.155" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-4.98" y1="9.075" x2="-4.98" y2="13.15" width="0.1" layer="51"/>
+<wire x1="-4.98" y1="13.15" x2="-12.48" y2="13.15" width="0.1" layer="51"/>
+<wire x1="-12.48" y1="13.15" x2="-12.48" y2="9.075" width="0.1" layer="51"/>
+<wire x1="-12.48" y1="-4.075" x2="-12.48" y2="-8.15" width="0.1" layer="51"/>
+<wire x1="-12.48" y1="-8.15" x2="-4.98" y2="-8.15" width="0.1" layer="51"/>
+<wire x1="-4.98" y1="-8.15" x2="-4.98" y2="-4.075" width="0.1" layer="51"/>
+<wire x1="-16.23" y1="6.25" x2="-17.63" y2="6.25" width="0.2" layer="21"/>
+<wire x1="-17.63" y1="6.25" x2="-17.63" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-17.63" y1="-1.25" x2="-16.23" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-1.23" y1="6.25" x2="0.17" y2="6.25" width="0.2" layer="21"/>
+<wire x1="-1.23" y1="-1.25" x2="0.17" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-15.305" y1="9.075" x2="-2.155" y2="9.075" width="0.2" layer="21"/>
+<wire x1="-12.48" y1="9.075" x2="-12.48" y2="13.15" width="0.2" layer="21"/>
+<wire x1="-12.48" y1="13.15" x2="-4.98" y2="13.15" width="0.2" layer="21"/>
+<wire x1="-4.98" y1="13.15" x2="-4.98" y2="9.075" width="0.2" layer="21"/>
+<wire x1="-15.305" y1="-4.075" x2="-2.155" y2="-4.075" width="0.2" layer="21"/>
+<wire x1="-12.48" y1="-4.075" x2="-12.48" y2="-8.15" width="0.2" layer="21"/>
+<wire x1="-12.48" y1="-8.15" x2="-4.98" y2="-8.15" width="0.2" layer="21"/>
+<wire x1="-4.98" y1="-8.15" x2="-4.98" y2="-4.075" width="0.2" layer="21"/>
+<wire x1="-15.305" y1="5.625" x2="-15.305" y2="-0.625" width="0.2" layer="21"/>
+<wire x1="-2.155" y1="5.625" x2="-2.155" y2="-0.625" width="0.2" layer="21"/>
+<wire x1="1.25" y1="0" x2="1.25" y2="0" width="0.1" layer="21"/>
+<wire x1="1.250" y1="0.000" x2="1.350" y2="0.000" width="0.1" layer="21" curve="180.0"/>
+<wire x1="1.35" y1="0" x2="1.35" y2="0" width="0.1" layer="21"/>
+<wire x1="1.350" y1="0.000" x2="1.250" y2="0.000" width="0.1" layer="21" curve="180.0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RKJXV1224005">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-12.7" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="29.21" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MH1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="MH2" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="MH3" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="MH4" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="CCW_1" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="WIPER_1" x="33.02" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="CW_1" x="33.02" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="CCW_2" x="33.02" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="WIPER_2" x="33.02" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="CW_2" x="33.02" y="-10.16" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RKJXV1224005" prefix="VR">
+<description>&lt;b&gt;Plugin,13x13mm Multi-Directional Switches ROHS, Rotary Potentiometer, 10 kOhm, 1Turn, 12.5 mW&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RKJXV1224005" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RKJXV1224005">
+<connects>
+<connect gate="G$1" pin="MH1" pad="1"/>
+<connect gate="G$1" pin="MH2" pad="2"/>
+<connect gate="G$1" pin="MH3" pad="3"/>
+<connect gate="G$1" pin="MH4" pad="4"/>
+<connect gate="G$1" pin="CCW_1" pad="A1"/>
+<connect gate="G$1" pin="WIPER_1" pad="A2"/>
+<connect gate="G$1" pin="CW_1" pad="A3"/>
+<connect gate="G$1" pin="CCW_2" pad="B1"/>
+<connect gate="G$1" pin="WIPER_2" pad="B2"/>
+<connect gate="G$1" pin="CW_2" pad="B3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="ALPS Electric" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="RKJXV1224005" constant="no"/>
+<attribute name="Mouser_Part_Number" value="688-RKJXV1224005" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV1224005?qs=RiQAlOPxzzAqLSX9lUzx8Q%3D%3D" constant="no"/>
+<attribute name="Arrow_Part_Number" value="" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="" constant="no"/>
+<attribute name="Description" value="Plugin,13x13mm Multi-Directional Switches ROHS, Rotary Potentiometer, 10 kOhm, 1Turn, 12.5 mW" constant="no"/>
+<attribute name="Height" value="18.95mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

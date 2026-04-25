@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=RKJXV1224005
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=10
+Version=2.14
+Released=2020-10-30 13:09:20
+Downloaded=2026-04-22 03:49:25
+3D=Y
