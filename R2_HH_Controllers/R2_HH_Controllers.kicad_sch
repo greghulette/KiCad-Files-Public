@@ -5585,6 +5585,12 @@
 		(uuid "2328a7f1-93d1-4055-b2f3-ac8b6a45513f")
 	)
 	(junction
+		(at 153.67 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31be1399-72fe-4d52-8e72-2bb5c83d2ad6")
+	)
+	(junction
 		(at 105.41 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5607,6 +5613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cb01b0d-7172-461a-97e0-37e4784e6dcd")
+	)
+	(junction
+		(at 181.61 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56cd9ab5-091c-4c1e-ad80-1c55ba3cee47")
 	)
 	(junction
 		(at 252.73 124.46)
@@ -5748,7 +5760,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 137.16) (xy 160.02 138.43)
+			(xy 161.29 238.76) (xy 166.37 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12be26e9-418f-4ba0-8693-321231934981")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5818,6 +5840,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 228.6) (xy 194.31 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b8ecf3-8157-4b6d-b68e-986d808a93e0")
+	)
+	(wire
+		(pts
+			(xy 153.67 194.31) (xy 153.67 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4040ed20-5359-423b-911d-9ae06ca8693c")
+	)
+	(wire
+		(pts
 			(xy 219.71 95.25) (xy 219.71 106.68)
 		)
 		(stroke
@@ -5848,6 +5890,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 228.6) (xy 181.61 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5463b327-7bdd-4e65-b58b-0fcf52fabcb2")
+	)
+	(wire
+		(pts
 			(xy 26.67 105.41) (xy 44.45 105.41)
 		)
 		(stroke
@@ -5865,6 +5917,16 @@
 			(type default)
 		)
 		(uuid "5ca10f10-c478-4374-bef2-2099ed257be5")
+	)
+	(wire
+		(pts
+			(xy 161.29 204.47) (xy 161.29 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d246aaf-f3a7-41b5-b7ff-1f684bcca063")
 	)
 	(wire
 		(pts
@@ -5888,6 +5950,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 180.34) (xy 142.24 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67446a3d-4080-40ad-98dd-597e676cf8dc")
+	)
+	(wire
+		(pts
 			(xy 135.89 26.67) (xy 146.05 26.67)
 		)
 		(stroke
@@ -5898,16 +5970,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 160.02 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726dff37-5f44-4514-b350-147928e892aa")
-	)
-	(wire
-		(pts
 			(xy 200.66 156.21) (xy 196.85 156.21)
 		)
 		(stroke
@@ -5915,6 +5977,16 @@
 			(type default)
 		)
 		(uuid "72feda54-4ecc-48f1-9aae-5143bba074a1")
+	)
+	(wire
+		(pts
+			(xy 181.61 227.33) (xy 181.61 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73aeecf6-71d2-4df3-8406-ef51668174aa")
 	)
 	(wire
 		(pts
@@ -5998,13 +6070,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 128.27) (xy 157.48 128.27)
+			(xy 142.24 195.58) (xy 138.43 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ddf7817-a097-4d27-b931-a76591d8bab3")
+		(uuid "8e517175-b387-4b20-9d6e-4c052a539478")
 	)
 	(wire
 		(pts
@@ -6038,6 +6110,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 127) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7c48d1-1d6c-4dc7-8d91-5be2b0752cfb")
+	)
+	(wire
+		(pts
 			(xy 39.37 25.4) (xy 39.37 38.1)
 		)
 		(stroke
@@ -6045,6 +6127,16 @@
 			(type default)
 		)
 		(uuid "a1b7f5a9-df72-4fbc-9b21-209fe9fdc72d")
+	)
+	(wire
+		(pts
+			(xy 138.43 195.58) (xy 138.43 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b5f905-88bf-4419-858b-bdcbcdba868f")
 	)
 	(wire
 		(pts
@@ -6085,6 +6177,16 @@
 			(type default)
 		)
 		(uuid "a6bf2d3b-65c1-4f7c-8348-e15513936166")
+	)
+	(wire
+		(pts
+			(xy 153.67 194.31) (xy 166.37 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86cf3e4-9f0a-46d7-8181-c8a0f0b337e6")
 	)
 	(wire
 		(pts
@@ -6238,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 138.43) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d401a33d-fea2-4e8f-8147-bddafe686faf")
+	)
+	(wire
+		(pts
 			(xy 124.46 26.67) (xy 129.54 26.67)
 		)
 		(stroke
@@ -6255,16 +6367,6 @@
 			(type default)
 		)
 		(uuid "da689140-4a9c-4be4-94f1-96d57a782936")
-	)
-	(wire
-		(pts
-			(xy 157.48 128.27) (xy 157.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8e9332-b6e7-4c58-bacf-89af25eea047")
 	)
 	(wire
 		(pts
@@ -6305,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "e7186357-cec0-4d15-b80a-3f0ac238c321")
+	)
+	(wire
+		(pts
+			(xy 153.67 193.04) (xy 153.67 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09498f3-02a6-4d66-87ac-4c3ffd5152db")
 	)
 	(wire
 		(pts
@@ -7324,6 +7436,28 @@
 	)
 	(global_label "3.3V_REG"
 		(shape input)
+		(at 181.61 227.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50a74cdf-2e5f-4a50-bc91-ee48e177c051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 215.5758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_REG"
+		(shape input)
 		(at 157.48 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7687,6 +7821,28 @@
 		(uuid "789b844c-e13c-43da-9617-fe1cde5f0f1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.76 58.0958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 194.31 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c09ba8f-1a2b-4f83-a35f-be02959feaa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1657 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,6 +8217,28 @@
 		(uuid "a899b0e9-6f0c-40bd-b5be-229c5171a865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.7057 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_REG"
+		(shape input)
+		(at 153.67 193.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a92d8cd3-5477-4830-8569-534d6a9587ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 181.2858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,6 +8640,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 166.37 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d09ba321-9fb3-479d-8843-78a7a530f847")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.2257 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8931,6 +9131,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 181.61 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d22d8e-fb5a-471f-a290-901ecd1f13b0")
+		(property "Reference" "D3"
+			(at 192.024 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 171.958 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 182.88 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 184.15 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 181.61 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9dded78-f55f-4220-baf1-99660d9760e9")
+		)
+		(pin "1"
+			(uuid "16ffbd4c-1eeb-4b67-85c8-ce966c135d30")
+		)
+		(pin "4"
+			(uuid "d65cf393-9493-41d2-86c4-159771dd790c")
+		)
+		(pin "3"
+			(uuid "6cebe929-4b64-4961-a03d-53d513a9fd7d")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 25.4 95.25 180)
 		(unit 1)
@@ -8958,7 +9233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.4348 91.44 0)
 			(effects
 				(font
@@ -9028,7 +9303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.0448 90.17 0)
 			(effects
 				(font
@@ -9065,6 +9340,74 @@
 			(project "R2_HH_Controllers"
 				(path "/92f249e1-aba8-4559-b028-130f23797e57"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 204.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148ef736-ae01-44a7-b48e-2968ab3acfcf")
+		(property "Reference" "R12"
+			(at 142.24 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 142.24 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 202.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5310c82-c836-43aa-8366-d037ee2827fe")
+		)
+		(pin "2"
+			(uuid "daa68783-0835-478a-8bce-4a56d0664457")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9322,6 +9665,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 166.37 198.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29ca46cd-8666-465b-bea0-d9fc83288015")
+		(property "Reference" "C17"
+			(at 162.56 199.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100nf"
+			(at 167.894 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 165.4048 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba0e4b33-e8bf-4c80-a9f6-b45af0e32ffa")
+		)
+		(pin "1"
+			(uuid "a7b7b8ac-1e69-487a-ad32-10d5a072d59d")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 135.89 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9347,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 42.2148 0)
 			(effects
 				(font
@@ -9417,7 +9830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 263.1948 99.06 0)
 			(effects
 				(font
@@ -9487,7 +9900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.7048 105.41 0)
 			(effects
 				(font
@@ -9557,7 +9970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.7748 95.25 0)
 			(effects
 				(font
@@ -9627,7 +10040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.3548 170.18 0)
 			(effects
 				(font
@@ -9697,7 +10110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.838 34.29 90)
 			(effects
 				(font
@@ -9767,7 +10180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 30.7848 25.4 0)
 			(effects
 				(font
@@ -10616,7 +11029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 35.052 90)
 			(effects
 				(font
@@ -10817,7 +11230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.708 137.16 90)
 			(effects
 				(font
@@ -10887,7 +11300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 120.65 90)
 			(effects
 				(font
@@ -11183,7 +11596,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 133.35 180)
+		(at 157.48 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11191,7 +11604,7 @@
 		(dnp no)
 		(uuid "74336911-914b-46ad-9627-c269795402c5")
 		(property "Reference" "C9"
-			(at 156.21 134.6201 0)
+			(at 153.67 132.0801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11614,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 161.544 135.89 0)
+			(at 159.004 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,8 +11622,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 159.0548 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.5148 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 133.35 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +11641,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 133.35 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.5748 26.67 0)
 			(effects
 				(font
@@ -11606,7 +12019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.6848 100.33 0)
 			(effects
 				(font
@@ -11742,7 +12155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.9248 26.67 0)
 			(effects
 				(font
@@ -11995,6 +12408,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 153.67 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94d3908f-e564-4ffb-ba7f-d8602d624871")
+		(property "Reference" "D2"
+			(at 164.084 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.018 213.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 154.94 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 156.21 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 153.67 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "610fdad2-ee70-447c-a9c5-6a050abcbbce")
+		)
+		(pin "1"
+			(uuid "24e3f0a0-8bc0-4f33-8122-9ddb009c562f")
+		)
+		(pin "4"
+			(uuid "45091d57-924a-460f-8192-cb564a19a075")
+		)
+		(pin "3"
+			(uuid "c62fe59d-15d5-4f9c-b535-6809c3d32cbc")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 41.91 184.15 0)
 		(unit 1)
@@ -12090,7 +12578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.2648 119.38 0)
 			(effects
 				(font
@@ -12470,7 +12958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.388 115.57 90)
 			(effects
 				(font
@@ -12645,6 +13133,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 194.31 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5dc55e8-d92e-44d8-ac81-ab85a764d511")
+		(property "Reference" "C18"
+			(at 190.5 233.6801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100nf"
+			(at 195.834 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.3448 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d896d086-42d7-431b-a0f9-d83182dcc53d")
+		)
+		(pin "1"
+			(uuid "0b7c8766-bc4a-4486-964a-4ca488a56451")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 35.56 180)
 		(unit 1)
@@ -12672,7 +13230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 147.828 35.56 90)
 			(effects
 				(font
@@ -12941,7 +13499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.088 135.89 90)
 			(effects
 				(font
@@ -13008,7 +13566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.16 35.052 90)
 			(effects
 				(font
@@ -13045,6 +13603,206 @@
 			(project "R2_HH_Controllers"
 				(path "/92f249e1-aba8-4559-b028-130f23797e57"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 181.61 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a290e7-ba7c-4417-b9d2-3141fd35f320")
+		(property "Reference" "#PWR022"
+			(at 181.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 181.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc727900-8304-48c8-83e1-ea1b288e9ab2")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 238.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d26004-c5f3-41b3-94eb-bccc0fcea726")
+		(property "Reference" "R13"
+			(at 170.18 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 170.18 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 236.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d679201-1e1e-4b1c-86df-d239cf952997")
+		)
+		(pin "2"
+			(uuid "a836afb9-7a43-4a4d-8eb5-8c82cab197ca")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 153.67 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bab23907-a5f9-46d5-99c7-ab51cd681437")
+		(property "Reference" "#PWR05"
+			(at 153.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf33fb92-59e1-43a4-8267-815d79d26d10")
+		)
+		(instances
+			(project "R2_HH_Controllers"
+				(path "/92f249e1-aba8-4559-b028-130f23797e57"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13144,7 +13902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.1948 130.81 0)
 			(effects
 				(font
@@ -14065,7 +14823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 128.27 90)
 			(effects
 				(font
@@ -14133,7 +14891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.19 178.562 90)
 			(effects
 				(font
@@ -14269,7 +15027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.7148 149.86 0)
 			(effects
 				(font
@@ -14339,7 +15097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.7048 25.4 0)
 			(effects
 				(font
@@ -14600,7 +15358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.518 86.36 90)
 			(effects
 				(font
