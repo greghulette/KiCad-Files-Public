@@ -1,4 +1,4 @@
-25648806309888401
+25659486339886391
 01-Custom
 A24AH
 
@@ -6,6 +6,20 @@ A24AH
 0
 8
 6
+01-Custom
+BB_Logo
+
+
+0
+0
+0
+01-Custom
+BB_Logo_Small
+
+
+0
+0
+0
 01-Custom
 GCT_USB4105-GF-A
 
@@ -28,6 +42,13 @@ MODULE_ESP32-S3-ZERO
 18
 18
 01-Custom
+R2_Logo_V2
+
+
+0
+0
+0
+01-Custom
 RKJXV122400R
 RKJXV122400R-4
 Switch
@@ -42,12 +63,33 @@ Variable Resistor
 10
 10
 01-Custom
+SABEQR
+
+
+0
+0
+0
+01-Custom
+SABEQR_20
+
+
+0
+0
+0
+01-Custom
 SW_PCM12SMTR
 
 
 0
 7
 7
+01-Custom
+SabeLogo25W
+
+
+0
+0
+0
 01-Custom
 TL3360CF185Q
 

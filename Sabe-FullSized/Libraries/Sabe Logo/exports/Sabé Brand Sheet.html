@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sabé — Brand Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#211C17; --burg:#7A2230; --cream:#ECE6D8; --paper:#F3EEE2; --keyline:#C9C0AE;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{background:#E7E0D2;color:var(--ink);font-family:'JetBrains Mono',monospace;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1080px;margin:0 auto;padding:64px 40px 90px;}
+  .eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--burg);font-weight:600;}
+  h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:64px;line-height:1;margin:14px 0 8px;}
+  .lede{font-size:13px;line-height:1.7;max-width:560px;color:#5b5247;}
+  .sec{margin-top:64px;}
+  .sec > .label{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#8a8073;border-bottom:1px solid #cfc6b5;padding-bottom:10px;margin-bottom:26px;display:flex;justify-content:space-between;}
+  .card{background:var(--paper);border:1px solid #d9d0bf;border-radius:14px;display:flex;align-items:center;justify-content:center;padding:40px;}
+  .card.dark{background:var(--ink);border-color:#000;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;}
+  .card img{max-width:100%;height:auto;display:block;}
+  .cap{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8073;margin-top:12px;text-align:center;}
+  .hero{background:var(--paper);border:1px solid #d9d0bf;border-radius:18px;padding:72px 40px;display:flex;align-items:center;justify-content:center;}
+  .hero img{width:min(620px,90%);}
+  /* tiles */
+  .tiles{display:flex;gap:36px;flex-wrap:wrap;align-items:flex-end;justify-content:center;}
+  .tilecol{display:flex;flex-direction:column;align-items:center;gap:14px;}
+  .tilerow{display:flex;align-items:flex-end;gap:14px;}
+  .tilerow img{border-radius:0;}
+  /* palette */
+  .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid #d9d0bf;background:var(--paper);}
+  .sw .chip{height:96px;}
+  .sw .meta{padding:12px 12px 14px;}
+  .sw .nm{font-size:12px;font-weight:500;}
+  .sw .hx{font-size:11px;color:#8a8073;margin-top:3px;}
+  .twocol{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start;}
+  .note{font-size:12px;line-height:1.7;color:#5b5247;}
+  .note b{color:var(--ink);font-weight:600;}
+  .footer{margin-top:70px;border-top:1px solid #cfc6b5;padding-top:22px;font-size:11px;color:#8a8073;letter-spacing:1px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Logo &amp; Brand Assets</div>
+  <h1>Sabé</h1>
+  <div class="lede">An astromech control system — a Bean &amp; Bear Droid Works build. An engraved serif wordmark paired with a minimal sensor‑dome; the acute on the é is reborn as a burgundy jewel and reappears as the dome's sensor eye.</div>
+
+  <div class="hero" style="margin-top:34px;"><img src="png/sabe-lockup-A-color.png" alt="Sabé primary lockup" /></div>
+
+  <div class="sec">
+    <div class="label"><span>Lockups</span><span>light backgrounds</span></div>
+    <div class="grid2">
+      <div><div class="card"><img src="png/sabe-lockup-A-color.png" style="max-height:120px" alt="" /></div><div class="cap">A · Primary</div></div>
+      <div><div class="card"><img src="png/sabe-lockup-B-color.png" style="max-height:150px" alt="" /></div><div class="cap">B · With descriptor</div></div>
+      <div><div class="card"><img src="png/sabe-lockup-C-color.png" style="max-height:120px" alt="" /></div><div class="cap">C · Divider</div></div>
+      <div><div class="card"><img src="png/sabe-lockup-D-color.png" style="max-height:120px" alt="" /></div><div class="cap">D · Prominent mark</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="label"><span>On dark</span><span>reverse</span></div>
+    <div class="grid2">
+      <div><div class="card dark"><img src="png/sabe-lockup-A-reverse.png" style="max-height:120px" alt="" /></div><div class="cap">A · reverse</div></div>
+      <div><div class="card dark"><img src="png/sabe-lockup-B-reverse.png" style="max-height:150px" alt="" /></div><div class="cap">B · reverse</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="label"><span>Symbol &amp; wordmark</span><span>building blocks</span></div>
+    <div class="grid2">
+      <div><div class="card"><img src="png/sabe-dome-color.png" style="max-height:130px" alt="" /></div><div class="cap">Sensor dome</div></div>
+      <div><div class="card"><img src="png/sabe-wordmark-color.png" style="max-height:96px" alt="" /></div><div class="cap">Wordmark</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="label"><span>Avatar tiles</span><span>GitHub · Astromech.net · favicon</span></div>
+    <div class="card">
+      <div class="tiles">
+        <div class="tilecol"><div class="tilerow"><img src="png/tiles/sabe-tile-ink-128.png" width="96" alt=""/><img src="png/tiles/sabe-tile-ink-64.png" width="56" alt=""/><img src="png/tiles/sabe-tile-ink-32.png" width="32" alt=""/></div><div class="cap">Ink</div></div>
+        <div class="tilecol"><div class="tilerow"><img src="png/tiles/sabe-tile-burgundy-128.png" width="96" alt=""/><img src="png/tiles/sabe-tile-burgundy-64.png" width="56" alt=""/><img src="png/tiles/sabe-tile-burgundy-32.png" width="32" alt=""/></div><div class="cap">Burgundy</div></div>
+        <div class="tilecol"><div class="tilerow"><img src="png/tiles/sabe-tile-light-128.png" width="96" alt=""/><img src="png/tiles/sabe-tile-light-64.png" width="56" alt=""/><img src="png/tiles/sabe-tile-light-32.png" width="32" alt=""/></div><div class="cap">Light</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="label"><span>Palette</span></div>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#211C17"></div><div class="meta"><div class="nm">Ink</div><div class="hx">#211C17</div></div></div>
+      <div class="sw"><div class="chip" style="background:#7A2230"></div><div class="meta"><div class="nm">Burgundy</div><div class="hx">#7A2230</div></div></div>
+      <div class="sw"><div class="chip" style="background:#ECE6D8"></div><div class="meta"><div class="nm">Cream</div><div class="hx">#ECE6D8</div></div></div>
+      <div class="sw"><div class="chip" style="background:#F3EEE2"></div><div class="meta"><div class="nm">Paper</div><div class="hx">#F3EEE2</div></div></div>
+      <div class="sw"><div class="chip" style="background:#C9C0AE"></div><div class="meta"><div class="nm">Keyline</div><div class="hx">#C9C0AE</div></div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="label"><span>1‑color · PCB silkscreen</span></div>
+    <div class="twocol">
+      <div class="card"><img src="png/sabe-dome-black.png" style="max-height:130px" alt="" /></div>
+      <div class="note">
+        <p>For the board, use a <b>‑black</b> SVG or the <b>dome</b> on its own — one solid color, no fine fills, so it survives small silkscreen. Recolor the black to whatever silk ink the board uses (white on dark soldermask reads beautifully).</p>
+        <p>All vector files have the text <b>converted to outlines</b>, so no fonts are needed to open, edit, or print them.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">SABÉ · ASTROMECH CONTROL SYSTEM — A BEAN &amp; BEAR DROID WORKS BUILD</div>
+
+</div>
+</body>
+</html>
