@@ -1,4 +1,4 @@
-25659486339886391
+25664829068758729
 01-Custom
 A24AH
 
@@ -21,6 +21,13 @@ BB_Logo_Small
 0
 0
 01-Custom
+ESP32-S2-MINI-1
+2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
+2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
+0
+73
+65
+01-Custom
 GCT_USB4105-GF-A
 
 
@@ -41,6 +48,13 @@ MODULE_ESP32-S3-ZERO
 0
 18
 18
+01-Custom
+MODULE_XIAO_ESP32C3
+
+
+0
+14
+14
 01-Custom
 R2_Logo_V2
 
@@ -125,6 +139,13 @@ XbeePro900
 0
 20
 20
+01-Custom
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

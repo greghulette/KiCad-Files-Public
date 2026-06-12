@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "R2_HH_Controllers4.step",
+      "step": "R2_HH_Controllers5.stl",
       "svg": "",
       "vrml": ""
     },
@@ -738,6 +738,14 @@
     [
       "92f249e1-aba8-4559-b028-130f23797e57",
       "Root"
+    ],
+    [
+      "b71836e0-30a5-4838-99d0-23ddb2c10802",
+      "Remote_Right_Hand"
+    ],
+    [
+      "beaf6c75-f0e0-4d11-845d-31b4d420276c",
+      "Remote_Left_Hand"
     ]
   ],
   "text_variables": {}
