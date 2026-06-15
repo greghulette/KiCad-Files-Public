@@ -1077,6 +1077,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2977,10 +3119,6 @@
 		(uuid "2bf2163f-b46b-463f-9029-6c8f0734c890")
 	)
 	(no_connect
-		(at 63.5 34.29)
-		(uuid "3c7f5d48-71bc-4e38-b243-29b265667bac")
-	)
-	(no_connect
 		(at 109.22 62.23)
 		(uuid "49600dd6-0d7c-438e-b09e-b84fb55abb54")
 	)
@@ -3033,10 +3171,6 @@
 		(uuid "96597d98-fad0-45fc-9e76-c1425722611f")
 	)
 	(no_connect
-		(at 63.5 39.37)
-		(uuid "96b51bca-b9d8-4587-b44e-84eec2f0cd3c")
-	)
-	(no_connect
 		(at 97.79 132.08)
 		(uuid "9aad4ac5-a5cb-435f-8f78-83111749037b")
 	)
@@ -3061,16 +3195,8 @@
 		(uuid "d68ecd83-3cea-499a-9069-8556a26d9af3")
 	)
 	(no_connect
-		(at 109.22 74.93)
-		(uuid "db2a6693-79aa-4402-b902-a74a5340aaf5")
-	)
-	(no_connect
 		(at 63.5 46.99)
 		(uuid "e33d3690-4c17-4d4c-90f7-733dff1cbdf4")
-	)
-	(no_connect
-		(at 109.22 77.47)
-		(uuid "e3e15285-363a-4f3e-8f94-4a8521e51845")
 	)
 	(no_connect
 		(at 109.22 67.31)
@@ -3334,6 +3460,28 @@
 		)
 		(uuid "fed47bf6-0fd1-4e80-a2b8-509680b164ee")
 	)
+	(global_label "GPIO_0"
+		(shape input)
+		(at 63.5 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c9391a6-0a96-4ae1-9771-70a830b9fb44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.8624 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 62.23 147.32 180)
@@ -3457,6 +3605,28 @@
 		(uuid "1a72f232-c57e-4a0e-95df-76ac8aaffdd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7343 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 187.96 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c10aa01-45b5-4d08-9b6f-622f72b88bbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5277 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,6 +4054,28 @@
 			)
 		)
 	)
+	(global_label "S6TX_C6RX"
+		(shape input)
+		(at 109.22 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c881dbd-0b9c-4ece-8bc9-4d0e79651448")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7279 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 204.47 59.69 270)
@@ -4038,6 +4230,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 63.5 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79fb4cbe-9459-4973-aa07-cbc8cd92d335")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0677 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S3_TX"
 		(shape input)
 		(at 63.5 72.39 180)
@@ -4139,6 +4353,50 @@
 		(uuid "8fb8595a-ed86-489a-a7e7-57a9fdd91a8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.3753 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6RX_C6TX"
+		(shape input)
+		(at 228.6 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fc512b0-acb9-47d3-ad2a-1c90a28e6df4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.1079 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_0"
+		(shape input)
+		(at 187.96 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90bec278-b162-4009-9e3d-6ac0c29b6f36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.3224 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,6 +4934,28 @@
 			)
 		)
 	)
+	(global_label "S6RX_C6TX"
+		(shape input)
+		(at 109.22 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ede63d64-dbcf-436c-a8ad-2ee349a8b363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7279 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 149.86 156.21 180)
@@ -4716,6 +4996,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6TX_C6RX"
+		(shape input)
+		(at 228.6 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef062964-49d5-4f38-90ec-8f6ca123735c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.1079 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4849,6 +5151,76 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 127 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "057bf8bb-9b7d-422e-a75c-d147cd8fe03d")
+		(property "Reference" "J11"
+			(at 129.54 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 129.54 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91daf90b-4ce3-4a23-bf8f-aabc5c8a67c5")
+		)
+		(pin "1"
+			(uuid "379c97f7-ff46-4c9e-833e-2102afb802e2")
+		)
+		(instances
+			(project "Sabe-FullSized"
+				(path "/94f668af-f9c4-4cbc-8414-3469792dc0b9"
+					(reference "J11")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5389,7 +5761,7 @@
 	)
 	(symbol
 		(lib_id "01-Custom:XIAO_ESP32C3")
-		(at 238.76 92.71 0)
+		(at 205.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5398,7 +5770,7 @@
 		(fields_autoplaced yes)
 		(uuid "2abcf12b-d857-4e2f-b939-1e32a68294da")
 		(property "Reference" "U7"
-			(at 238.76 72.39 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5778,7 @@
 			)
 		)
 		(property "Value" "XIAO_ESP32C3"
-			(at 238.76 74.93 0)
+			(at 205.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" "01-Custom:MODULE_XIAO_ESP32C3"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5814,7 @@
 			)
 		)
 		(property "MF" "Seeed Studio"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5824,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5834,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5844,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5854,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XIAO%20ESP32C3/Seeed+Studio/view-part/?ref=eda"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5864,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5874,7 @@
 			)
 		)
 		(property "PARTREV" "23/05/2022"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5884,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XIAO%20ESP32C3/Seeed+Studio/view-part/?ref=snap"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5894,7 @@
 			)
 		)
 		(property "MP" "XIAO ESP32C3"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5904,7 @@
 			)
 		)
 		(property "Description_1" "Dev.kit: evaluation; u.FL antenna,prototype board; XIAO; PIN: 2x7"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5914,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Seeed Technology"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5924,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5934,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "113991054"
-			(at 238.76 92.71 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,6 +6442,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 127 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bd5dd8-a9e8-4fc2-9a22-54618f524e96")
+		(property "Reference" "J6"
+			(at 129.54 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 129.54 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb979740-afe0-49c1-8387-cd16e672b0ab")
+		)
+		(pin "1"
+			(uuid "f785686e-eb0d-4a5c-8bd4-768ece0d35c2")
+		)
+		(instances
+			(project ""
+				(path "/94f668af-f9c4-4cbc-8414-3469792dc0b9"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 128.27 157.48 0)
 		(unit 1)
@@ -6224,6 +6666,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 226.06 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7727b34f-960b-4449-89de-db30fdbff985")
+		(property "Reference" "R2"
+			(at 226.06 99.822 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 225.806 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44bb3c58-49fc-43c2-9a17-04b024b4911c")
+		)
+		(pin "2"
+			(uuid "c8bea190-19f8-4f21-b16d-ce214ab99aae")
+		)
+		(instances
+			(project "Sabe-FullSized"
+				(path "/94f668af-f9c4-4cbc-8414-3469792dc0b9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 78.74 181.61 0)
 		(unit 1)
@@ -6354,6 +6863,73 @@
 			(project ""
 				(path "/94f668af-f9c4-4cbc-8414-3469792dc0b9"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 226.06 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa4bb686-872f-4c03-b683-eeb257462965")
+		(property "Reference" "R3"
+			(at 226.06 105.918 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 226.314 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4605cdd5-d9d3-4eeb-80f7-9bd29332433f")
+		)
+		(pin "2"
+			(uuid "ede452b3-f354-431d-8e84-49a9fc4be0c1")
+		)
+		(instances
+			(project "Sabe-FullSized"
+				(path "/94f668af-f9c4-4cbc-8414-3469792dc0b9"
+					(reference "R3")
 					(unit 1)
 				)
 			)
