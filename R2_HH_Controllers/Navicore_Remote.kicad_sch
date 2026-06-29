@@ -5998,12 +5998,6 @@
 		)
 	)
 	(junction
-		(at 200.66 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0490b465-61bf-4e13-80b6-6ec44c571bac")
-	)
-	(junction
 		(at 25.4 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6331,16 +6325,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 134.62) (xy 160.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e84389-520d-4c91-ae5f-f418af733694")
-	)
-	(wire
-		(pts
 			(xy 156.21 172.72) (xy 168.91 172.72)
 		)
 		(stroke
@@ -6448,16 +6432,6 @@
 			(type default)
 		)
 		(uuid "5406043d-1833-41ca-9018-0f2b0ca2ea68")
-	)
-	(wire
-		(pts
-			(xy 200.66 152.4) (xy 196.85 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616730cd-2556-4345-ab65-457511023d9d")
 	)
 	(wire
 		(pts
@@ -6581,16 +6555,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 152.4) (xy 200.66 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a987a3-a6d4-4249-a54c-a1c36f89137d")
-	)
-	(wire
-		(pts
 			(xy 146.05 22.86) (xy 146.05 27.94)
 		)
 		(stroke
@@ -6671,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 157.48 134.62)
+			(xy 160.02 130.81) (xy 160.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +6695,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 123.19) (xy 157.48 121.92)
+			(xy 160.02 123.19) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7227,7 @@
 	)
 	(global_label "BAT+_SWITCHED"
 		(shape input)
-		(at 204.47 152.4 0)
+		(at 200.66 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7273,7 +7237,7 @@
 		)
 		(uuid "297ac55e-fbc4-4eda-bf24-7c582302ae99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.5742 152.4 0)
+			(at 218.7642 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11254,7 @@
 		(dnp no)
 		(uuid "56938341-c739-473c-97b5-ebada454e547")
 		(property "Reference" "D1"
-			(at 118.364 135.128 0)
+			(at 110.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +12298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 127 180)
+		(at 160.02 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12342,7 +12306,7 @@
 		(dnp no)
 		(uuid "74336911-914b-46ad-9627-c269795402c5")
 		(property "Reference" "C13"
-			(at 153.67 128.2701 0)
+			(at 156.21 128.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12316,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 159.004 129.54 0)
+			(at 161.544 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12325,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.5148 123.19 0)
+			(at 159.0548 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 127 0)
+			(at 160.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12343,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 127 0)
+			(at 160.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
