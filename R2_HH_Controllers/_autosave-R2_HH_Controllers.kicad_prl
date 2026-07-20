@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -57,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "R2_HH_Controllers.kicad_prl",
+    "filename": "_autosave-R2_HH_Controllers.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -98,6 +98,8 @@
       112,
       112,
       83,
+      112,
+      112,
       112,
       112
     ],
