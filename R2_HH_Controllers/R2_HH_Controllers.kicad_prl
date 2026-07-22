@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -15,7 +15,6 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -34,7 +33,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -54,7 +52,6 @@
     "zone_display_mode": 0
   },
   "git": {
-    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -93,18 +90,18 @@
       11
     ],
     "col_widths": [
-      149,
-      137,
-      90,
-      67,
-      90,
-      90,
-      90,
-      71,
-      90,
-      90,
-      90,
-      90
+      186,
+      171,
+      113,
+      79,
+      113,
+      113,
+      113,
+      83,
+      113,
+      113,
+      113,
+      113
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -113,7 +110,6 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
-    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -124,7 +120,6 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -132,7 +127,6 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
-      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true
