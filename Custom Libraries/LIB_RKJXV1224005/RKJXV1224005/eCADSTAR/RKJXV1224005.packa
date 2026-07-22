@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RKJXV1224005"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-23-15:36:38)
+    (mountForm default
+        (footprintRef "RKJXV1224005")
+        (spec "System")
+    )
+)

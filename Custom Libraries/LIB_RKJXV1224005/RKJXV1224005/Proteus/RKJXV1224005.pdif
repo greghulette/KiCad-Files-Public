@@ -1,0 +1,303 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RKJXV1224005"
+   (description "Plugin,13x13mm Multi-Directional Switches ROHS, Rotary Potentiometer, 10 kOhm, 1Turn, 12.5 mW")
+   (family "ANA")
+   (package "RKJXV1224005")
+   (attribute "Datasheet Link" "https://tech.alpsalpine.com/e/products/detail/RKJXV1224005/")
+   (attribute "Geometry.Height" "18.95mm")
+   (attribute "Manufacturer_Name" "ALPS Electric")
+   (attribute "Manufacturer_Part_Number" "RKJXV1224005")
+   (attribute "Mouser Part Number" "688-RKJXV1224005")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXV1224005?qs=RiQAlOPxzzAqLSX9lUzx8Q%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RKJXV1224005")
+    (pin "MH1" 1 PS)
+    (pin "MH2" 2 PS)
+    (pin "MH3" 3 PS)
+    (pin "MH4" 4 PS)
+    (pin "CCW_1" A1 PS)
+    (pin "WIPER_1" A2 PS)
+    (pin "CW_1" A3 PS)
+    (pin "CCW_2" B1 PS)
+    (pin "WIPER_2" B2 PS)
+    (pin "CW_2" B3 PS)
+   )
+  )
+  (symbol "RKJXV1224005"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RKJXV1224005"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -15.305 9.075)
+      (pt -2.155 9.075)
+      (pt -2.155 -4.075)
+      (pt -15.305 -4.075)
+      (pt -15.305 9.075))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -18.63 14.15)
+      (pt 1.75 14.15)
+      (pt 1.75 -9.15)
+      (pt -18.63 -9.15)
+      (pt -18.63 14.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -15.305 6.25)
+      (pt -17.63 6.25)
+      (pt -17.63 -1.25)
+      (pt -15.305 -1.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.155 6.25)
+      (pt 0.17 6.25)
+      (pt 0.17 -1.25)
+      (pt -2.155 -1.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.98 9.075)
+      (pt -4.98 13.15)
+      (pt -12.48 13.15)
+      (pt -12.48 9.075))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -12.48 -4.075)
+      (pt -12.48 -8.15)
+      (pt -4.98 -8.15)
+      (pt -4.98 -4.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -16.23 6.25)
+      (pt -17.63 6.25)
+      (pt -17.63 -1.25)
+      (pt -16.23 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.23 6.25)
+      (pt 0.17 6.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.23 -1.25)
+      (pt 0.17 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -15.305 9.075)
+      (pt -2.155 9.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.48 9.075)
+      (pt -12.48 13.15)
+      (pt -4.98 13.15)
+      (pt -4.98 9.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -15.305 -4.075)
+      (pt -2.155 -4.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.48 -4.075)
+      (pt -12.48 -8.15)
+      (pt -4.98 -8.15)
+      (pt -4.98 -4.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -15.305 5.625)
+      (pt -15.305 -0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.155 5.625)
+      (pt -2.155 -0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.25 0)
+      (arc (pt 1.250 0.000) (pt 1.250 -0.050) (pt 1.350 0.050) (start 180.0) (sweep -180.0))
+      (pt 1.35 0)
+      (arc (pt 1.350 0.000) (pt 1.250 -0.050) (pt 1.350 0.050) (start 180.0) (sweep .0))
+      (pt 1.25 0))))
+   (leg 1 (pt -2.405 7.500) (padstack 1))
+   (leg 2 (pt -15.055 7.500) (padstack 2))
+   (leg 3 (pt -15.055 -2.500) (padstack 3))
+   (leg 4 (pt -2.405 -2.500) (padstack 4))
+   (leg 5 (pt -4.430 2.500) (padstack 5))
+   (leg 6 (pt -13.030 2.500) (padstack 6))
+   (leg A1 (pt 0.000 0.000) (padstack 7))
+   (leg A2 (pt 0.000 2.500) (padstack 0))
+   (leg A3 (pt 0.000 5.000) (padstack 0))
+   (leg B1 (pt -6.230 11.230) (padstack 0))
+   (leg B2 (pt -8.730 11.230) (padstack 0))
+   (leg B3 (pt -11.230 11.230) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 2
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 3
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 4
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 5
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (padstack 6
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (padstack 7
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "RKJXV1224005.stp"
+    (euler 0 0 0)
+    (offset -8.65999984741211 2.4800000190734863 0.15000000596046448)
+   )
+  )
+ )
+)
