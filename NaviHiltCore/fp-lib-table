@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KiCad-Files-Public") (type "KiCad") (uri "D:/GitHub/KiCad-Files-Public.pretty") (options "") (descr ""))
+)
